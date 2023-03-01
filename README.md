@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Marcos Henrique Aguiar França
 * Milleny Ellen Jodas Ferreira
 * Paula Elizabeth Bessa Lucio Martins
-* Renê
+* Renê Matias de Misquita
 * Vicentina Martins dos Reis
 
 ## Orientador
