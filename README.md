@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Gerenciador Financeiro
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Eixo 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma solução para o controle das finanças pessoais
 
 ## Integrantes
 

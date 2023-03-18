@@ -2,6 +2,8 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
+Os requisitos e as personas apresentadas têm como base entrevistas e experiência pessoal e profissional dos integrantes da equipe, tendo em vista se tratar de uma proposta que visa solucionar o problema de uma categoria com tamanha abrangência não foi necessário simular uma situação, todos os requisitos foram listados como necessidade real do dia a dia desses profissionais. Entretanto as personas são apenas representações gráficas.
+
 
 ## Personas
 
@@ -32,15 +34,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| Cadastro de usuários: permitir que os usuários se cadastrem no sistema, fornecendo informações básicas, como nome, e-mail e senha. | ALTA | 
+|RF-02| Login: permitir que os usuários acessem o sistema, digitando seu e-mail e senha | ALTA |
+|RF-03| Alterar dados: permitir que os usuários alterem os dados do perfil. | MÉDIA |
+|RF-04| Cadastrar categorias de movimentações: permitir que os usuários cadastrem livremente categorias de suas movimentações, como alimentação; transporte; investimento; salário; proventos; etc. | ALTA |
+|RF-05| Ferramentas de análise: oferecer ferramentas de análise e acompanhamento da carteira, incluindo gráficos, relatórios e receitas. | MÉDIA |
+|RF-06| Visualização de informações de ativos: permitir que os usuários visualizem as informações de ativos pré-definidos pelo sistema (ações e fundos imobiliários), como preço atual, proventos recebidos e saldo. | MÉDIA |
+|RF-06| Exportação de dados: permitir que os usuários exportem seus dados para planilhas, facilitando a análise e o compartilhamento de informações. | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| Segurança: o sistema deve ser seguro e proteger os dados pessoais e financeiros dos usuários. | ALTA | 
+|RNF-02| Confiabilidade: o sistema deve ser confiável e disponível para uso em todo o momento. |  ALTA |
+|RNF-03| Performance: o sistema deve ter uma boa performance, sendo rápido e eficiente. | MÉDIA | 
+|RNF-04| Usabilidade: o sistema deve ser fácil de usar, intuitivo e com boa navegabilidade | ALTA |
+|RNF-05| Escalabilidade: o sistema deve ter capacidade de crescer e se adaptar a diferentes demandas e números de usuários. | MÉDIA |
+|RNF-06| Compatibilidade: o sistema deve ser compatível com diferentes dispositivos e navegadores. | ALTA |
+|RNF-07| Manutenibilidade: o sistema deve ser fácil de manter e atualizar, com código limpo e documentação clara. | MÉDIA |
+|RNF-08| Conformidade: o sistema deve estar em conformidade com as regulamentações financeiras e de privacidade em vigor, como a Lei Geral de Proteção de Dados (LGPD) no Brasil. | ALTA |
+
 
 
 
