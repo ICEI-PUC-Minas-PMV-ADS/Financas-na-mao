@@ -1,4 +1,4 @@
-# Gerenciador Financeiro
+# Finanças na Mão
 
 `Análise e Desenvolvimento de Sistemas`
 
@@ -6,7 +6,7 @@
 
 `Eixo 2`
 
-Uma solução para o controle das finanças pessoais
+Uma solução para o controle das finanças pessoais.
 
 ## Integrantes
 
