@@ -1,4 +1,4 @@
-# Gerenciador Financeiro
+# Finanças na Mão
 
 `Análise e Desenvolvimento de Sistemas`
 
@@ -6,7 +6,7 @@
 
 `Eixo 2`
 
-Uma solução para o controle das finanças pessoais
+Uma solução para o controle das finanças pessoais.
 
 ## Integrantes
 
@@ -55,5 +55,5 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="src/README.md"> Código Fonte</a></li>
 
 # Apresentação
+https://user-images.githubusercontent.com/82393577/226198101-6269997a-ee95-4107-b2be-e89c41ad0b19.mp4
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>

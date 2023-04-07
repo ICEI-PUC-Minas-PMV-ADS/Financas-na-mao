@@ -49,12 +49,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-01| Segurança: o sistema deve ser seguro e proteger os dados pessoais e financeiros dos usuários. | ALTA | 
 |RNF-02| Confiabilidade: o sistema deve ser confiável e disponível para uso em todo o momento. |  ALTA |
-|RNF-03| Performance: o sistema deve ter uma boa performance, sendo rápido e eficiente. | MÉDIA | 
-|RNF-04| Usabilidade: o sistema deve ser fácil de usar, intuitivo e com boa navegabilidade | ALTA |
-|RNF-05| Escalabilidade: o sistema deve ter capacidade de crescer e se adaptar a diferentes demandas e números de usuários. | MÉDIA |
-|RNF-06| Compatibilidade: o sistema deve ser compatível com diferentes dispositivos e navegadores. | ALTA |
-|RNF-07| Manutenibilidade: o sistema deve ser fácil de manter e atualizar, com código limpo e documentação clara. | MÉDIA |
-|RNF-08| Conformidade: o sistema deve estar em conformidade com as regulamentações financeiras e de privacidade em vigor, como a Lei Geral de Proteção de Dados (LGPD) no Brasil. | ALTA |
+|RNF-03| Usabilidade: o sistema deve ser fácil de usar, intuitivo e com boa navegabilidade | ALTA |
+|RNF-04| Escalabilidade: o sistema deve ter capacidade de crescer e se adaptar a diferentes demandas e números de usuários. | MÉDIA |
+|RNF-05| Compatibilidade: o sistema deve ser compatível com diferentes dispositivos e navegadores. | ALTA |
+|RNF-06| Manutenibilidade: o sistema deve ser fácil de manter e atualizar, com código limpo e documentação clara. | MÉDIA |
+|RNF-07| Conformidade: o sistema deve estar em conformidade com as regulamentações financeiras e de privacidade em vigor, como a Lei Geral de Proteção de Dados (LGPD) no Brasil. | ALTA |
 
 
 
@@ -75,5 +74,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Diagrama de Casos de Uso
 
 ![Diagrama de casos de uso](./img/diagrama-casos-de-uso.png)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 886e980a5449f7be243cc4aaa7d2744149f4e096
