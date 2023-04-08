@@ -1,7 +1,3 @@
-# Plano de Testes de Usabilidade
-
-# TESTE-DE-USABILIDADE
-
 ## Plano de Testes de Usabilidade
 
 | Atividade a ser realizada | Feedback do usuário | Considerações (quais os problemas, deficiências, limitações, etc) | Sugestão de melhorias |
