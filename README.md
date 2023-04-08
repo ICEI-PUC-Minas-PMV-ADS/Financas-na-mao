@@ -10,13 +10,12 @@ Uma solução para o controle das finanças pessoais.
 
 ## Integrantes
 
-* Gabriel Goncalves Morais
-* Iane Victoria dos Santos Oliveira 
-* Marcos Henrique Aguiar França
-* Milleny Ellen Jodas Ferreira
-* Paula Elizabeth Bessa Lucio Martins
-* Renê Matias de Misquita
-* Vicentina Martins dos Reis
+* Product Owner - Gabriel Goncalves Morais 
+* Scrum Master - Iane Victoria dos Santos Oliveira
+* Desenvolvedor - Marcos Henrique Aguiar França
+* Desenvolvedora - Milleny Ellen Jodas Ferreira
+* Desenvolvedora - Paula Elizabeth Bessa Lucio Martins
+* Desenvolvedor - Renê Matias de Misquita
 
 ## Orientador
 
