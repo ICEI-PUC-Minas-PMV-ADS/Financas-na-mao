@@ -19,6 +19,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83494301/230741928-2d047b6e-79ca-47a4-a6f2-50da83c802e3.png" width="700px" />
 </div>
+
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
