@@ -1,8 +1,11 @@
 ## Plano de Testes de Usabilidade
 
-Os testes de usabilidade são uma forma de avaliar a facilidade de uso, eficiência e satisfação do usuário ao interagir com uma interface de aplicação interativa. Eles podem ajudar a identificar problemas de usabilidade e fornecer feedback valioso para melhorar a experiência do usuário.
+Os testes de usabilidade são uma forma de avaliar a facilidade de uso, eficiência e satisfação do usuário ao interagir com uma interface de aplicação interativa. O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
 
-Método: Testes de entrevista e questionários de satisfação do usuário.
+* Identificação de objetivos do teste de usabilidade
+* Detalhes do público envolvido nos testes
+* Roteiro detalhado das tarefas que foram desempenhadas pelos usuários
+
 
 | Atividade a ser realizada | Feedback do usuário | Considerações (quais os problemas, deficiências, limitações, etc) | Sugestão de melhorias |
 |--------------------|------------------------------------|------------------------------------|------------------------------------|
