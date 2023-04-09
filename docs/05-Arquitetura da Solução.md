@@ -23,12 +23,35 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+
+![Esquema Relacional](https://user-images.githubusercontent.com/83494301/230747211-900ea594-1403-4052-9a9b-3f88a1615ff7.png)
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+**Linguagens utilizadas:**
+* C#: Linguagem de programação moderna e orientada a objetos, utilizada para desenvolvimento do backend da solução.
+* Javascript: Linguagem de programação utilizada no frontend para adicionar interatividade e dinamismo a solução.
+
+**Frameworks utilizados:**
+* ASP.NET Core MVC: implementa o padrão Model-View-Controller e oferece uma base sólida para o desenvolvimento da solução.
+
+Optamos pelo uso do framework ASP.NET Core MVC para o desenvolvimento da solução, devido à sua capacidade de implementar o padrão Model-View-Controller e fornecer recursos poderosos para o desenvolvimento de aplicativos web modernos.
+
+**Bibliotecas utilizadas:**
+* jquery-ajax-unobtrusive: é utilizada no projeto para permitir a adição de atributos "data-" personalizados ao HTML, possibilitando a adição de funções AJAX do JQuery, sem a necessidade de recarregar a página inteira para alterar um único elemento.
+
+**API utilizada:**
+* ASP.NET Core Identity: API utilizada para implementar a função de login e autenticação do usuário na interface do usuário, devido à sua facilidade de uso e integração com outros recursos do ASP.NET Core.
+
+**IDE de desenvolvimento:**
+* O Visual Studio Community foi selecionado por sua excelente integração com o Framework ASP.NET, bem como outras ferramentas-chave como o SQL Serve.
+
+SQL Server foi escolhido devido à sua eficiência e flexibilidade na manipulação e organização de grandes volumes de dados. Além disso, o SQL oferece recursos avançados de segurança e integridade dos dados, que são fundamentais em um projeto de gerenciamento financeiro.
+
+**Outras tecnologias utilizadas:**
+* HTML: Linguagem de marcação utilizada para criar e estruturar conteúdo na web.
+* CSS: Linguagem de folha de estilo utilizada para estilizar e formatar páginas web criadas com HTML.
+* Razor: Sintaxe de marcação usada para criar páginas web dinâmicas no framework ASP.NET da Microsoft.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
