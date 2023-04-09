@@ -55,6 +55,10 @@ SQL Server foi escolhido devido à sua eficiência e flexibilidade na manipulaç
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83494301/230752587-58d44310-ac12-4be0-af85-bf78eb262184.png" width="700px" />
+</div>
+
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
