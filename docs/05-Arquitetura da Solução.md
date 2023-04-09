@@ -34,6 +34,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 **Frameworks utilizados:**
 * ASP.NET Core MVC: implementa o padrão Model-View-Controller e oferece uma base sólida para o desenvolvimento da solução.
+* Entity Framework: ORM para criação automática de tabelas no banco de dados a partir das nossas classes dentro do código (code-first)
 
 Optamos pelo uso do framework ASP.NET Core MVC para o desenvolvimento da solução, devido à sua capacidade de implementar o padrão Model-View-Controller e fornecer recursos poderosos para o desenvolvimento de aplicativos web modernos.
 
