@@ -86,17 +86,17 @@ Durante todo o contato do Usuário com a plataforma, desejando acessar outras á
 
 ### Tela - Controle de Despesas
 
-Na tela de Controle de Despesas (Transição da Tela Inicial) o Usuário terá a opção de visualizar as suas movimentações. No primeiro acesso, como não possui nenhuma despesa cadastrada, ele deverá clicar no botão “Incluir Despesa” ou no botão “Incluir Cartão de Crédito”.
+Na tela de Controle de Despesas (Transição da Tela Inicial) o Usuário terá a opção de visualizar as suas movimentações. No primeiro acesso, como não possui nenhuma despesa cadastrada, ele deverá clicar no botão “Incluir Despesa”.
 
 ![Tela de Controle de Despesas](./img/telaControleDeDespesas.png)
 
-![Tela de Controle de Despesas antes da inclusão de dados](./img/telaMinhasMovimentacoes.png)
+![Tela de Controle de Despesas antes da inclusão de dados](https://user-images.githubusercontent.com/83494301/231947698-40ce5cfc-5236-49fd-a897-fc1cf005ab9b.png)
 
 ### Tela - Nova Despesa
 
 Ao clicar no botão “Incluir Despesa” uma janela será aberta na qual o usuário poderá colocar as informações pertinentes a despesa que deseja incluir de acordo com as categorias pré definidas ou, caso ele ache necessário, a uma categoria nova adicionada por ele próprio a lista. Após preencher todas as informações ele deverá clicar no botão “Adicionar Despesa”, onde a despesa cadastrada será mostrada na Tela de movimentações como será visto posteriormente.
 
-![Tela de Controle de Despesas antes da inclusão de dados](https://user-images.githubusercontent.com/83494301/231947698-40ce5cfc-5236-49fd-a897-fc1cf005ab9b.png)
+![Tela de Controle de Despesas antes da inclusão de dados](https://user-images.githubusercontent.com/83494301/231949721-9afc6c78-0bb0-4150-b7b4-8b09fa247dc0.png)
 
 ![Tela de Incluir Categorias para as movimentações](./img/telaIncluirCategoria.png)
 
