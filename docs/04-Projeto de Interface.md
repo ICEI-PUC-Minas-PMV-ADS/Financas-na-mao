@@ -12,7 +12,7 @@ O diagrama apresentado na Figura 2 é uma representação visual clara e concisa
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Para visualizar o wireframe interativo, acesse o ambiente Canva do projeto.
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Para visualizar o wireframe interativo, acesse o ambiente Canva do projeto: https://oksdssfdfdfdfd.my.canva.site/financas-na-mao
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura abaixo. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 - Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
