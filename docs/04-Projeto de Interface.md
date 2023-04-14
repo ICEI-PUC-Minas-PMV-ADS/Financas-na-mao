@@ -110,12 +110,6 @@ Ao clicar no botão “Incluir Despesa” uma janela será aberta na qual o usu�
 
 ![Tela de Incluir Categorias para as movimentações](./img/telaIncluirCategoria.png)
 
-### Tela - Incluir Cartão de Crédito
-
-Ao clicar no botão “Incluir Cartão de Crédito” uma janela será aberta na qual o usuário poderá cadastrar um ou mais Cartões de Crédito. Após preencher todas as informações ele deverá clicar no botão “Adicionar Cartão”, onde o mesmo será cadastrado e mostrado na Tela de movimentações como será visto posteriormente. 
-
-![Tela de Incluir Cartão de Crédito](./img/telaInclusaoCartaoDeCredito.png)
-
 ### Tela - Minhas Movimentações (após inclusão de dados)
 
 Após adicionar suas despesas e/ou cartões de crédito o Usuário poderá visualizar todas essas informações na página principal da opção Minhas Movimentações. Além disso, ele poderá emitir um relatório com seus dados a ser salvo por ele no formato desejado. Na mesma tela, ao rolar a página, o Usuário terá uma visão gráfica de suas despesas, facilitando a visualização e o entendimento de seus débitos.
