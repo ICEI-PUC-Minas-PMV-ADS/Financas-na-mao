@@ -12,7 +12,7 @@ O diagrama apresentado na Figura 2 é uma representação visual clara e concisa
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Para visualizar o wireframe interativo, acesse o ambiente Canva do projeto.
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Para visualizar o wireframe interativo, acesse o ambiente Canva do projeto: https://oksdssfdfdfdfd.my.canva.site/financas-na-mao
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura abaixo. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 - Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
@@ -54,16 +54,6 @@ Após fazer o cadastro/login no site o Usuário é redirecionado a Tela Inicial 
 
 ![Tela do usuário logado](./img/telaUsuarioLogado.png)
 
-### Tela - Configurações de Conta
-
-Ao clicar no seu Nome ou no ícone, o usuário será redirecionado ao seu Perfil, podendo efetuar alterações, adicionar e excluir dados pessoais de acordo com as abas divididas por categorias. Ao clicar em “Salvar”, essas informações ficarão gravadas da sua Conta.
-
-![Tela de configuração da conta - aba nome](./img/telaConfiguracaoDaConta1.png)
-
-![Tela de configuração da conta - aba endereço](./img/telaConfiguracaoDaConta2.png)
-
-![Tela de configuração da conta - aba contato](./img/telaConfiguracaoDaConta3.png)
-
 ### Tela - Quem Somos
 
 Ao clicar na opção Quem Somos no rodapé da página uma nova janela será aberta e o Usuário poderá conhecer um pouco mais da história de como foi desenvolvido a aplicação.
@@ -96,31 +86,25 @@ Durante todo o contato do Usuário com a plataforma, desejando acessar outras á
 
 ### Tela - Controle de Despesas
 
-Na tela de Controle de Despesas (Transição da Tela Inicial) o Usuário terá a opção de visualizar as suas movimentações. No primeiro acesso, como não possui nenhuma despesa cadastrada, ele deverá clicar no botão “Incluir Despesa” ou no botão “Incluir Cartão de Crédito”.
+Na tela de Controle de Despesas (Transição da Tela Inicial) o Usuário terá a opção de visualizar as suas movimentações. No primeiro acesso, como não possui nenhuma despesa cadastrada, ele deverá clicar no botão “Incluir Despesa”.
 
 ![Tela de Controle de Despesas](./img/telaControleDeDespesas.png)
 
-![Tela de Controle de Despesas antes da inclusão de dados](./img/telaMinhasMovimentacoes.png)
+![Tela de Controle de Despesas antes da inclusão de dados](https://user-images.githubusercontent.com/83494301/231947698-40ce5cfc-5236-49fd-a897-fc1cf005ab9b.png)
 
 ### Tela - Nova Despesa
 
 Ao clicar no botão “Incluir Despesa” uma janela será aberta na qual o usuário poderá colocar as informações pertinentes a despesa que deseja incluir de acordo com as categorias pré definidas ou, caso ele ache necessário, a uma categoria nova adicionada por ele próprio a lista. Após preencher todas as informações ele deverá clicar no botão “Adicionar Despesa”, onde a despesa cadastrada será mostrada na Tela de movimentações como será visto posteriormente.
 
-![Tela de Controle de Despesas antes da inclusão de dados](./img/telaNovaDespesa.png)
+![Tela de Controle de Despesas antes da inclusão de dados](https://user-images.githubusercontent.com/83494301/231949721-9afc6c78-0bb0-4150-b7b4-8b09fa247dc0.png)
 
 ![Tela de Incluir Categorias para as movimentações](./img/telaIncluirCategoria.png)
-
-### Tela - Incluir Cartão de Crédito
-
-Ao clicar no botão “Incluir Cartão de Crédito” uma janela será aberta na qual o usuário poderá cadastrar um ou mais Cartões de Crédito. Após preencher todas as informações ele deverá clicar no botão “Adicionar Cartão”, onde o mesmo será cadastrado e mostrado na Tela de movimentações como será visto posteriormente. 
-
-![Tela de Incluir Cartão de Crédito](./img/telaInclusaoCartaoDeCredito.png)
 
 ### Tela - Minhas Movimentações (após inclusão de dados)
 
 Após adicionar suas despesas e/ou cartões de crédito o Usuário poderá visualizar todas essas informações na página principal da opção Minhas Movimentações. Além disso, ele poderá emitir um relatório com seus dados a ser salvo por ele no formato desejado. Na mesma tela, ao rolar a página, o Usuário terá uma visão gráfica de suas despesas, facilitando a visualização e o entendimento de seus débitos.
 
-![Tela Minha Movimentações](./img/telaMovimentacoesComDados.png)
+![Tela Minhas Movimentacoes com dados](https://user-images.githubusercontent.com/83494301/231947161-013d7335-27d0-4bb1-999a-e5d99e4f06e5.png)
 
 ![Tela Minha Movimentações sem dados](./img/telaMovimentacoesGrafico.png)
 

@@ -34,26 +34,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Cadastro de usuários: permitir que os usuários se cadastrem no sistema, fornecendo informações básicas, como nome, e-mail e senha. | ALTA | 
-|RF-02| Login: permitir que os usuários acessem o sistema, digitando seu e-mail e senha | ALTA |
-|RF-03| Alterar dados: permitir que os usuários alterem os dados do perfil. | MÉDIA |
-|RF-04| Cadastrar categorias de movimentações: permitir que os usuários cadastrem livremente categorias de suas movimentações, como alimentação; transporte; investimento; salário; proventos; etc. | ALTA |
-|RF-05| Ferramentas de análise: oferecer ferramentas de análise e acompanhamento da carteira, incluindo gráficos, relatórios e receitas. | MÉDIA |
-|RF-06| Visualização de informações de ativos: permitir que os usuários visualizem as informações de ativos pré-definidos pelo sistema (ações e fundos imobiliários), como preço atual, proventos recebidos e saldo. | MÉDIA |
-|RF-06| Exportação de dados: permitir que os usuários exportem seus dados para planilhas, facilitando a análise e o compartilhamento de informações. | MÉDIA |
+|RF-01| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | ALTA | 
+|RF-02| O sistema deve permitir ao usuário a recuperação de senha e validar a entrada de dados. | ALTA |
+|RF-03| O sistema deve permitir ao usuário cadastrar livremente categorias de suas movimentações, como alimentação, transporte e etc. | ALTA |
+|RF-04| O sistema deve permitir ao usuário inserir e editar itens cadastrados organizados por categorias. | ALTA |
+|RF-05| O sistema deve permitir ao usuário fazer as análises dos orçamentos e acompanhamento da carteira, através de gráficos, relatórios e receitas | MÉDIA |
+|RF-06| O sistema deve permitir ao usuário visualizar as informações de ativos pré-definidos pelo sistema de ações e fundos imobiliários, como preço atual, proventos recebidos e saldo. | MÉDIA |
+|RF-07| O sistema deve permitir ao usuário exportar relatórios para planilhas. | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| Segurança: o sistema deve ser seguro e proteger os dados pessoais e financeiros dos usuários. | ALTA | 
-|RNF-02| Confiabilidade: o sistema deve ser confiável e disponível para uso em todo o momento. |  ALTA |
-|RNF-03| Usabilidade: o sistema deve ser fácil de usar, intuitivo e com boa navegabilidade | ALTA |
-|RNF-04| Escalabilidade: o sistema deve ter capacidade de crescer e se adaptar a diferentes demandas e números de usuários. | MÉDIA |
-|RNF-05| Compatibilidade: o sistema deve ser compatível com diferentes dispositivos e navegadores. | ALTA |
-|RNF-06| Manutenibilidade: o sistema deve ser fácil de manter e atualizar, com código limpo e documentação clara. | MÉDIA |
-|RNF-07| Conformidade: o sistema deve estar em conformidade com as regulamentações financeiras e de privacidade em vigor, como a Lei Geral de Proteção de Dados (LGPD) no Brasil. | ALTA |
+|RNF-01| O site deve fornecer segurança de dados (LGPD). | ALTA | 
+|RNF-02| O site deve ser responsivo permitindo a visualização em um celular de forma adequada. |  ALTA |
+|RNF-03| O site deve poder ser utilizado sem treinamento prévio, fácil de usar, intuitivo e com boa navegabilidade. | ALTA |
+|RNF-04| O site deve ter uma boa performance, sendo rápido e eficiente. | MÉDIA |
+|RNF-05| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | ALTA |
+|RNF-06| O site deve ser transparente em relação às políticas de privacidade, termos de serviço e quem somos. | MÉDIA |
+|RNF-07| O site deve ter capacidade de crescer e se adaptar a diferentes demandas e números de usuários. | MÉDIA |
 
 
 
