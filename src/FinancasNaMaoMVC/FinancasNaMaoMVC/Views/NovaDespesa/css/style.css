@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap%27');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: rgb(97,135,110);
+    background: linear-gradient(66deg, rgba(97,135,110,1) 8%, rgba(85,119,97,1) 31%, rgba(42,80,49,1) 62%, rgba(6,46,8,1) 85%, rgba(7,56,9,1) 100%); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 730px;
+    width: 900px;
+    font-size: 30px;
+    padding: 10px 150px;
+}
+
+main>h1{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.container{
+    height: auto;
+    margin-top: 30px;
+    
+}
+
+.container>div{
+    height: 340px;
+}
+
+.caixa1{
+    display: flex;
+    margin-left: -85px;
+    width: 120%;
+    
+}
+
+.caixa1>div{
+    width: 33.3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nomeDespesa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    margin-top: -70px;
+    
+}
+
+input::placeholder {
+    text-align: center;
+  }
+
+.nomeDespesa >input{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+
+}
+
+.despesaFixa{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 195px;
+    border: none;
+    margin-top: 30px; 
+  
+}
+
+.despesaFixa>:-ms-input-placeholder{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    margin-top: 30px;
+
+}
+
+.valorDespesa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    
+}
+
+.valorDespesa>input{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+   
+}
+
+#categoriaSelecionada>select{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 199px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    outline: 0;
+    
+}
+
+button#btnCategoria{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 199px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    outline: 0;
+}
+
+
+.valorDespesa>a{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 199px;
+    border: none;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.valorDespesa>a:hover{
+   text-decoration: underline;
+}
+
+.dataDespesa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin-top: -70px;
+    
+}
+
+.dataDespesa>input{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+   
+}
+
+.dataDespesa>select{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    outline: 0;
+    text-align: center;
+}
+
+.caixa2{
+    max-height: 280px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.caixa2>.obs{
+    width: 65%;
+    height: 100%;
+}
+
+.caixa2>.obs>textarea{
+    background-color: #EBE7D4;
+    width: 99.5%;
+    height: 88%;
+    font-size: 18px;
+    border: none; /*a borda nao ta saindo mesmo com o comando = analisar isso dps*/
+
+}
+
+.caixa2>.obs>h2{
+    background-color: #EBE7D4;
+    font-size: 20px;
+    height: 30px;
+
+}
+
+.buttonDespesa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+}
+
+.buttonDespesa>button{
+    color:#EBE7D4;
+    font-size: 15px;
+    background-color: #61876E;
+    height: 40px;
+    border: 2px transparent solid;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 140px;
+
+}
+
+.buttonDespesa>button:hover{
+    color:#EBE7D4;
+    background-color: #61876E;
+    font-size: 15px;
+    height: 45px;
+    width: 140px;
+    filter: brightness(110%);
+    
+}
+
+textarea {
+    resize: none;
+    outline: 0;
+}
+
+input{
+    outline: 0;
+}
+
+.modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #61876E;
+    margin: 10% auto;
+    padding: 15px;
+    width: 23%;
+    height: 23%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .modal-content>h2 {
+    color: #ffffff;
+    font-size: 80%;
+    
+  }
+
+  input#categoria{
+    color:#8b8b8e;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 90px;
+    width: 80%;
+    border: none;
+    margin-top: 30px;
+    outline: 0;
+    text-align: center;
+
+  }
+
+  div.modal-content>form{
+   
+    background-color: transparent solid;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 90%;
+    height: 50%;
+  }
+
+  button#adicionar{
+    margin-right: 140px;
+    margin-top: 10px;
+    color:#61876E;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 90px;
+    width: 80%;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 140px;
+    padding: 10px;
+    
+  }
+
+  button#adicionar:hover{
+    margin-right: 140px;
+    margin-top: 10px;
+    color:#61876E;
+    font-size: 15px;
+    background-color: #ffffff;
+    height: 90px;
+    width: 80%;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 140px;
+    padding: 10px;
+    
+  }
+  
+  
+  /* Close Button */
+  .close {
+    margin-left: 170%;
+    color: #EBE7D4;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    width: 90%;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    main{
+       background-color: aqua; 
+        border-radius: 10px;
+        height: 790px;
+        width: 100%;
+        font-size: 30px;
+        padding: 10px 150px;
+
+    }
+    .caixa1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        width: 120%;
+        border: 1px solid black;
+        
+    }
+
+    .nomeDespesa{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        margin-top: 0px;
+        
+    }
+
+    .caixa2{
+        max-height: 280px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        width: 120%;
+    
+    }
+
+   
+}
