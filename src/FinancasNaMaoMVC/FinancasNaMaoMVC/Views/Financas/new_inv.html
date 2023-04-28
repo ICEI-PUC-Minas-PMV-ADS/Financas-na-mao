@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./new_inv.css">
-  <title>Novo Investimento</title>
-</head>
-<body>
-  <div class="title">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./new_inv.css" />
+    <title>Novo Investimento</title>
+  </head>
+  <body>
     <h1>Novo Investimento</h1>
-  </div>
-  <div class="colun-1"> 
-    <div class="box-1">
-      <h2>Onde aplicar ?</h2>
-      <Select class="">
-        <option value="">Selecione</option>
-        <option value="">T.D</option>
-        <option value="">CDB</option>
-        <option value="">F.I</option>
-        <option value="">Imoveis</option>
-      </Select>
+    <div class="bloco">
+      <div>
+        <div class="box-1">
+          <h2>Onde aplicar ?</h2>
+          <select class="">
+            <option value="">Selecione</option>
+            <option value="">T.D</option>
+            <option value="">CDB</option>
+            <option value="">F.I</option>
+            <option value="">Imoveis</option>
+          </select>
+        </div>
+        <div class="box-2">
+          <div>
+            <p>Data do investimento</p>
+            <input id="date" type="date" />
+          </div>
+          <div>
+            <p>Valor do investimento</p>
+            <input id="number" type="number" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="box-3">
+          <h2>Esta aplicação vai ser feita com periodicidade ?</h2>
+          <input type="radio" id="Sim" >Sim</input>
+          <input type="radio" id="Nao" >Não</input>
+        </div>
+        <div class="box-4">
+          <div>
+            <h2>Periodicidade do investimento</h2>
+            <select class="">
+              <option value="">Diaria</option>
+              <option value="">Semanal</option>
+              <option value="">Quinzenal</option>
+              <option value="">Mensal</option>
+              <option value="">Trimestal</option>
+              <option value="">Anual</option>
+            </select>
+         </div>
+      </div>
+      <div>
+        <button>Salvar</button>
+      </div>
     </div>
-    <div>
-      <p>Data do investimento</p>
-      <input id="date" type="date">
-    </div>
-    <div>
-      <p>Valor do investimento </p>
-      <input id="number" type="number">
-    </div>
-  </div>
-</body>
+  </body>
 </html>

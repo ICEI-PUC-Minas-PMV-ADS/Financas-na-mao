@@ -1,3 +1,51 @@
-.title{
-  font-size: ;
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:lighter;
 }
+
+h1{
+  display: flex;
+  font-size:50px;
+  text-align: center;
+  justify-content: center;
+}
+p{
+  text-align:start;
+  font-size: 12px;
+}
+.bloco{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 5rem;
+}
+
+.box-1{
+  background-color:#FBF7F1;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 10rem;
+}
+
+.box-2{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 10rem;
+  }
+  
+.box-3{
+  gap:1rem;
+  background-color:#FBF7F1;
+  text-align: center;
+  margin: 5rem;
+  padding: 1rem 1rem;}
+
+.box-4{
+  justify-content: center;
+  gap:1rem;
+  background-color:#FBF7F1;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 5rem;}
