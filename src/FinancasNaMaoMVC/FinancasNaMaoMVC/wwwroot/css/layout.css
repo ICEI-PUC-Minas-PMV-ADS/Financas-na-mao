@@ -37,6 +37,7 @@
 .footer {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .btn-layout {
@@ -83,6 +84,9 @@
         flex-direction: row;
     }
 
+    .footer-item {
+        padding: 0.2rem;
+    }
 }
 
 @media (max-width: 400px) {
