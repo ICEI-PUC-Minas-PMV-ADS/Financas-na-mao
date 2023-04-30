@@ -1,0 +1,23 @@
+.home {
+    width: 100%;
+    height: 100%;
+    background-color: #EBE7D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-img {
+    width: 30%;
+}
+
+.home-message {
+    width: 60%;
+}
+
+.message {
+    font: 1.5rem;
+    font-weight: bold;
+    color: #5A5A5A;
+}
