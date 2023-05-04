@@ -43,24 +43,25 @@ else
 {
     @* Inicio modal recuperar senha *@
 
-    @* <div id="fadePassword" class="hide"></div>
+    <div id="fadePassword" class="hide"></div>
       <div id="modalPassword" class="hide">
         <div id="redefinirSenha-container">
           <h2>Redefinir senha</h2>
+            <p class="passwordErrors">aaaa</p>
 
-          <form action=""> 
+          <form action="" class="formPassword"> 
             <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
-            <input type="submit" value="Redefinir senha">
+            <input type="email" name="email" class="emailPassword" id="email" placeholder="Digite seu e-mail" autocomplete="off">
+            <input type="submit" class="passwordSubmit" value="Redefinir senha">
 
             <div class="justify-center">
-              <a href="../pages/telarecuperarsenha.html">
+              <a href="#" class="backBtn">
                 Voltar
               </a>
             </div>
           </form>
         </div>
-      </div> *@
+      </div>
 
       @* Fim do modal Recuperar Senha *@
 
@@ -97,28 +98,28 @@ else
 
       @* Inicio modal Login *@
 
-        @* <div id="fadeLogin" class="hide"></div>
+        <div id="fadeLogin" class="hide"></div>
       <div id="modalLogin" class="hide">
         <div id="login-container">
           <h2>Login</h2>
-
-          <form action=""> 
+          <p class="loginErrors"></p>
+          <form action="" class="formLogin"> 
             <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
+            <input type="email" name="email" id="emailLogin" placeholder="Digite seu e-mail" autocomplete="off">
             <label for="password"></label>
-            <input type="password" name="password" id="password" placeholder="Digite sua senha">
-            <input type="submit" value="Entrar">
+            <input type="password" name="password" id="passwordLogin" placeholder="Digite sua senha">
+            <input type="submit" id="submitLogin" value="Entrar">
 
-            <div class="justify-center">
+            <div class="justify-center2">
                 <p>
                     Esqueceu sua senha?
-                    <a href="../pages/telarecuperarsenha.html">
+                    <a href="#" class="open-modal-password">
                         Clique aqui!
                     </a>
                 </p>
                 <p>
                     Não tem uma conta?
-                    <a href="../pages/CadastroLogin.html">
+                    <a href="#" class="registerModalBtn">
                         Cadastre-se
                     </a>
                  </p> 
@@ -126,7 +127,7 @@ else
             </form>
           </div>
       </div>
- *@
+
 
       @* Fim do modal login *@
 
@@ -134,7 +135,7 @@ else
         <a class="nav-link btn-text btn-layout open-modal-Cadastro" id="register" >Crie sua conta</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link btn-text btn-layout" id="login" >Entrar</a>
+        <a class="nav-link btn-text btn-layout open-modal-login" id="login" >Entrar</a>
     </li>
 }
 </ul>

@@ -17,6 +17,8 @@ body {
   margin-bottom: 60px;
 }
 
+/* Modal Cadastro */
+
 #fadeCadastro, #modalCadastro {
   transition: 0.5s;
   opacity: 1;
@@ -61,6 +63,8 @@ body {
   height: 20px;
 
 }
+
+
 
 #fadeCadastro {
   position: fixed;
@@ -233,16 +237,17 @@ body {
   margin-bottom: -10px;
 }
 
-a{
+/* a{
   color: #EBE7D4;
 }
 
 a:hover{
   color: #0227bc;
-}
+} */
 
 .msgError {
   display: none;
+  justify-content: center;
   text-align: center;
   color: #ff0000;
   background-color: #ffbbbb;
@@ -250,6 +255,296 @@ a:hover{
   border-radius: 4px;
   width: 100%;
   height: 40px;
-  font-size: 10px;
+  font-size: 14px;
   
 }
+
+.passwordErrors{
+  display: none;
+  text-align: center;
+  justify-content: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  margin: 20px 0 -30px 0;
+}
+
+.loginErrors{
+  display: none;
+  text-align: center;
+  justify-content: center;
+
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  margin: 20px 0 -30px 0;
+}
+
+/* Modal Login */
+
+#fadeLogin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #31302d3e;
+  z-index: 5;
+}
+
+#modalLogin {
+  background-color:#61876E;
+  width: 450px;
+  height: auto;
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 1.6rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  z-index: 10;
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+
+#login-container{
+  background-color: #61876E;
+  height: 100%;
+  max-width: 100%;
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+  margin-top: 30px;
+
+}
+
+.formLogin{
+  margin-top: 15px; /*atenção aqui*/
+  margin-bottom: 40px;
+
+}
+
+.formLogin > input{
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  top: 1;
+  left: 0;
+  margin-top: 20px;
+  transition: all .3s ease-out;
+  border: none;
+  font-size: 1rem;
+}
+
+.formLogin > input[type="submit"]{
+  color: #888888;
+  background-color: #EBE7D4;
+  width: 150px;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+.formLogin > input[type="submit"]:hover{
+  color: #61876E;
+  background-color: #ffffff;
+  width: 150px;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#fadeLogin, #modalLogin {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+#login-container>h2 {
+  text-align: center; color: #EBE7D4;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: -20px;
+}
+
+#modalLogin >login-container> form{
+  background-color: #5a3636;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+}
+
+.modal-body p {
+  margin-bottom: 1rem;
+}
+
+#modalLogin.hide,
+#fadeLogin.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#modalLogin.hide {
+  top: 0;
+}
+
+.justify-center2>p{
+  color: #EBE7D4;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  height: 20px;
+}
+
+/* Inicio Modal Esqueceu Sua Senha */
+
+#open-modal-password {
+  background-color: #0c7d52;
+}
+
+
+#fadePassword {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #31302d3e;
+  z-index: 5;
+}
+
+#modalPassword {
+  background-color:#61876E;
+  width: 430px;
+  height: 460px; /*qqlr coisa mudar aqui*/
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 1.6rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  z-index: 10;
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+
+#redefinirSenha-container{
+  background-color:  #61876E;
+  height: 100%;
+  max-width: 100%;
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+
+}
+
+.formPassword{
+  margin-top: 15px; /*atenção aqui*/
+  margin-bottom: 40px;
+
+}
+
+.formPassword>input{
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  top: 1;
+  left: 0;
+  margin-top: 30px;
+  transition: all .3s ease-out;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.formPassword>input[type="submit"]{
+  color: #888888;
+  background-color: #EBE7D4;
+  width: 150px;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 35px;
+}
+
+
+.formPassword>input[type="submit"]:hover{
+  color: #61876E;
+  background-color: #ffffff;
+  width: 150px;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 35px;
+}
+
+#fadePassword, #modalPassword {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+#redefinirSenha-container>h2 {
+  text-align: center; color: #EBE7D4;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-top: -7px;
+}
+
+#modalPassword>login-container> form{
+  background-color: #5a3636;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+}
+
+.modal-body p {
+  margin-bottom: 1rem;
+}
+
+#modalPassword.hide,
+#fadePassword.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#modalPassword.hide {
+  top: 0;
+}
+
+.justify-center{
+  margin-top: 30px;
+}
+
+.justify-center>a{
+  color: #EBE7D4;
+  font-size: 1.2rem;
+  height: 20px;
+
+}
+
+
+
+
+

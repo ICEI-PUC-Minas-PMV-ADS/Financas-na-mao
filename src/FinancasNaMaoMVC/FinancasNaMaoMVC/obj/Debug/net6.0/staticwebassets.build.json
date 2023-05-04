@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K3Kkjfn24BsJb/Yi+taMI71YcW/X6TYiCD3RW9veF0Y=",
+  "Hash": "1085x/eXygoweYtwAj04EpW+/ek3ZUEtTkx9AN1i8yM=",
   "Source": "FinancasNaMaoMVC",
   "BasePath": "_content/FinancasNaMaoMVC",
   "Mode": "Default",
@@ -1239,6 +1239,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\headerModal.js"
+    },
+    {
+      "Identity": "C:\\Users\\Joabe\\OneDrive\\Área de Trabalho\\puc\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\js\\login.js",
+      "SourceId": "FinancasNaMaoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joabe\\OneDrive\\Área de Trabalho\\puc\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\",
+      "BasePath": "_content/FinancasNaMaoMVC",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\Joabe\\OneDrive\\Área de Trabalho\\puc\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\js\\password.js",
+      "SourceId": "FinancasNaMaoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joabe\\OneDrive\\Área de Trabalho\\puc\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\",
+      "BasePath": "_content/FinancasNaMaoMVC",
+      "RelativePath": "js/password.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\password.js"
     },
     {
       "Identity": "C:\\Users\\Joabe\\OneDrive\\Área de Trabalho\\puc\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\js\\site.js",
