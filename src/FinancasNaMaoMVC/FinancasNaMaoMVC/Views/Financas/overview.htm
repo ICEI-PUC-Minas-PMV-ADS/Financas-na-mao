@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./overview.css" />
+    <title>Visao geral</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#">Finanças na Mão</a>
+      </div>
+      <div class="user-area">
+        <a href="#">Usuário</a>
+        <a href="#">Sair</a>
+      </div>
+    </nav>
+    <div>
+      <div>
+        <h1>Resumo da carteira de investimento</h1>
+        <div class="gap-3 flex">
+          <div class="center">
+            <div>
+              <p>Valor do investimento</p>
+              <input type="number" />
+            </div>
+            <div>
+              <p>Valor atual</p>
+              <input type="number" />
+            </div>
+            <div>
+              <p>Resultado</p>
+              <input type="number" />
+            </div>
+            <div>
+              <p>Variação</p>
+              <input type="number" />
+            </div>
+          </div>
+          <div id="chart">GRAFICO</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="area">
+        <a href="">
+          <p>Quem somos</p>
+        </a>
+      </div>
+      <div class="area">
+        <a href="">
+          <p>Politica e privacidade</p>
+        </a>
+      </div>
+      <div class="area">
+        <a href="">
+          <p>Termos de Uso</p>
+        </a>
+      </div>
+      <div class="area">
+        <a href="">
+          <p>Fale conosco</p>
+        </a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+      var options = {
+        series: [
+          {
+            name: "Desktops",
+            data: [10, 41, 35, 51, 49, 62, 69, 91, 148],
+          },
+        ],
+        chart: {
+          height: 350,
+          type: "line",
+          zoom: {
+            enabled: false,
+          },
+        },
+        dataLabels: {
+          enabled: false,
+        },
+        stroke: {
+          curve: "straight",
+        },
+        title: {
+          text: "Product Trends by Month",
+          align: "left",
+        },
+        grid: {
+          row: {
+            colors: ["#f3f3f3", "transparent"], // takes an array which will be repeated on columns
+            opacity: 0.5,
+          },
+        },
+        xaxis: {
+          categories: [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+          ],
+        },
+      };
+
+      var chart = new ApexCharts(document.querySelector("#chart"), options);
+      chart.render();
+    </script>
+  </body>
+</html>

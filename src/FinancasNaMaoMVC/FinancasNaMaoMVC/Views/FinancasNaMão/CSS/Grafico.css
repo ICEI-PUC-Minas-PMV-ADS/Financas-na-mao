@@ -3,8 +3,8 @@ header {
     height: 100%;
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(to right, rgb(97, 135, 110), rgb(10, 59, 12));
-    color: #EBE7D4;
+    background-color: #07352E;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px 30px;
 }
@@ -44,19 +44,19 @@ height: 60px;
 text-align: center;
 font-size: xx-large;
 font-family: Arial, Helvetica, sans-serif;
-color: #A6A6A6;
+color: #323232;
 }
 
 #titlecontas {
 position: relative;
 bottom: 12px;
-color: #A6A6A6;
+color: #323232;
 }
 
 .container1 {
     border-width: 10px;
     border-style: ridge;
-    border-color: #EBE7D4;
+    border-color: #ffffff;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
@@ -111,19 +111,19 @@ footer {
     padding: 30px 0px;
     width: 100%;
     
-    background-image: linear-gradient(to right, rgb(97, 135, 110), rgb(10, 59, 12));
+    background-color: #07352E;
 }
 
 #rodape1 {
     position: relative;
     left: 3%;
-    color: #EBE7D4;
+    color: #ffffff;
 }
 
 #rodape2 {
     position: relative;
     left: 23%;
-    color: #EBE7D4;
+    color: #ffffff;
 }
 
 #rodape3 {
@@ -135,5 +135,5 @@ footer {
 #rodape4 {
     position: relative;
     left: 63%;
-    color: #EBE7D4;
+    color: #ffffff;
 }

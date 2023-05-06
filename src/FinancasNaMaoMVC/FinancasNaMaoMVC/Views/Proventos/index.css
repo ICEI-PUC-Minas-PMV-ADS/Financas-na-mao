@@ -22,3 +22,45 @@ button{
  background: #07352E;
  color:#ffff;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #07352E;
+  padding: 10px;
+  width:100vp;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.user-area a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #07352E;
+  color: #fff;
+  padding: 20px;
+}
+
+.area {
+  width: 23%;
+}
+
+.area h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.area p {
+  font-size: 14px;
+}
