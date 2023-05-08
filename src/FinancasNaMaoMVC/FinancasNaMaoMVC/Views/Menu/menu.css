@@ -1,0 +1,121 @@
+@import url(https://fontmeme.com/fontes/fonte-glacial-indifference);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Glacial Indifference';
+}
+
+body{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #61876E;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #4b6d56;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: #ffffff;
+    font-size: 38px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px 3%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul{
+    height: 80%; /*atenção aqui*/
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: #4b6d56;
+}
+
+ul li.item-menu:hover{
+    background: #779f85;
+}
+
+ul li.item-menu a{
+    color: #ffffff; /*icons*/
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+ul li.item-menu-sair a{
+    color: #ffffff;  /*icon sair*/
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px 4%;
+    display: flex;
+    line-height: 40px;
+    margin-top: -31px;
+}
+
+ul li.item-menu-sair{
+    transition: .2s;
+}
+
+ul li.item-menu-sair:hover{
+    background: #779f85;
+}
+
+ul li.item-menu-sair a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+ul li.item-menu-sair a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
