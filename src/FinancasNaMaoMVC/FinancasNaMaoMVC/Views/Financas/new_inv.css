@@ -60,3 +60,15 @@ p{
   border: 1px solid black;
   border-radius: 0.78rem;
 }
+button{
+  padding:1rem 3rem;
+  border-radius: 8px;
+  background: #07352E;
+  color:#ffff;
+  margin: 5rem 1rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500
+ }

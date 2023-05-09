@@ -64,3 +64,10 @@ footer {
 .area p {
   font-size: 14px;
 }
+button{
+  padding:1rem 3rem;
+  border-radius: 8px;
+  background: #07352E;
+  color:#ffff;
+  margin: 5rem 1rem;
+ }
