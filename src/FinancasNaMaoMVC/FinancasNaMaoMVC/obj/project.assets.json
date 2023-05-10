@@ -10424,11 +10424,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\morai\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Victoria\\.nuget\\packages\\": {}
+>>>>>>> 1f30ba05c55f10a52852342d76464e35693a3af1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
       "projectName": "FinancasNaMaoMVC",
       "projectPath": "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
@@ -10438,6 +10443,16 @@
       "configFilePaths": [
         "C:\\Users\\morai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+      "projectName": "FinancasNaMaoMVC",
+      "projectPath": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+      "packagesPath": "C:\\Users\\Victoria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Victoria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 1f30ba05c55f10a52852342d76464e35693a3af1
       ],
       "originalTargetFrameworks": [
         "net6.0"
