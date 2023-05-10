@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_LoginPartial.cshtml" />
     <Content Remove="wwwroot\css\style.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Shared\_LoginPartial.cshtml" />
     <None Include="wwwroot\css\style.css" />
   </ItemGroup>
 
