@@ -14,7 +14,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #EBE7D4;
+    align-items: center;
 }
 
 /* Modal Cadastro */
@@ -290,6 +292,18 @@ a:hover{
 
 /* Modal Login */
 
+body > .loginContainer{
+   justify-content: center;
+}
+
+.loginContainer {
+    align-items: center;
+    border-radius:10px;
+    padding: 5px;
+    width: 400px;
+    background-color:#61876E;
+}
+
 #fadeLogin {
   position: fixed;
   top: 0;
@@ -318,26 +332,15 @@ a:hover{
   padding: 2em;
 }
 
-#login-container{
-  background-color: #61876E;
-  height: 100%;
-  max-width: 100%;
-  animation: color 9s infinite linear;
-  text-align: center;
-  padding: 2em;
-  margin-top: 30px;
-
-}
-
 .formLogin{
   margin-top: 15px; /*atenção aqui*/
   margin-bottom: 40px;
-
+  text-align: center;
 }
 
 .formLogin > input{
   align-items: center;
-  width: 100%;
+  width: 200px;
   text-align: center;
   padding: 15px;
   background-color: #ffffff;

@@ -1,6 +1,6 @@
-﻿    @using Microsoft.AspNetCore.Identity
+﻿@using FinancasNaMaoMVC.Areas.Identity.Pages.Account;
+@using Microsoft.AspNetCore.Identity
 @using FinancasNaMaoMVC.Areas.Identity.Data
-
 @inject SignInManager<Usuario> SignInManager
 @inject UserManager<Usuario> UserManager
 
@@ -42,7 +42,7 @@
 else
 {
     @* Inicio modal recuperar senha *@
-
+@*
     <div id="fadePassword" class="hide"></div>
       <div id="modalPassword" class="hide">
         <div id="redefinirSenha-container">
@@ -61,12 +61,12 @@ else
             </div>
           </form>
         </div>
-      </div>
+      </div>*@
 
       @* Fim do modal Recuperar Senha *@
 
       @* Inicio modal cadastro *@
-
+@*
         <div id="fadeCadastro" class="hide"></div>
     <div id="modalCadastro" class="hide">
       <div id="cadastro-container">
@@ -92,50 +92,67 @@ else
               <input type="submit" id= "cadastrar" value="Cadastrar">
           </form>
         </div>
-      </div>
+      </div>*@
 
       @* Fim do modal cadastro *@
 
       @* Inicio modal Login *@
 
-        <div id="fadeLogin" class="hide"></div>
-      <div id="modalLogin" class="hide">
-        <div id="login-container">
-          <h2>Login</h2>
-          <p class="loginErrors"></p>
-          <form action="" class="formLogin"> 
-            <label for="email"></label>
-            <input type="email" name="email" id="emailLogin" placeholder="Digite seu e-mail" autocomplete="off">
-            <label for="password"></label>
-            <input type="password" name="password" id="passwordLogin" placeholder="Digite sua senha">
-            <input type="submit" id="submitLogin" value="Entrar">
+       @* <div id="fadeLogin" class="hide"></div>
+        <div id="modalLogin" class="hide">
+            <div id="login-container">
+            <h2>Login</h2>
+            <p class="loginErrors"></p>
+                <form id="account" method="post" class="formLogin">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="justify-center2">
-                <p>
-                    Esqueceu sua senha?
-                    <a href="#" class="open-modal-password">
-                        Clique aqui!
-                    </a>
-                </p>
-                <p>
-                    Não tem uma conta?
-                    <a href="#" class="registerModalBtn">
-                        Cadastre-se
-                    </a>
-                 </p> 
-              </div>
-            </form>
-          </div>
-      </div>
+                    <label asp-for="Input.Email"></label>
+                    <input asp-for="Input.Email" type="email" name="email" id="emailLogin" placeholder="Digite seu e-mail" autocomplete="off">
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
 
+                    <label asp-for="Input.Password"></label>
+                    <input asp-for="Input.Password" name="password" id="passwordLogin" placeholder="Digite sua senha">
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    <div>
+                        <div class="checkbox">
+                            <label asp-for="Input.RememberMe" class="form-label">
+                                <input class="form-check-input" asp-for="Input.RememberMe" />
+                                @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+
+                <input type="submit" id="submitLogin" value="Entrar">
+
+                <div class="justify-center2">
+                    <p>
+                        Esqueceu sua senha?
+                        <a href="#" class="open-modal-password">
+                            Clique aqui!
+                        </a>
+                    </p>
+                    <p>
+                        Não tem uma conta?
+                        <a href="#" class="registerModalBtn">
+                            Cadastre-se
+                        </a>
+                     </p> 
+                </div>
+                </form>
+            </div>
+        </div>
+*@
 
       @* Fim do modal login *@
 
     <li class="nav-item">
-        <a class="nav-link btn-text btn-layout open-modal-Cadastro" id="register" >Crie sua conta</a>
+            <a class="nav-link btn-text btn-layout open-modal-Cadastro" id="register" asp-area="Identity" asp-page="/Account/Register">Crie sua conta</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link btn-text btn-layout open-modal-login" id="login" >Entrar</a>
+            <a class="nav-link btn-text btn-layout open-modal-login" id="login" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
     </li>
 }
 </ul>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap%27');
+.formDespesa {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+}
+
+.cont {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container>div{
+    justify-content: center;
+    height: 220px;
+}
+
+.caixa1{
+    display: flex;
+}
+
+.caixa1>div{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeDespesa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    margin-top: -70px;
+}
+
+input::placeholder {
+    text-align: center;
+  }
+
+.nomeDespesa > input {
+    color: #000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+}
+
+.despesaFixa {
+    color: #000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 195px;
+    /*border: none;*/
+    margin-top: 30px;
+}
+
+.valorDespesa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+.valorDespesa>input{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+}
+
+#categoriaSelecionada>select{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    outline: 0;
+}
+
+button#btnCategoria{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 199px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    outline: 0;
+}
+
+
+.valorDespesa>a{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 199px;
+    border: none;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /*text-decoration: none;*/
+}
+
+.valorDespesa>a:hover{
+   text-decoration: underline;
+}
+
+.dataDespesa {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin-top: -71px;
+}
+
+.dataDespesa>input{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+}
+
+.dataDespesa>a{
+    color:#000000;
+    font-size: 15px;
+    background-color: #EBE7D4;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    outline: 0;
+    text-align: center;
+}
+
+.caixa2{
+    max-height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa2>.obs{
+    margin-top: 20px;
+    width: 65%;
+    height: 100%;
+}
+
+.caixa2>.obs>textarea{
+    background-color: #EBE7D4;
+    width: 99.5%;
+    height: 88%;
+    font-size: 18px;
+    border: none; /*a borda nao ta saindo mesmo com o comando = analisar isso dps*/
+
+}
+
+.caixa2>.obs>h2{
+    background-color: #EBE7D4;
+    font-size: 20px;
+    height: 30px;
+
+}
+
+.buttonDespesa {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.buttonDespesa>button{
+    color:#EBE7D4;
+    font-size: 15px;
+    background-color: #61876E;
+    height: 60px;
+    border: 2px transparent solid;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.buttonDespesa>button:hover{
+    color:#EBE7D4;
+    background-color: #61876E;
+    font-size: 15px;
+    height: 45px;
+    width: 140px;
+    filter: brightness(110%);
+    
+}
+
+textarea {
+    resize: none;
+    outline: 0;
+}
+
+input{
+    outline: 0;
+}
