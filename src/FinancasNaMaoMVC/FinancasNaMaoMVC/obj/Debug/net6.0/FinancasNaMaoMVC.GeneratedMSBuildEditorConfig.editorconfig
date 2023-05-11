@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\morai\OneDrive\Documentos\Puc ADS\REPO 2 SEMESTRE\pmv-ads-2023-1-e2-proj-int-t5-grupo4\src\FinancasNaMaoMVC\FinancasNaMaoMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/morai/OneDrive/Documentos/Puc ADS/REPO 2 SEMESTRE/pmv-ads-2023-1-e2-proj-int-t5-grupo4/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/morai/OneDrive/Documentos/Puc ADS/REPO 2 SEMESTRE/pmv-ads-2023-1-e2-proj-int-t5-grupo4/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
