@@ -14,14 +14,6 @@
             <div class="nomeDespesa">
                 <input asp-for="Nome" placeholder="Nome da Despesa" />
 
-                @*<div class="despesaFixa">
-                <h2>Despesa Fixa</h2>
-                <input asp-for="isFixo" type="radio" name="sim" value="True">
-                <label asp-for="isFixo">Sim</label>
-                <input asp-for="isFixo" type="radio" name="nao" value="False">
-                <label asp-for="isFixo">Não</label>
-                </div>*@
-
                 <div class="despesaFixa">
                     <label class="form-check-label">
                         <h2>Despesa Fixa</h2>
@@ -39,31 +31,11 @@
                 </div>
 
                 <button id="btnCategoria">+ Incluir nova categoria</button>
-                @*<div id="modalCategoria" class="modal">
-                <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Incluir categoria</h2>
-                <form>
-                <label for="categoria"></label>
-                <input type="text" id="categoria" name="categoria" placeholder="Digite a categoria">
-                <button type="button" id="adicionar">Adicionar</button>
-                </form>
-                </div>
-                </div>*@
             </div>
 
             <div class="dataDespesa">
                 <input asp-for="Data" placeholder="Data" />
                 <input asp-for="Natureza" placeholder="Natureza" style="margin-top: 25px" />
-                @*<select>
-                <option value="">Selecione a periodicidade</option>
-                <option value="diaria">Diária</option>
-                <option value="semanal">Semanal</option>
-                <option value="quinzenal">Quinzenal</option>
-                <option value="mensal">Mensal</option>
-                <option value="trimensal">Trimensal</option>
-                <option value="anual">Anual</option>
-                </select>*@
             </div>
         </div>
 
