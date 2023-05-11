@@ -4,65 +4,99 @@
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link rel="stylesheet" href="~/css/style.css">
+<div class="formDespesa">
+    <form asp-action="Create" class="cont">
+        <h1>Nova Movimentação</h1>
 
-<h1>Create</h1>
+        <div class="caixa1">
 
-<h4>Lancamento</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Valor" class="control-label"></label>
-                <input asp-for="Valor" class="form-control" />
+            <div class="nomeDespesa">
+                <input asp-for="Nome" placeholder="Nome da Despesa" />
+
+                @*<div class="despesaFixa">
+                <h2>Despesa Fixa</h2>
+                <input asp-for="isFixo" type="radio" name="sim" value="True">
+                <label asp-for="isFixo">Sim</label>
+                <input asp-for="isFixo" type="radio" name="nao" value="False">
+                <label asp-for="isFixo">Não</label>
+                </div>*@
+
+                <div class="despesaFixa">
+                    <label class="form-check-label">
+                        <h2>Despesa Fixa</h2>
+                        <input class="form-check-input" asp-for="isFixo" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="valorDespesa">
+                <input asp-for="Valor" type="number" placeholder="Valor" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
+
+                <div id="categoriaSelecionada">
+                    <select asp-for="CategoriaID" asp-items="ViewBag.CategoriaID"></select>
+                </div>
+
+                <button id="btnCategoria">+ Incluir nova categoria</button>
+                @*<div id="modalCategoria" class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Incluir categoria</h2>
+                <form>
+                <label for="categoria"></label>
+                <input type="text" id="categoria" name="categoria" placeholder="Digite a categoria">
+                <button type="button" id="adicionar">Adicionar</button>
+                </form>
+                </div>
+                </div>*@
             </div>
-            <div class="form-group">
-                <label asp-for="ValorReservado" class="control-label"></label>
-                <input asp-for="ValorReservado" class="form-control" />
-                <span asp-validation-for="ValorReservado" class="text-danger"></span>
+
+            <div class="dataDespesa">
+                <input asp-for="Data" placeholder="Data" />
+                <input asp-for="Natureza" placeholder="Natureza" style="margin-top: 25px" />
+                @*<select>
+                <option value="">Selecione a periodicidade</option>
+                <option value="diaria">Diária</option>
+                <option value="semanal">Semanal</option>
+                <option value="quinzenal">Quinzenal</option>
+                <option value="mensal">Mensal</option>
+                <option value="trimensal">Trimensal</option>
+                <option value="anual">Anual</option>
+                </select>*@
             </div>
-            <div class="form-group">
-                <label asp-for="Data" class="control-label"></label>
-                <input asp-for="Data" class="form-control" />
-                <span asp-validation-for="Data" class="text-danger"></span>
+        </div>
+
+
+        <div class="caixa2">
+            <div class="obs">
+                <h2>Observações:</h2>
+                <textarea asp-for="Obs" cols="30" rows="5"></textarea>
             </div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
+            <div class="buttonDespesa">
+                <button>Adicionar despesa</button>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="isFixo" /> @Html.DisplayNameFor(model => model.isFixo)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="Obs" class="control-label"></label>
-                <input asp-for="Obs" class="form-control" />
-                <span asp-validation-for="Obs" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Natureza" class="control-label"></label>
-                <input asp-for="Natureza" class="form-control" />
-                <span asp-validation-for="Natureza" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CategoriaID" class="control-label"></label>
-                <select asp-for="CategoriaID" class ="form-control" asp-items="ViewBag.CategoriaID"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+        </div>
+    </form>
+
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<script src="js/scripts.js"></script>
+
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        //<script>
+        //    $(function () {
+        //        $("#Valor").on("keypress keyup blur", function (event) {
+        //            $(this).val($(this).val().replace(/[^0-9\.]/g, ''));
+        //            if ((event.which != 46 || $(this).val().indexOf('.') != -1) && (event.which < 48 || event.which > 57)) {
+        //                event.preventDefault();
+        //            }
+        //        });
+        //    })
+        //</script>
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}   

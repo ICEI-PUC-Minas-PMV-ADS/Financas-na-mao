@@ -9,6 +9,7 @@ using FinancasNaMaoMVC.Areas.Identity.Data;
 using FinancasNaMaoMVC.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
+using System.Globalization;
 
 namespace FinancasNaMaoMVC.Controllers
 {
@@ -53,11 +54,12 @@ namespace FinancasNaMaoMVC.Controllers
         // GET: Lancamentos/Create
         public IActionResult Create()
         {
+            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
             var userId = _userManager.GetUserId(this.User);
             List<Categoria> categorias = new List<Categoria>();
             foreach (var categoria in _context.Categorias)
             {
-                if(categoria.UsuarioId == userId)
+                if (categoria.UsuarioId == userId)
                 {
                     categorias.Add(categoria);
                 }
@@ -175,14 +177,14 @@ namespace FinancasNaMaoMVC.Controllers
             {
                 _context.Lancamentos.Remove(lancamento);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool LancamentoExists(int id)
         {
-          return (_context.Lancamentos?.Any(e => e.ID == id)).GetValueOrDefault();
+            return (_context.Lancamentos?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
 }
