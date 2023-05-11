@@ -10,7 +10,7 @@ Os resultados obtidos nos testes de usabilidade realizados são descritos na Tab
 Registro de teste de usabilidade - Tela cadastre-se
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83494301/231966157-f0bd4268-76b9-47a4-a0ad-0c0349376b46.png" width="700px" />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/docs/img/WhatsApp%20Image%202023-05-10%20at%2022.18.58.jpg"/>
 </div>
 
 Registro de teste de usabilidade - Tela login
