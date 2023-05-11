@@ -10429,11 +10429,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\projetoo\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
       "projectName": "FinancasNaMaoMVC",
-      "projectPath": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+      "projectPath": "C:\\Users\\Victoria\\Desktop\\projetoo\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
       "packagesPath": "C:\\Users\\Victoria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
+      "outputPath": "C:\\Users\\Victoria\\Desktop\\projetoo\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victoria\\AppData\\Roaming\\NuGet\\NuGet.Config"

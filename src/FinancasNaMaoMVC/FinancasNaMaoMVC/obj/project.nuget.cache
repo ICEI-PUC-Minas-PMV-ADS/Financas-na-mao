@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZL9o2VyMqKOnm0OKYnXkpYO10TEW7yeSw8atit6QZ0wqmSwyzjo4BldjJhRfjAMVDrTO0vRunEOw1xDX+5pYRg==",
+  "dgSpecHash": "DekzLdIskiECmYwKrRLA3CNnPdsuF3tny9Y+NKFS7AVs3sLN3mWtmfoKjv4SPS3JzylFqUpJBf+Wky4SW05Cyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victoria\\Desktop\\minhas movi - github\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+  "projectFilePath": "C:\\Users\\Victoria\\Desktop\\projetoo\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victoria\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
