@@ -76,3 +76,14 @@ footer {
 .area p {
   font-size: 14px;
 }
+
+@media screen and (max-width: 767px) {
+  p, h2, h3{
+      font-size: 14px;
+  }
+  .flex{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+  }
+}

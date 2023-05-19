@@ -73,3 +73,27 @@ footer {
 .area p {
   font-size: 14px;
 }
+
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  p, h3{
+      font-size: 16px;
+  }
+}
+
+/* All Mobile  */
+@media only screen and (max-width: 767px) {
+  p, h3{
+      font-size: 14px;
+  }
+}
+
+
+/* Mobile Portrait */
+@media only screen and (max-width: 479px) {
+  p, h3 {
+      font-size: 12px;
+  }
+}
