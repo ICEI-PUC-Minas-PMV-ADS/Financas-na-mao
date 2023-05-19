@@ -37,3 +37,13 @@ button{
   color:#ffff;
   margin: 5rem 1rem;
  }
+ @media screen and (max-width: 767px) {
+  p, h2, h3{
+      font-size: 14px;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+  }
+}
