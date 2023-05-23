@@ -8,5 +8,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
+CT-01 - Realizar cadastro e efetuar login: https://youtu.be/cj0JsWw7UcA
+
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
