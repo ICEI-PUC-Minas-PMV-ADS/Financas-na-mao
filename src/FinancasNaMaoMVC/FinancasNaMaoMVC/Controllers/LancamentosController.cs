@@ -10,6 +10,7 @@ using FinancasNaMaoMVC.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using System.Globalization;
+using System.Net.NetworkInformation;
 
 namespace FinancasNaMaoMVC.Controllers
 {
@@ -27,8 +28,9 @@ namespace FinancasNaMaoMVC.Controllers
         // GET: Lancamentos
         public async Task<IActionResult> Index()
         {
+            var userId = _userManager.GetUserId(this.User);
             var applicationDbContext = _context.Lancamentos.Include(l => l.Categoria).Include(l => l.Usuario);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await applicationDbContext.Where(l => l.UsuarioId == userId).ToListAsync());
         }
 
         // GET: Lancamentos/Details/5

@@ -11,13 +11,8 @@
         <form id="account" method="post" class="formLogin">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-
             <input asp-for="Input.Email" id="emailLogin" placeholder="Digite seu e-mail" autocomplete="off">
-            <span asp-validation-for="Input.Email" class="text-danger"></span>
-
-
             <input asp-for="Input.Password" id="passwordLogin" placeholder="Digite sua senha">
-            <span asp-validation-for="Input.Password" class="text-danger"></span>
             <div>
                 <div class="checkbox">
                     <label asp-for="Input.RememberMe" class="form-label">
