@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS\Grafico.css">
         <title>Grafico</title>
-    </head>
 
     <body>
         <header>
@@ -52,17 +51,49 @@
         <img src="img\plus (1).png" id="imgsoma" alt="">
         <a href="" id="addconta"> Adicionar Conta</a>
         
-
         <img src="img\business-report (1).png" id="imgrelatorio" alt="">
         <a href="" id="relatorio">Gerar Relatório</a>
         
 
+        <div id="container2">
+            <div id="chart"></div>
+            <script src="https://www.gstatic.com/charts/loader.js"></script>
+            <script>
+              google.charts.load('current', {packages: ['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+            
+              function drawChart() {
+                const container = document.querySelector('#chart')
+                const data = new google.visualization.arrayToDataTable([
+                    ['Despesas', 'R$'],
+                    ['Saúde', 600],
+                    ['Educação',900],
+                    ['Lazer', 300],
+                    ['Alimentação', 400],
+                    ['Moradia', 500]  
+                ])
+                const options = {
+                    title: 'Análise Gráfica - Minhas Movimentações',
+                    height: 850,
+                    width: 900,
+                    colors:['#145D2D','#1C9248','#2C9800', '#59C843', '#17420F'],
+                    chartArea:{left:150,top:150},
+                    fontSize: 22,
+                }
+            
+                const chart = new google.visualization.PieChart(container)
+                chart.draw(data, options)
+                }
+            </script>  
+        </div>
+
+
         <footer>
-                <a href="" id="rodape1">Quem Somos</a>
-                <a href="" id="rodape2">Política de Privacidade</a>
-                <a href="" id="rodape3">Termos de Uso</a>
-                <a href="" id="rodape4">Fale conosco</a>
-        </footer>
+            <a href="" id="rodape1">Quem Somos</a>
+            <a href="" id="rodape2">Política de Privacidade</a>
+            <a href="" id="rodape3">Termos de Uso</a>
+            <a href="" id="rodape4">Fale conosco</a>
+    </footer>
 
     </body>
 
