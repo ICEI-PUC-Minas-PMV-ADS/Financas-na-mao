@@ -92,6 +92,10 @@ A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações
 ![Responsivo - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8bd9c5e0-6c91-4aee-9c53-693f87333c78)
 
 
+![NavBar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/1a64a1fd-5e97-4e5f-9bfc-b7029e5d4422)
+
+
+
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
 2. Localize o rodapé da plataforma `Finanças na Mão`. 
