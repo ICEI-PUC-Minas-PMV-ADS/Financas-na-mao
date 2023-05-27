@@ -75,7 +75,38 @@ A funcionalidade de Validar Dados de Cadastro (RF-001) permite verificar se as i
 * [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
 
 
-### Funcionalidade 05: Transparência (RNF-006)
+### Funcionalidade 05: Transparência (RNF-002)
+
+A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações claras, abrangentes e acessíveis aos usuários da plataforma `Finanças na mão`. Estamos comprometidos em informar aos usuários como seus dados serão coletados, usados e protegidos, bem como as regras e condições de uso do serviço. Essa transparência proporciona aos usuários uma maior confiança na utilização do serviço, permite que eles tomem decisões informadas sobre o compartilhamento de dados pessoais e ajuda a fortalecer a relação de confiança entre a organização e os usuários.
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RNF-002| O sistema deve ser responsivo permitindo a visualização em um celular de forma adequada. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
+
+![ Responsivo - Página inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/71b43df1-a6d1-4119-9c59-e02e898e45e0)
+
+
+![Responsivo - Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e017b14c-2733-46fd-a0ab-dab750ad44ca)
+
+
+![Responsivo - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8bd9c5e0-6c91-4aee-9c53-693f87333c78)
+
+
+##### Instruções de acesso
+1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
+2. Localize o rodapé da plataforma `Finanças na Mão`. 
+3. Clique em `Política de Privacidade` para visualizar.
+4. Clique em `Termos de Uso` para visualizar.
+5. Clique em `Quem Somos` para visualizar.
+
+##### Artefatos produzidos
+* [Register.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+* [Register.cshtml.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml.cs)
+* [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
+* [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
+
+
+### Funcionalidade 06: Transparência (RNF-006)
 
 A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações claras, abrangentes e acessíveis aos usuários da plataforma `Finanças na mão`. Estamos comprometidos em informar aos usuários como seus dados serão coletados, usados e protegidos, bem como as regras e condições de uso do serviço. Essa transparência proporciona aos usuários uma maior confiança na utilização do serviço, permite que eles tomem decisões informadas sobre o compartilhamento de dados pessoais e ajuda a fortalecer a relação de confiança entre a organização e os usuários.
 
