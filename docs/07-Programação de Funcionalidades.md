@@ -12,7 +12,7 @@ A funcionalidade de Fazer Login (RF-001) permite que um usuário cadastrado aces
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Login.cshtml / HomeController.cs / login.js / Login.cshtml.cs
 
 
-![Publicação de interação](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/copia_de_seguran%C3%A7a/docs/img/login.jpeg)
+![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e9586857-2254-4e21-8c21-a35dd5da2a6b)
 
 
 ### Funcionalidade 02: Validar Dados de Login (RF-001)
@@ -23,7 +23,8 @@ A funcionalidade de Validar Dados de Login (RF-001) permite a verificação de a
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Login.cshtml / HomeController.cs / login.js / Login.cshtml.cs
 
 
-![Publicação de interação](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/copia_de_seguran%C3%A7a/docs/img/login.jpeg)
+![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/fb7b3147-cb76-4198-a51f-593ccbfbdfb0)
+
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
@@ -46,7 +47,8 @@ A funcionalidade de Efetuar Cadastro (RF-001) permite que um usuário crie uma c
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
 
-![Screenshot 2023-05-07 143228](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/copia_de_seguran%C3%A7a/docs/img/registro.jpeg)
+![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e69b9746-5f8e-43fa-94b2-b5fd86218eeb)
+
 
 
 ### Funcionalidade 04: Validar Dados de Cadastro (RF-001)
@@ -56,7 +58,8 @@ A funcionalidade de Validar Dados de Cadastro (RF-001) permite verificar se as i
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
 
-![Screenshot 2023-05-07 143228](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/copia_de_seguran%C3%A7a/docs/img/registro.jpeg)
+![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/04309348-bbfe-47cb-b11f-9cf186ac7e91)
+
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
