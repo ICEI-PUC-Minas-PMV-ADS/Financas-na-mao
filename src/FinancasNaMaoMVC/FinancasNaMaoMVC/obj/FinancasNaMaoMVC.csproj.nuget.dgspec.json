@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {}
+    "C:\\Users\\Victoria\\Desktop\\proj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {
+    "C:\\Users\\Victoria\\Desktop\\proj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\proj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
         "projectName": "FinancasNaMaoMVC",
-        "projectPath": "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
-        "packagesPath": "C:\\Users\\morai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\morai\\OneDrive\\Documentos\\Puc ADS\\REPO 2 SEMESTRE\\pmv-ads-2023-1-e2-proj-int-t5-grupo4\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
+        "projectPath": "C:\\Users\\Victoria\\Desktop\\proj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+        "packagesPath": "C:\\Users\\Victoria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victoria\\Desktop\\proj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\morai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Victoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

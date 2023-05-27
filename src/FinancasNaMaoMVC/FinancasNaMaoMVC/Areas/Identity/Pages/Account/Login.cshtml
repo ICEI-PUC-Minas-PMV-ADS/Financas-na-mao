@@ -2,45 +2,48 @@
 @model LoginModel
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Login";
 }
 
-<h1>@ViewData["Title"]</h1>
-<div class="loginContainer">
-    <section>
-        <form id="account" method="post" class="formLogin">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-            <input asp-for="Input.Email" id="emailLogin" placeholder="Digite seu e-mail" autocomplete="off">
-            <input asp-for="Input.Password" id="passwordLogin" placeholder="Digite sua senha">
-            <div>
-                <div class="checkbox">
-                    <label asp-for="Input.RememberMe" class="form-label">
-                        <input class="form-check-input" asp-for="Input.RememberMe" />
-                        @Html.DisplayNameFor(m => m.Input.RememberMe)
-                    </label>
+<div class="d-flex justify-content-center align-items-center">
+    <div class="col-md-4 verde p-2 loginBox" style="border-radius: 30px ">
+        <section>
+            <form  class=" w-100 d-flex flex-column justify-content-center align-items-center p-3" id="account" method="post"> 
+                <h2 class="text-light text-center">Login</h2>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating m-2">
+                    <input asp-for="Input.Email" class="loginInput form-control" autocomplete="username" aria-required="true" />
+                    <label asp-for="Input.Email" class="form-label"></label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
-            </div>
-
-            <input type="submit" id="submitLogin" value="Entrar">
-
-            <div class="justify-center2">
-                <p>
-                    Esqueceu sua senha?
-                    <a class="open-modal-password" asp-page="./ForgotPassword">
-                        Clique aqui!
-                    </a>
-                </p>
-                <p>
-                    Não tem uma conta?
-                    <a class="registerModalBtn" asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">
-                        Cadastre-se
-                    </a>
-                </p>
-            </div>
-        </form>
-    </section>
-
+                <div class="form-floating m-2 ">
+                    <input asp-for="Input.Password" class=" loginInput form-control" autocomplete="current-password" aria-required="true" />
+                    <label asp-for="Input.Password" class="form-label"></label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div>
+                    <div class="checkbox m-2">
+                        <label asp-for="Input.RememberMe" class="form-label">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div> 
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button id="login-submit" type="submit" class="nav-link btn-text btn-layout">Entrar</button>
+                </div>
+                <div class="m-2">
+                    <p>
+                        <a class="text-light" id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha? Clique aqui!</a>
+                    </p>
+                    <p>
+                        <a class="text-light" asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Não tem uma conta? Cadastre-se</a>
+                    </p>
+                </div> 
+            </form>
+        </section>
+    </div>
 </div>
 
 @section Scripts {

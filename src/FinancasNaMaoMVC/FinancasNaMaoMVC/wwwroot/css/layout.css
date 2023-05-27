@@ -1,5 +1,7 @@
+/* inicio login css */
+
 .verde {
-    background: linear-gradient(90deg, #61876e, #0a3b0c);
+    background: linear-gradient(90deg, #61876e, #496954, #35523f);
 }
 
 .nav-img {
@@ -50,6 +52,12 @@
     text-align: center;
 }
 
+    .btn-layout:hover {
+        background-color: #ffffff;
+        color: #61876E;
+        cursor: pointer;
+    }
+
 .nav-custom {
     display: flex;
     justify-content: center;
@@ -74,19 +82,476 @@
   border-radius: 0.25rem;
 }
 
+
+
+.loginBox {
+    width: 30vw;
+    height: 519px;
+}
+
+.loginBox > section > form > .form-floating {
+    min-width: 268px;
+    max-width: 268px;
+}
+
+.loginBox > section > form > .form-floating > span > span {
+    color: #950202;
+    font-weight: 600;
+    margin: 0 auto;
+    min-width: 268px;
+    max-width: 268px;
+    font-size: 15px;
+}
+
+.loginBox > section > form > div {
+    width: 100%;
+    text-align: center;
+
+}
+
+.loginBox > section > form > div > .m-2 {
+    color: aliceblue;
+}
+
+
+loginInput{
+    min-width: 268px;
+}
+
+    .loginBox > section > form {
+        width: 100%;
+    }
+
+    .loginBox > section > form > .form-floating {
+        width: 100%;
+        min-width: 0px;
+        max-width: 3000px;
+    }
+
+    .loginBox > section > form > div {
+            width: 100%;
+            text-align: center;
+ 
+ }
+
+     .loginBox > section > form > .form-floating > input {
+        margin-bottom: 20px;
+        min-width: 300px;
+     }
+
+#login-submit {
+    margin-bottom: 20px;
+}
+/*  fim login css*/
+
+/* inicio cadastro css*/
+
+
+.BoxCadastro {
+    width: 27vw;
+    height: 28%;
+    padding: 20px 0;
+
+}
+
+.m-1{
+    max-width: 340px;
+
+}
+
+#registerForm > .form-floating > input{
+   width:100%;
+
+}
+
+#registerForm {
+    justify-content: flex-start;
+    padding: 0;
+}
+
+    #registerForm > .form-floating {
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+
+.BoxCadastro > form > .form-floating > span > span {
+    color: #950202;
+    font-weight: 600;
+    margin: 0 auto;
+    min-width: 268px;
+    max-width: 268px;
+    font-size: 15px;
+}
+
+.BoxCadastro > section > form > div {
+     width: 100%;
+     text-align: center;
+}
+
+.BoxCadastro > section > form {
+     width: 100%;
+}
+
+.BoxCadastro > section > form > .form-floating  {
+      min-width: 300px;
+      max-width: 3000px;
+}
+
+.BoxCadastro > section > form > div {
+      width: 100%;
+      text-align: center;
+}
+
+/* fim cadastro css*/
+
+/* inicio recuperar senha css*/
+
+.recupSenhaBox {
+    width: 500px;
+    height: 300px;
+    align-content:center;
+    justify-content:center;
+}
+
+    .recupSenhaBox > .row > .col-md-4 {
+        align-content: center;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .recupSenhaBox > .row > .col-md-4 > form > .form-floating > span > span {
+        color: #950202;
+        font-weight: 600;
+        margin: 0 auto;
+        min-width: 268px;
+        max-width: 268px;
+        font-size: 15px;
+    }
+
+        .recupSenhaBox > .row > .col-md-4 > form > .form-floating{
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .recupSenhaBox > h2 {
+            margin-top: 20px;
+        }
+
+.recupSenhaBox > .row > .col-md-4 > form > button {
+    width: 8rem;
+    background-color: #ebe7d4;
+    color: #6e6d6d;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+.recupSenhaBox > .row > .col-md-4 > form > button:hover {
+    background-color: #ffffff;
+    color: #61876E;
+    cursor: pointer;
+}
+
+/* fim recuperar senha css*/
+
 @media (max-width: 550px) {
     .ocultarUser {
         display: none;
     }
 
     .width, .nav {
-        width: auto;
         flex-direction: row;
     }
 
     .footer-item {
         padding: 0.2rem;
     }
+
+    .loginBox{
+        width: 500px;
+        height: 519px;
+    }
+
+    .loginBox > section > form {
+       width: 100%;     
+     }
+
+    .loginBox > section > form > .form-floating {
+        width: 100%;
+        min-width:0px;
+        max-width: 3000px;
+     }
+
+    .loginBox > section > form > div {
+        width: 100%;
+        text-align:center;
+
+    }
+
+    .loginBox > section > form > .form-floating > input {
+        margin-bottom:20px;
+    }
+
+    #login-submit{
+        margin-bottom:20px;
+    }
+
+    .ocultarLogo {
+        display: none;
+    }
+
+    /* inicio cadastro css*/
+
+    .BoxCadastro {
+        width: 500px;
+        height: 27%;
+    }
+
+    .m-1 {
+        max-width: 340px;
+    }
+
+    #registerForm > .form-floating > input {
+        width: 100%;
+    }
+
+    #registerForm {
+        justify-content: flex-start;
+    }
+
+        #registerForm > .form-floating {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+    .BoxCadastro > section > form > .m-1 > span > span {
+        color: #950202;
+        font-weight: 600;
+        margin: 0 auto;
+        min-width: 268px;
+        max-width: 268px;
+        font-size: 15px;
+    }
+
+    .BoxCadastro > section > form > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .BoxCadastro > section > form {
+        width: 100%;
+    }
+
+        .BoxCadastro > section > form > .form-floating {
+            min-width: 300px;
+            max-width: 3000px;
+        }
+
+        .BoxCadastro > section > form > div {
+            width: 100%;
+            text-align: center;
+        }
+
+    /* fim cadastro css*/
+
+}
+
+@media (max-width: 767px) {
+  
+    .width, .nav {
+        flex-direction: row;
+    }
+
+    .footer-item {
+        padding: 0.2rem;
+    }
+
+    .loginBox {
+        width: 100vw;
+        height: 519px;
+    }
+
+    .loginBox > section > form {
+        width: 100%;
+    }
+
+    .loginBox > section > form > .form-floating {
+        width: 100%;
+        min-width: 0px;
+        max-width: 3000px;
+    }
+
+    .loginBox > section > form > div {
+            width: 100%;
+            text-align: center;
+ 
+ }
+
+     .loginBox > section > form > .form-floating > input {
+        margin-bottom: 20px;
+     }
+
+    #login-submit {
+        margin-bottom: 20px;
+    }
+    /* inicio cadastro css*/
+
+    .BoxCadastro {
+        width: 500px;
+        height: 29%;
+    }
+
+    .m-1 {
+        max-width: 340px;
+    }
+
+    #registerForm > .form-floating > input {
+        width: 100%;
+    }
+
+    #registerForm {
+        justify-content: flex-start;
+    }
+
+        #registerForm > .form-floating {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+    .BoxCadastro > section > form > .m-1 > span > span {
+        color: #950202;
+        font-weight: 600;
+        margin: 0 auto;
+        min-width: 268px;
+        max-width: 268px;
+        font-size: 15px;
+    }
+
+    .BoxCadastro > section > form > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .BoxCadastro > section > form {
+        width: 100%;
+    }
+
+        .BoxCadastro > section > form > .form-floating {
+            min-width: 300px;
+            max-width: 3000px;
+        }
+
+        .BoxCadastro > section > form > div {
+            width: 100%;
+            text-align: center;
+        }
+
+    /* fim cadastro css*/
+
+}
+
+@media (max-width: 1200px) {
+    .width, .nav {
+        flex-direction: row;
+    }
+
+    .footer-item {
+        padding: 0.2rem;
+    }
+
+    .loginBox {
+        width: 500px;
+        height: 519px;
+    }
+
+    .loginBox > section > form {
+        width: 100%;
+    }
+
+    .loginBox > section > form > .form-floating {
+        width: 100%;
+        min-width: 0px;
+        max-width: 3000px;
+    }
+
+    .loginBox > section > form > div {
+        width: 100%;
+        text-align: center;
+     }
+
+     .loginBox > section > form > .form-floating > input {
+        margin-bottom: 20px;
+     }
+
+    #login-submit {
+        margin-bottom: 20px;
+    }
+
+    /* inicio cadastro css*/
+
+    .BoxCadastro {
+        width: 500px;
+        height: 29%;
+    }
+
+    .m-1 {
+        max-width: 340px;
+    }
+
+    #registerForm > .form-floating > input {
+        width: 100%;
+    }
+
+    #registerForm {
+        justify-content: flex-start;
+    }
+
+        #registerForm > .form-floating {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+    .BoxCadastro > section > form > .m-1 > span > span {
+        color: #950202;
+        font-weight: 600;
+        margin: 0 auto;
+        min-width: 268px;
+        max-width: 268px;
+        font-size: 15px;
+    }
+
+    .BoxCadastro > section > form > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .BoxCadastro > section > form {
+        width: 100%;
+    }
+
+        .BoxCadastro > section > form > .form-floating {
+            min-width: 300px;
+            max-width: 3000px;
+        }
+
+        .BoxCadastro > section > form > div {
+            width: 100%;
+            text-align: center;
+        }
+
+    /* fim cadastro css*/
 }
 
 @media (max-width: 400px) {
