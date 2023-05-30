@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d3FoI5QFAjtOpP/I5H6URRGpyMNlpAAP1k0qbefKDyZqQfPAQFWCY/sL+XDr7bTVCJdUuQibdg+4MdEKjlW9Gg==",
+  "dgSpecHash": "PGRlT2k5qIsHZ1/H252u1CFaiEL+o4FeTwZXObR4q72wsNzDzXJTr/BerBQwEmaUu94f/H/VYLwLeuors6AS6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victoria\\Desktop\\proj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+  "projectFilePath": "C:\\Users\\Victoria\\Desktop\\projeto puc\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victoria\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
