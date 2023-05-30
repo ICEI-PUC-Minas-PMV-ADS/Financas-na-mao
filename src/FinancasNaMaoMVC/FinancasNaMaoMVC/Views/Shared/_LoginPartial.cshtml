@@ -17,17 +17,13 @@
                             <span class="sr-only ocultarUser">Olá, @UserManager.GetUserName(User)!</span>
                         </button>
                         <div class="dropdown-menu verde text-center px-4">
-                            <a class="nav-link nav-color" asp-area="" asp-controller="Categorias" asp-action="Index">Página Inicial</a>
+                            <a class="nav-link nav-color" asp-area="" asp-controller="Home" asp-action="Index">Página Inicial</a>
                             <hr class="dropdown-divider">
                             <a class="nav-link nav-color" asp-area="" asp-controller="Lancamentos" asp-action="Index">Minhas Movimentações</a>
-                            <hr class="dropdown-divider">
-                            <a class="nav-link nav-color" asp-area="" asp-controller="Categorias" asp-action="Index">Metas de Orçamento</a>
                             <hr class="dropdown-divider">
                             <a class="nav-link nav-color" asp-area="" asp-controller="Lancamentos" asp-action="Index">Meus Proventos</a>
                             <hr class="dropdown-divider">
                             <a class="nav-link nav-color" asp-area="" asp-controller="Categorias" asp-action="Index">Investimentos</a>
-                            <hr class="dropdown-divider">
-                            <a id="manage" class="nav-custom nav-color" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Perfil</a>
                         </div>
                     </div>
             </li>

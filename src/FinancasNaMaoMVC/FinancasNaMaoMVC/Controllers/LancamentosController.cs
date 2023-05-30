@@ -56,7 +56,7 @@ namespace FinancasNaMaoMVC.Controllers
         // GET: Lancamentos/Create
         public IActionResult Create()
         {
-            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
             var userId = _userManager.GetUserId(this.User);
             List<Categoria> categorias = new List<Categoria>();
             foreach (var categoria in _context.Categorias)
@@ -188,5 +188,8 @@ namespace FinancasNaMaoMVC.Controllers
         {
             return (_context.Lancamentos?.Any(e => e.ID == id)).GetValueOrDefault();
         }
+
+
+
     }
 }
