@@ -108,26 +108,6 @@ Após adicionar suas despesas e/ou cartões de crédito o Usuário poderá visua
 
 ![Tela Minha Movimentações sem dados](./img/telaMovimentacoesGrafico.png)
 
-### Tela - Acompanhe suas Metas
-
-Na tela Acompanhe suas metas (Transição da Tela Inicial) o Usuário terá a opção de cadastrar e visualizar suas metas cadastradas, gerando assim um controle de projetos futuros. No primeiro acesso, como não possui nenhuma meta cadastrada, ele deverá clicar no botão “Definir Meta”.
-
-![Tela de Acompanhar suas metas](./img/telaMetas.png)
-
-![Tela de Acompanhar suas metas antes da inclusão de dados](./img/telaMetasSemDados.png)
-
-### Tela - Definir Meta
-
-Ao clicar no botão “Definir Meta” uma janela será aberta na qual o usuário poderá colocar as informações pertinentes a meta que deseja incluir de acordo com as categorias pré definidas. Além disso, ele poderá também acrescentar outras informações como nome, periodicidade, valor e etc. Após preencher todas as informações ele deverá clicar no botão “Salvar”, onde a meta cadastrada será mostrada na Tela de metas como será visto posteriormente.
-
-![Tela de Definir Metas](./img/telaDefinirMetas.png)
-
-### Tela - Minhas Metas (após inclusão de dados)
-
-Após adicionar suas metas o Usuário poderá visualizar todas essas informações na página principal da opção Minhas Metas. Além disso, ele poderá emitir um relatório com seus dados a ser salvo por ele no formato desejado. 
-
-![Tela de Minhas Metas após a inclusão de dados](./img/telaMetasComDados.png)
-
 ### Tela - Administre seu dinheiro
 
 Na tela Administre seu dinheiro  (Transição da Tela Inicial) o Usuário terá a opção de cadastrar e proventos e visualizar seu saldo em Contas Corrente e Poupança, gerando assim um controle de todos os valores que entram de quando isso ocorre, além de controlar quanto tem disponível em sua conta. No primeiro acesso, como não possui nenhum provento cadastrado, ele deverá clicar no botão “Adicionar Provento”.
