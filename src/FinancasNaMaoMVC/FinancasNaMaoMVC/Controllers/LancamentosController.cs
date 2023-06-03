@@ -25,13 +25,22 @@ namespace FinancasNaMaoMVC.Controllers
             _userManager = userManager;
         }
 
-        // GET: Lancamentos
+        // GET: Lancamentos/Index
         public async Task<IActionResult> Index()
         {
             var userId = _userManager.GetUserId(this.User);
             var applicationDbContext = _context.Lancamentos.Include(l => l.Categoria).Include(l => l.Usuario);
             return View(await applicationDbContext.Where(l => l.UsuarioId == userId).ToListAsync());
         }
+
+        // GET: Lancamentos/IndexProvento
+        public async Task<IActionResult> IndexProvento()
+        {
+            var userId = _userManager.GetUserId(this.User);
+            var applicationDbContext = _context.Lancamentos.Include(l => l.Categoria).Include(l => l.Usuario);
+            return View(await applicationDbContext.Where(l => l.UsuarioId == userId).ToListAsync());
+        }
+
 
         // GET: Lancamentos/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -70,6 +79,23 @@ namespace FinancasNaMaoMVC.Controllers
             return View();
         }
 
+        // GET: Lancamentos/CreateProvento
+        public IActionResult CreateProvento()
+        {
+            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
+            var userId = _userManager.GetUserId(this.User);
+            List<Categoria> categorias = new List<Categoria>();
+            foreach (var categoria in _context.Categorias)
+            {
+                if (categoria.UsuarioId == userId)
+                {
+                    categorias.Add(categoria);
+                }
+            }
+            ViewData["CategoriaID"] = new SelectList(categorias, "ID", "Nome");
+            return View();
+        }
+
         // POST: Lancamentos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -84,6 +110,26 @@ namespace FinancasNaMaoMVC.Controllers
                 _context.Add(lancamento);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+            }
+            ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", lancamento.CategoriaID);
+            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", lancamento.UsuarioId);
+            return View(lancamento);
+        }
+
+        // POST: Lancamentos/CreateProvento
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateProvento([Bind("ID,Valor,ValorReservado,Data,Nome,isFixo,Obs,Natureza,UsuarioId,CategoriaID")] Lancamento lancamento)
+        {
+            lancamento.UsuarioId = _userManager.GetUserId(this.User);
+
+            if (ModelState.IsValid)
+            {
+                _context.Add(lancamento);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(IndexProvento));
             }
             ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", lancamento.CategoriaID);
             ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", lancamento.UsuarioId);

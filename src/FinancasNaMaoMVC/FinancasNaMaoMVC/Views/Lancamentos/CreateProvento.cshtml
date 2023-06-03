@@ -1,0 +1,62 @@
+﻿@model FinancasNaMaoMVC.Models.Lancamento;
+
+@{
+    ViewData["Title"] = "CreateProvento";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/style.css">
+<div class="formDespesa">
+    <form asp-action="CreateProvento" class="cont">
+        <h1>Meus Proventos</h1>
+
+        <div class="caixa1">
+
+            <div class="nomeDespesa">
+                <input asp-for="Nome" placeholder="Nome da Despesa" />
+                <div class="despesaFixa">
+                    <label class="form-check-label">
+                        <h2>Despesa Fixa</h2>
+                        <input class="form-check-input" asp-for="isFixo" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="valorDespesa">
+                <input asp-for="Valor" type="number" placeholder="Valor" />
+                <span asp-validation-for="Valor" class="text-danger"></span>
+
+                <div id="categoriaSelecionada">
+                    <select asp-for="CategoriaID" asp-items="ViewBag.CategoriaID"></select>
+                </div>
+
+                <button id="btnCategoria">+ Incluir nova categoria</button>
+            </div>
+
+            <div class="dataDespesa">
+                <input asp-for="Data" placeholder="Data" />
+                <input asp-for="Natureza" placeholder="Natureza" style="margin-top: 25px" />
+            </div>
+        </div>
+
+
+        <div class="caixa2">
+            <div class="obs">
+                <h2>Observações:</h2>
+                <textarea asp-for="Obs" cols="30" rows="5"></textarea>
+            </div>
+            <div class="buttonDespesa">
+                <button>Adicionar provento</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<script src="js/scripts.js"></script>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}   

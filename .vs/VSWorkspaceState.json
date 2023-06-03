@@ -1,16 +1,5 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\FinancasNaMaoMVC",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\Areas",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\Areas\\Identity",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\Areas\\Identity\\Pages",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\Areas\\Identity\\Pages\\Account",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot",
-    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\css"
-  ],
-  "SelectedNode": "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+  "ExpandedNodes": [],
+  "SelectedNode": "\\FinancasNaMaoMVC.sln",
   "PreviewInSolutionExplorer": false
 }

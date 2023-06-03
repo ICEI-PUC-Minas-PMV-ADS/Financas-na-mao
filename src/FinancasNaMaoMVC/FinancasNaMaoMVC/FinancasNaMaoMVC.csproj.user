@@ -16,5 +16,6 @@
     <WebStackScaffolding_DbContextTypeFullName>FinancasNaMaoMVC.Areas.Identity.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\Victoria\Desktop\projeto puc\src\FinancasNaMaoMVC\FinancasNaMaoMVC\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

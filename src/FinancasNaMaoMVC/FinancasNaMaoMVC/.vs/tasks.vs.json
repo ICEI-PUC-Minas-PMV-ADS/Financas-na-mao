@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-FinancasNaMaoMVC.csproj",
+      "appliesTo": "FinancasNaMaoMVC.csproj.user",
+      "type": "launch"
+    }
+  ]
+}

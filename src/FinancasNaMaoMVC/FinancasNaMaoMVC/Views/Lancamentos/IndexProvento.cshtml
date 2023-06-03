@@ -1,0 +1,111 @@
+﻿@model IEnumerable<FinancasNaMaoMVC.Models.Lancamento>
+
+@using Microsoft.AspNetCore.Mvc
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity
+@using FinancasNaMaoMVC.Areas.Identity.Data
+@inject UserManager<Usuario> UserManager
+@{
+    ClaimsPrincipal currentUser = this.User;
+    ViewData["Title"] = "IndexProvento";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h1>Meus proventos</h1>
+
+<p>
+    <a asp-action="CreateProvento">Novo provento</a>
+</p>
+
+
+@if (Model.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Valor)
+                </th>
+                @*            <th>
+            @Html.DisplayNameFor(model => model.ValorReservado)
+            </th>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.Data)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.isFixo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Obs)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Natureza)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Categoria)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Valor)
+                    </td>
+                    @* <td>
+            @Html.DisplayFor(modelItem => item.ValorReservado)
+            </td>*@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Data)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.isFixo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Obs)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Natureza)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Categoria.Nome)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID">Ver Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID">Excluir</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="container-despesa">
+        <div>
+            <img src="grafico.png" alt="">
+        </div>
+        <div>
+            <h3>Nenhum provento</h3>
+        </div>
+        <div>
+            <Button asp-action="CreateProvento">
+                Incluir provento
+            </Button>
+        </div>
+    </div>
+}
