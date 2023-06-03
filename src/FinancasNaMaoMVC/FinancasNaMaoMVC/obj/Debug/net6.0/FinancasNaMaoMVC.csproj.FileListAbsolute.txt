@@ -2230,3 +2230,6 @@ C:\Users\Victoria\Desktop\projeto puc 1\src\FinancasNaMaoMVC\FinancasNaMaoMVC\ob
 C:\Users\Victoria\Desktop\projeto puc 1\src\FinancasNaMaoMVC\FinancasNaMaoMVC\obj\Debug\net6.0\FinancasNaMaoMVC.pdb
 C:\Users\Victoria\Desktop\projeto puc 1\src\FinancasNaMaoMVC\FinancasNaMaoMVC\obj\Debug\net6.0\FinancasNaMaoMVC.genruntimeconfig.cache
 C:\Users\Victoria\Desktop\projeto puc 1\src\FinancasNaMaoMVC\FinancasNaMaoMVC\obj\Debug\net6.0\ref\FinancasNaMaoMVC.dll
+C:\Users\Marcos\Desktop\PUC\pmv-ads-2023-1-e2-proj-int-t5-grupo4\src\FinancasNaMaoMVC\FinancasNaMaoMVC\obj\Debug\net6.0\FinancasNaMaoMVC.dll
+C:\Users\Marcos\Desktop\PUC\pmv-ads-2023-1-e2-proj-int-t5-grupo4\src\FinancasNaMaoMVC\FinancasNaMaoMVC\obj\Debug\net6.0\refint\FinancasNaMaoMVC.dll
+C:\Users\Marcos\Desktop\PUC\pmv-ads-2023-1-e2-proj-int-t5-grupo4\src\FinancasNaMaoMVC\FinancasNaMaoMVC\obj\Debug\net6.0\FinancasNaMaoMVC.pdb
