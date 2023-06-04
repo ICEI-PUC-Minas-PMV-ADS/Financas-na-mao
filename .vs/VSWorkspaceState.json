@@ -1,5 +1,16 @@
 {
-  "ExpandedNodes": [],
-  "SelectedNode": "\\FinancasNaMaoMVC.sln",
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\FinancasNaMaoMVC",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\css",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\lib",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\lib\\bootstrap",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\lib\\bootstrap\\dist",
+    "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\wwwroot\\lib\\bootstrap\\dist\\css"
+  ],
+  "SelectedNode": "\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\Views\\Lancamentos\\Delete.cshtml",
   "PreviewInSolutionExplorer": false
 }

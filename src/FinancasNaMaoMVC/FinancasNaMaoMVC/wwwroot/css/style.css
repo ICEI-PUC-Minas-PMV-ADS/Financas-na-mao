@@ -209,3 +209,11 @@ textarea {
 input{
     outline: 0;
 }
+
+a {
+    color: antiquewhite;
+}
+
+    a:hover {
+        color: white;
+    }

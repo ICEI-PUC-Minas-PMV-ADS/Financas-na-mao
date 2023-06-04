@@ -10,8 +10,13 @@
 }
 
 .nav-color {
+    color: antiquewhite;
     color: #f7f7f7;
 }
+
+    .nav-color:hover {
+        color:white;
+    }
 
 .nav-titulo {
     font-size: 1.8rem;

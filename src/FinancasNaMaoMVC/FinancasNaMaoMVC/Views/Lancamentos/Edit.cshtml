@@ -5,64 +5,65 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<div class="d-flex flex-column justify-content-center align-items-center" style="width: 80%; background-color: #F7F7F7; border-radius: 10px; padding: 1.5rem;">
+    <form asp-action="Edit" style="width: 100%; height: 100%">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ID" />
+        <h2 style="padding: 1rem; color:#a6a6a6; text-align: center">Editar Movimentação</h2>
 
-<h4>Lancamento</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ID" />
-            <div class="form-group">
-                <label asp-for="Valor" class="control-label"></label>
-                <input asp-for="Valor" class="form-control" />
-                <span asp-validation-for="Valor" class="text-danger"></span>
+        <div class="d-flex justify-content-around align-items-center " style="padding: 1rem; height: 200px">
+
+            <div class="d-flex flex-column justify-content-around align-items-center">
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Nome" class="form-control-custom" placeholder="Nome da Despesa" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check" style="margin: 1rem;">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="isFixo" />
+                        <span>Despesa Fixa</span>
+                    </label>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="ValorReservado" class="control-label"></label>
-                <input asp-for="ValorReservado" class="form-control" />
-                <span asp-validation-for="ValorReservado" class="text-danger"></span>
+
+            <div class="d-flex flex-column  justify-content-around align-items-center">
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Valor" class="form-control-custom" placeholder="Valor" />
+                    <span asp-validation-for="Valor" class="text-danger"></span>
+                </div>
+                <div style="text-align: center" style="margin: 1rem;">
+                    <div class="form-group ">
+                        <select asp-for="CategoriaID" class="form-control-custom" asp-items="ViewBag.CategoriaID"></select>
+                    </div>
+                    <a class="link" asp-area="" asp-controller="Categorias" asp-action="Create">+ Incluir nova categoria</a>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Data" class="control-label"></label>
-                <input asp-for="Data" class="form-control" />
-                <span asp-validation-for="Data" class="text-danger"></span>
+
+            <div class="d-flex flex-column  justify-content-around align-items-center ">
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Data" class="form-control-custom" placeholder="Data" />
+                    <span asp-validation-for="Data" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Natureza" class="form-control-custom" placeholder="Natureza" />
+                    <span asp-validation-for="Natureza" class="text-danger"></span>
+                </div>
             </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-around align-items-center p-2 m-2">
             <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="isFixo" /> @Html.DisplayNameFor(model => model.isFixo)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="Obs" class="control-label"></label>
-                <input asp-for="Obs" class="form-control" />
+                <textarea class="form-text-area" placeholder="Observações" asp-for="Obs" cols="60" rows="5"></textarea>
                 <span asp-validation-for="Obs" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Natureza" class="control-label"></label>
-                <input asp-for="Natureza" class="form-control" />
-                <span asp-validation-for="Natureza" class="text-danger"></span>
+                <input type="submit" value="Adicionar despesa" class="nav-link btn-layout-verde" style="margin: 0.8rem;" />
+                <a class="nav-link btn-layout-verde" asp-action="Index" style="margin: 0.8rem;">Voltar</a>
             </div>
-            <div class="form-group">
-                <label asp-for="CategoriaID" class="control-label"></label>
-                <select asp-for="CategoriaID" class="form-control" asp-items="ViewBag.CategoriaID"></select>
-                <span asp-validation-for="CategoriaID" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
 </div>
 
 @section Scripts {

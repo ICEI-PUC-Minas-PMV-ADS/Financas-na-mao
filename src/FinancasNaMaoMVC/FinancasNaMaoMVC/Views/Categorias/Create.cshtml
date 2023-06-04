@@ -5,28 +5,20 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<div class="d-flex flex-column justify-content-center align-items-center m-4 p-4">
+    <form asp-action="Create" style="background-color: #60886e; border-radius: 10px; padding: 50px 40px;">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <h2 style="color: white;">Incluir Categoria</h2>
+        <div class="form-group" style="background-color: #EBE7D4;">
+            <input style="margin: 40px 0 40px 0" asp-for="Nome" class="form-control" placeholder="Categoria" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="width: 100%; display: flex; justify-content: center;">
+            <input type="submit" value="Criar" class="nav-link btn-layout-verde" style="text-align: center; width: 170px; margin-bottom: 30px" />
+        </div>
+        <a asp-action="Index";>Voltar para a lista de categorias</a>
 
-<h4>Categoria</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
+    </form>
 </div>
 
 @section Scripts {

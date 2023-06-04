@@ -5,29 +5,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
 
-<h4>Categoria</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+    <div class="d-flex flex-column justify-content-center align-items-center m-4 p-4">
+        <form asp-action="Edit" style="background-color: #F7F7F7; border-radius: 10px; background-color: #60886e; border-radius: 10px; padding: 50px 40px; margin-top: -20px;">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h2 style="color: white;">Editar Categoria</h2>
             <input type="hidden" asp-for="ID" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
+            <div class="form-group" style="background-color: #EBE7D4;">
+                <input style="margin: 40px 0 40px 0" asp-for="Nome" class="form-control" placeholder="Categoria" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group" style="width: 100%; display: flex; justify-content: center;">
+                <input style="text-align: center; width: 170px; margin-bottom: 30px" type="submit" value="Salvar" class="nav-link btn-layout-verde" />
             </div>
+            <a asp-action="Index" ;>Voltar para a lista de categorias</a>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

@@ -15,7 +15,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #EBE7D4;
+    background-color: #f1efe7;
     align-items: center;
 }
 
@@ -539,4 +539,58 @@ body > .loginContainer {
         color: #EBE7D4;
         font-size: 1.2rem;
         height: 20px;
+    }
+.form-control-custom {
+    color: #212529;
+    background-color: #EBE7D4;
+    height: 40px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.form-text-area {
+    color: #212529;
+    background-color: #EBE7D4;
+    border: none;
+    text-align: center;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.btn-layout-verde {
+    padding: 0.5rem 2rem;
+    background: linear-gradient(90deg, #698c75, #63816e, #496c56);
+    color: #F7F7F7;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-layout-verde:hover {
+    padding: 0.5rem 2rem;
+    background: linear-gradient(90deg, #698c75, #63816e, #496c56);
+    color: #F7F7F7;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.link {
+    color: #212529;
+    text-decoration: none;
+}
+
+.link {
+    color: #212529;
+    text-decoration: none;
+}
+
+    .link:hover {
+        color: #496c56;
+        text-decoration: none;
     }
