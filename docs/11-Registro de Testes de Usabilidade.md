@@ -4,7 +4,8 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 | Atividade a ser realizada | Feedback do usuário | Considerações (quais os problemas, deficiências, limitações, etc) | Sugestão de melhorias |
 |--------------------|------------------------------------|------------------------------------|------------------------------------|
-| Cadastro de usuário - Campos obrigatórios: Nome, Sobrenome, E-mail, Senha, Telefone, Confirmação da senha | Ótimo| O formulário garante que todos os campos necessários sejam preenchidos adequadamente.| O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.| 
+| Tela Inicial | Ótimo | A Tela Inicial possui um design intuitivo e de facil entendimento. | A Tela Inicial esta de acordo com as diretrizes e não requer nenhuma modificação adicional.|
+| Cadastro de usuário - Campos obrigatórios: Nome, Sobrenome, Contato, E-mail, Senha, Telefone, Confirmação da senha | Excelente| O formulário garante que todos os campos necessários sejam preenchidos adequadamente.| O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.| 
 | Realizar login na aplicação - Campos obrigatórios: Usuário, E-mail ou telefone e senha | Ótimo | O formulário garante que todos os campos necessários sejam preenchidos adequadamente. | O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.| 
 | Cadastrar categorias | ************* | ************* | ************* |
 | Realizar um lançamento - Campos obrigatórios: Data, Valor, Categoria, Descrição | Ótimo | A ação de realizar um lançamento com os campos obrigatórios foi bem executada. | A ação está em conformidade com as diretrizes e não requer nenhuma modificação adicional. |
@@ -75,8 +76,8 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 **Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém interno)**
 | Heurísticas |	Notas dos avaliadores |	Média	| Consenso |	Considerações |	Melhorias |
 |---------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| Visibilidade do status do sistema | Avaliador1: ** Avaliador2: **  Avaliador3: **  | * | * | ****** | ******
-| Correspondência entre sistema e mundo real | Avaliador1:   **  Avaliador2: **  Avaliador3: **  | * | * | ****** | ******
+| Visibilidade do status do sistema | Avaliador1: 0 | 0 | 0 | O usuário consegue identificar seu status (logado ou não) na aplicação | Nenhuma melhoria a ser implementada |
+| Correspondência entre sistema e mundo real | Avaliador1: 0 | 0 | 0 | Há correspondencia  | Nenhuma |
 | Controle de usuário e liberdade | Avaliador1:   **  Avaliador2: **  Avaliador3: **  | * | * | ****** | ******
 | Consistência e padrões | Avaliador1: **    Avaliador2: **  Avaliador3: **  | * | * | ****** | ******
 | Prevenção de erros | Avaliador1: **  Avaliador2: **  Avaliador3: **  | * | * | ****** | ******
