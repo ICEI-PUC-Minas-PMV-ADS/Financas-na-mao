@@ -42,29 +42,29 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | 4.3 | Os ícones e ilustrações são rotulados? | [Sim] [x] [Não] [ ] | Sim, os icones e ilustrações são rotulados. |
 | 4.4 | As instruções aparecem de forma consistente sempre no mesmo local? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 4.5 | Os objetos do sistema são nomeados de maneira consistente em todo o sistema? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 4.6 | Os campos obrigatórios e opcionais são corretamente sinalizados? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 4.6 | Os campos obrigatórios e opcionais são corretamente sinalizados? | [Sim] [ ] [Não] [x] | Não, os campos obrigatórios e opcionais não são corretamente sinalizados |
 | 5 - Prevenção de erros |
 | 5.1 | As opções de menu são lógicas, distintas e mutualmente exclusivas? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 5.2 | Se o sistema exibe múltiplas janelas, a navegação entre janelas é simples e visível? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 5.3 | O sistema alerta o usuário se ele está prestes a fazer erros críticos? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 6 - Reconhecimento ao invés de recordação |
 | 6.1 | Há distinção clara quando é possível selecionar um item ou vários? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 6.2 | Os rótulos de campo estão próximos dos campos e separados pelo menos um espaço? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 6.3 | São utilizadas bordas para identificar possiveis grupos de elementos? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 6.2 | Os rótulos de campo estão próximos dos campos e separados pelo menos um espaço? | [Sim] [x] [Não] [ ] | Sim, Os rótulos de campo estão próximos dos campos |
+| 6.3 | São utilizadas bordas para identificar possiveis grupos de elementos? | [Sim] [x] [Não] [ ] | Sim, em algumas partes da aplicaçã são utilizadas bordas para identificar possiveis grupos de elementos |
 | 6.4 | Existem opções default para o que o usuário precisa selecionar? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 6.5 | Há alguma diferença visível para identificar a janela ativa? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 7 - Flexibilidade e eficiência de uso |
-| 7.1 | Existem atalhos para as funções disponíveis no sistema? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 7.1 | Existem atalhos para as funções disponíveis no sistema? | [Sim] [x] [Não] [ ] | Sim, existem atalhos para as funções disponíveis no sistema |
 | 7.2 | O usuário pode realizar a tarefa de maneiras mais simplificadas?| [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 7.3 | O sistema permite integração com outras fontes das informações tratadas? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 8 - Estética e design minimalista |
 | 8.1 | Apenas a informação necessária para ação está visível na tela? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 8.2 | Os ícones e ilustrações estão distintos do seu fundo? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 8.3 | Os agrupamentos são separados por espaço em branco? | [Sim] [ ] [Não] [x] | Não, os agrupamentos não são separados por espaço em branco |
+| 8.2 | Os ícones e ilustrações estão distintos do seu fundo? | [Sim] [x] [Não] [ ] | Sim, os ícones e ilustrações estão distintos do seu fundo |
+| 8.3 | Os agrupamentos são separados por espaço em branco? | [Sim] [ ] [Não] [x] | Não, os agrupamentos não são separados por espaço em branco. Porém, são separados de acordo com a paleta de cores da aplicação. |
 | 8.4 | Os rótulos e menus são breves, familiares e descritivos das opções que representam? | [Sim] [x] [Não] [ ] | Sim, Os rótulos são familiares e descritivos das opções que representam  |
 | 9 - Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros |
 | 9.1 | É utilizado um sinal sonoro para alertar de erros? | [Sim] [ ] [Não] [x] | Não, não é utilizado um sinal sonoro para alertar de erros |
-| 9.2 | Os questionamentos são breves e sem ambiguidade? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 9.2 | Os questionamentos são breves e sem ambiguidade? | [Sim] [x] [Não] [ ] | Sim, os questionamentos são breves e sem ambiguidade |
 | 9.3 | Se um erro é detectado, o usuário tem visibilidade sobre qual o local gerador do erro? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não identificam a severidade e a causa do erro |
 | 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não sugerem uma ação para correção |
