@@ -5,6 +5,7 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Atividade a ser realizada | Feedback do usuário | Considerações (quais os problemas, deficiências, limitações, etc) | Sugestão de melhorias |
 |--------------------|------------------------------------|------------------------------------|------------------------------------|
 | Tela Inicial | Ótimo | A Tela Inicial possui um design intuitivo e de facil entendimento. | A Tela Inicial esta de acordo com as diretrizes e não requer nenhuma modificação adicional.|
+| Campos 'Quem somos', 'Política de Privacidade', 'Termos de Uso' e 'Fale Conosco' na Tela Inicial| Ótimo | *** | *** |
 | Cadastro de usuário - Campos obrigatórios: Nome, Sobrenome, Contato, E-mail, Senha, Telefone, Confirmação da senha | Excelente| O formulário garante que todos os campos necessários sejam preenchidos adequadamente.| O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.| 
 | Realizar login na aplicação - Campos obrigatórios: Usuário, E-mail ou telefone e senha | Ótimo | O formulário garante que todos os campos necessários sejam preenchidos adequadamente. | O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.| 
 | Cadastrar categorias | ************* | ************* | ************* |
