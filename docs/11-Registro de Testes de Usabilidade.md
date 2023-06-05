@@ -18,12 +18,12 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | ID | Característica | Sim - Não - N/A | Comentários |
 |:---------------|:------------------------------------|------------------------------------|:------------------------------------|
 | 1 - Visibilidade do status do sistema |
-| 1.1 | As telas do sistema iniciam com um título que descreve seu conteúdo? | [Sim] [x] [x] | Sim, as telas do sistema costumam iniciar com um título que descreve seu conteúdo.|
-| 1.2 | O ícone selecionado é destacado dos demais não selecionados? | [Sim] [x] [x] | Sim, os icones selecionados geralmente são destacados dos demais não selecionados.|
-| 1.3 | Há feedback visual do menu ou escolhas selecionadas? | [Sim] [x] [x] |Sim, o sistema oferece feedback visual para indicar qual menu ou escolha foi selecionada pelo usuário.|
-| 1.4 | O sistema provê visibilidade do estado atual e alternativas para ação? | [Sim] [x] [x] |Sim, o sistema fornece visibilidade do estado atual e alternativas para ação.|
+| 1.1 | As telas do sistema iniciam com um título que descreve seu conteúdo? | [Sim] [x] [Não] [x] | Sim, as telas do sistema iniciam com um título que descreve seu conteúdo.|
+| 1.2 | O ícone selecionado é destacado dos demais não selecionados? | [Sim] [x] [Não] [x] | Sim, os icones selecionados geralmente são destacados dos demais não selecionados.|
+| 1.3 | Há feedback visual do menu ou escolhas selecionadas? | [Sim] [x] [Não] [x] |Sim, o sistema oferece feedback visual para indicar qual menu ou escolha foi selecionada pelo usuário.|
+| 1.4 | O sistema provê visibilidade do estado atual e alternativas para ação? | [Sim] [x] [Não] [x] |Sim, o sistema fornece visibilidade do estado atual e alternativas para ação.|
 | 2 - Correspondência entre sistema e mundo real |
-| 2.1 | Os ícones e ilustrações são concretos e familiares? | [ ] [ ] [ ] |  |
+| 2.1 | Os ícones e ilustrações são concretos e familiares? | [Sim] [x] [Não] [x] |  |
 | 2.2 | As cores, quando utilizadas, correspondem aos códigos de cores comuns? | [ ] [ ] [ ] |  |
 | 2.3 | A linguagem utilizada evita jargões técnicos? | [ ] [ ] [ ] |  |
 | 2.4 | Os números são devidamente separados nos milhares e nos decimais? | [ ] [ ] [ ] |  |
