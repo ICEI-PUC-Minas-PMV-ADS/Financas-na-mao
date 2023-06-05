@@ -76,33 +76,27 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 **Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém interno)**
 | Heurísticas |	Notas dos avaliadores |	Média	| Consenso |	Considerações |	Melhorias |
 |---------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| Visibilidade do status do sistema | Avaliador1: 5 - Excelente | 0 | 0 | O usuário consegue identificar seu status (logado ou não) na aplicação. | Nenhuma melhoria a ser implementada. |
-| Correspondência entre sistema e mundo real | Avaliador1: 5 - Excelente | 0 | 0 | Há correspondencia  | Nenhuma melhoria a ser implementada. |
-| Controle de usuário e liberdade | Avaliador1: 5 - Excelente  | 0 | 0 | O usuário tem total controle da aplicação | Nenhuma melhoria a ser implementada |
-| Consistência e padrões | Avaliador1: 5 - Excelente | 0 | 0 | Há um padrão em toda aplicação | Nenhuma melhoria a ser implementada |
-| Prevenção de erros | Avaliador1: 5 - Excelente | 0 | 0 | Os erros são prevenidos, e caso aconteçam, o reparo é eficiente | Nenhuma melhoria a ser implementada |
-| Reconhecimento ao invés de recordação | Avaliador1: 5 - Excelente | 0 | 0 | Há o reconhecimento da aplicação pelo seu nome e identidade visual | Nenhuma melhoria a ser implementada |
-| Flexibilidade e eficiência de uso | Avaliador1: 5 - Excelente | 0 | 0 | A aplicação é eficiente e flexível, atendendo a demanda do usuário | Nenhuma melhoria a ser implementada |
-| Estética e design minimalista | Avaliador1: 5 - Excelente | 0 | 0 | A aplicação tem cores que conversam entre si, além de uma estética lógica e de facil entendimento | Nenhuma melhoria a ser implementada |
-| Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros | Avaliador1: 5 - Excelente | 0 | 0 | A aplicação dá suporte ao usuário para reparar possíveis falhas | Nenhuma melhoria a ser considerada |
-| Ajuda e documentação | Avaliador1: 5 - Excelente | 0 | 0 | Contato para ajuda disponível na aplicação e a disposição do usuário. | Nenhuma melhoria a ser considerada. |
+| Visibilidade do status do sistema | Avaliador1: 5 - Excelente | 5 | 5 | O usuário consegue identificar seu status (logado ou não) na aplicação. | Nenhuma melhoria a ser implementada. |
+| Correspondência entre sistema e mundo real | Avaliador1: 5 - Excelente | 5 | 5 | Há correspondencia do sistema com o mundo real  | Nenhuma melhoria a ser implementada. |
+| Controle de usuário e liberdade | Avaliador1: 5 - Excelente  | 5 | 5 | O usuário tem total controle da aplicação | Nenhuma melhoria a ser implementada |
+| Consistência e padrões | Avaliador1: 5 - Excelente | 5 | 5 | Há um padrão em toda aplicação | Nenhuma melhoria a ser implementada |
+| Prevenção de erros | Avaliador1: 5 - Excelente | 5 | 5 | Os erros são prevenidos, e caso aconteçam, o reparo é eficiente | Nenhuma melhoria a ser implementada |
+| Reconhecimento ao invés de recordação | Avaliador1: 5 - Excelente | 5 | 5 | Há o reconhecimento da aplicação pelo seu nome e identidade visual | Nenhuma melhoria a ser implementada |
+| Flexibilidade e eficiência de uso | Avaliador1: 5 - Excelente | 5 | 5 | A aplicação é eficiente e flexível, atendendo a demanda do usuário | Nenhuma melhoria a ser implementada |
+| Estética e design minimalista | Avaliador1: 5 - Excelente | 5 | 5 | A aplicação tem cores que conversam entre si, além de uma estética lógica e de facil entendimento | Nenhuma melhoria a ser implementada |
+| Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros | Avaliador1: 5 - Excelente | 5 | 5 | A aplicação dá suporte ao usuário para reparar possíveis falhas | Nenhuma melhoria a ser considerada |
+| Ajuda e documentação | Avaliador1: 5 - Excelente | 5 | 5 | Contato para ajuda disponível na aplicação e a disposição do usuário. | Nenhuma melhoria a ser considerada. |
 
 **O que fazer para melhorar**
 | Heurísticas |	Melhoria |
 |---------------|------------------------------------|
-| Visibilidade do status do sistema | ******
-| Correspondência entre sistema e mundo real |  ******
-| Controle de usuário e liberdade | ******
-| Consistência e padrões |  ******
-| Prevenção de erros |  ******
-| Reconhecimento ao invés de recordação |  ******
-| Flexibilidade e eficiência de uso |  ******
-| Estética e design minimalista |  ******
-| Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros |  ******
-| Ajuda e documentação |  ******
-
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
-
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+| Visibilidade do status do sistema | Não há melhorias a serem consideradas neste quesito |
+| Correspondência entre sistema e mundo real | Não há melhorias a serem consideradas neste quesito |
+| Controle de usuário e liberdade | Não há melhorias a serem consideradas neste quesito |
+| Consistência e padrões | Não há melhorias a serem consideradas neste quesito |
+| Prevenção de erros | Não há melhorias a serem consideradas neste quesito |
+| Reconhecimento ao invés de recordação | Não há melhorias a serem consideradas neste quesito |
+| Flexibilidade e eficiência de uso | Não há melhorias a serem consideradas neste quesito |
+| Estética e design minimalista | Não há melhorias a serem consideradas neste quesito |
+| Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros | Não há melhorias a serem consideradas neste quesito |
+| Ajuda e documentação | Não há melhorias a serem consideradas neste quesito |
