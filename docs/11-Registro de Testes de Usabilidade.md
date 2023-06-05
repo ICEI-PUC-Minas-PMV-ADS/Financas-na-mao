@@ -60,18 +60,18 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | 8 - Estética e design minimalista |
 | 8.1 | Apenas a informação necessária para ação está visível na tela? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 8.2 | Os ícones e ilustrações estão distintos do seu fundo? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 8.3 | Os agrupamentos são separados por espaço em branco? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 8.4 | Os rótulos e menus são breves, familiares e descritivos das opções que representam? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 8.3 | Os agrupamentos são separados por espaço em branco? | [Sim] [ ] [Não] [x] | Não, os agrupamentos não são separados por espaço em branco |
+| 8.4 | Os rótulos e menus são breves, familiares e descritivos das opções que representam? | [Sim] [x] [Não] [ ] | Sim, Os rótulos são familiares e descritivos das opções que representam  |
 | 9 - Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros |
-| 9.1 | É utilizado um sinal sonoro para alertar de erros? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 9.1 | É utilizado um sinal sonoro para alertar de erros? | [Sim] [ ] [Não] [x] | Não, não é utilizado um sinal sonoro para alertar de erros |
 | 9.2 | Os questionamentos são breves e sem ambiguidade? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
 | 9.3 | Se um erro é detectado, o usuário tem visibilidade sobre qual o local gerador do erro? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não identificam a severidade e a causa do erro |
+| 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não sugerem uma ação para correção |
 | 10 - Ajuda e documentação |
 | 10.1 | As instruções online estão visualmente distintas? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 10.2 | Existe ajuda online sensível ao contexto? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 10.3 | É simples o acesso a ajuda do sistema e retorno ao sistema?| [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
+| 10.2 | Existe ajuda online sensível ao contexto? | [Sim] [ ] [Não] [x] | Não, não existe ajuda online sensível ao contexto |
+| 10.3 | É simples o acesso a ajuda do sistema e retorno ao sistema?| [Sim] [x] [Não] [ ] | Sim/Não, é simples o acesso a ajuda do sistema e retorno ao sistema |
 
 
 **Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém interno)**
