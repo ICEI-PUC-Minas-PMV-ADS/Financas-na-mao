@@ -40,7 +40,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-04| O sistema deve permitir ao usuário inserir e editar itens cadastrados organizados por categorias. | ALTA |
 |RF-05| O sistema deve permitir ao usuário fazer as análises dos orçamentos e acompanhamento da carteira, através de gráficos, relatórios e receitas | MÉDIA |
 |RF-06| O sistema deve permitir ao usuário visualizar as informações de ativos pré-definidos pelo sistema de ações e fundos imobiliários, como preço atual, proventos recebidos e saldo. | MÉDIA |
-|RF-07| O sistema deve permitir ao usuário exportar relatórios para planilhas. | BAIXA |
+
 
 
 ### Requisitos não Funcionais
