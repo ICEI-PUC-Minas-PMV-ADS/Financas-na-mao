@@ -23,11 +23,13 @@ Uma solução para o controle das finanças pessoais.
 
 ## Instruções de utilização
 
-Hospedagem: http://financasnamao.azurewebsites.net
-
+* `Acesse` http://financasnamao.azurewebsites.net
+* `Crie uma conta.`
+* Ou faça `Login` no `Finanças na Mão` com:
 * Email: usuario.teste@gmail.com
 * Senha: Puc1020@
 
+* 🚨ATENÇÃO: atende-se as validações de cadastro e login!
 
 # Documentação
 
