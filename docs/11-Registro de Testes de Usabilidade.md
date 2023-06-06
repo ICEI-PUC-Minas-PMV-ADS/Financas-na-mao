@@ -12,10 +12,10 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Menu Lateral | Bom | O menu fica 'escondido' na página, ficando visível apenas se o usuário clicar no seu nome de usuário no canto superior direito | Colocar o menu em local mais visível e de fácil acesso |
 | Tela Minhas Movimentações | Ótimo | Todos os campos devem sem preenchidos, mesmo se o usuário não desejar informar nenhuma observação ou a natureza da despesa. Mesmo que o usuário coloque a data da despesa, ao adiciona-la, a mesma não é informada na tela das movimentações| Permitir que o campo 'Observações' seja opcional para preenchimento. O campo 'Natureza' tem a mesma função do campo 'Categoria', podendo ser removido. Visualizar a data da despesa na página inicial da tela 'Minhas movimentações' |
 | Cadastrar categorias | Ótimo | O usuário consegue criar categorias de despesas com facilidade | Fazer com que haja o retorno automático para a página de despesas após adicionar uma categoria |
-| Realizar um lançamento - Campos obrigatórios: Data, Valor, Categoria, Descrição | Ótimo | A ação de realizar um lançamento com os campos obrigatórios foi bem executada. | A ação está em conformidade com as diretrizes e não requer nenhuma modificação adicional. |
-| Excluir um lançamento | Ótimo | A ação de excluir um lançamento com os campos obrigatórios foi bem executada. | A ação está em conformidade com as diretrizes e não requer nenhuma modificação adicional. |
-| Editar um lançamento | Ótimo | A ação de editar um lançamento com os campos obrigatórios foi bem executada. |  A ação está em conformidade com as diretrizes e não requer nenhuma modificação adicional. |
-| Visualizar lançamento por período (Filtro por semana, mês ou ano) | ************* | ************* | ************* |
+| Tela 'Meus proventos' | Ótimo | ****** | ****** |
+| Cadastrar novo provento | Ótimo | ****** | ****** |
+| Tela 'Investimento' | Ótimo | ****** | ****** |
+| Fazer novo investimento | Ótimo | ****** |  ****** |
 
 
 **Detalhamento Análise Heurística**
