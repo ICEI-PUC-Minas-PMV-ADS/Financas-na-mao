@@ -80,16 +80,16 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 **Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém interno)**
 | Heurísticas |	Notas dos avaliadores |	Média	| Consenso |	Considerações |	Melhorias |
 |---------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| Visibilidade do status do sistema | Avaliador1: 4 - Ótimo | 4 | 4 | O usuário consegue identificar seu status (logado ou não) na aplicação. | Nenhuma melhoria a ser implementada. |
-| Correspondência entre sistema e mundo real | Avaliador1: 5 - Excelente | 5 | 5 | Há correspondencia do sistema com o mundo real  | Nenhuma melhoria a ser implementada. |
-| Controle de usuário e liberdade | Avaliador1: 4 - Ótimo  | 4 | 4 | O usuário tem total controle da aplicação | Nenhuma melhoria a ser implementada |
-| Consistência e padrões | Avaliador1: 5 - Excelente | 5 | 5 | Há um padrão em toda aplicação | Nenhuma melhoria a ser implementada |
-| Prevenção de erros | Avaliador1: 5 - Excelente | 5 | 5 | Os erros são prevenidos, e caso aconteçam, o reparo é eficiente | Nenhuma melhoria a ser implementada |
-| Reconhecimento ao invés de recordação | Avaliador1: 5 - Excelente | 5 | 5 | Há o reconhecimento da aplicação pelo seu nome e identidade visual | Nenhuma melhoria a ser implementada |
-| Flexibilidade e eficiência de uso | Avaliador1: 5 - Excelente | 5 | 5 | A aplicação é eficiente e flexível, atendendo a demanda do usuário | Nenhuma melhoria a ser implementada |
-| Estética e design minimalista | Avaliador1: 5 - Excelente | 5 | 5 | A aplicação tem cores que conversam entre si, além de uma estética lógica e de facil entendimento | Nenhuma melhoria a ser implementada |
-| Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros | Avaliador1: 5 - Excelente | 5 | 5 | A aplicação dá suporte ao usuário para reparar possíveis falhas | Nenhuma melhoria a ser considerada |
-| Ajuda e documentação | Avaliador1: 5 - Excelente | 5 | 5 | Contato para ajuda disponível na aplicação e a disposição do usuário. | Nenhuma melhoria a ser considerada. |
+| Visibilidade do status do sistema | 4 - Ótimo | 4 | 4 | O usuário consegue identificar seu status (logado ou não) na aplicação. | Nenhuma melhoria a ser implementada. |
+| Correspondência entre sistema e mundo real | 5 - Excelente | 5 | 5 | Há correspondencia do sistema com o mundo real  | Nenhuma melhoria a ser implementada. |
+| Controle de usuário e liberdade | 4 - Ótimo  | 4 | 4 | O usuário tem total controle da aplicação | Nenhuma melhoria a ser implementada |
+| Consistência e padrões | 5 - Excelente | 5 | 5 | Há um padrão em toda aplicação | Nenhuma melhoria a ser implementada |
+| Prevenção de erros | 5 - Excelente | 5 | 5 | Os erros são prevenidos, e caso aconteçam, o reparo é eficiente | Nenhuma melhoria a ser implementada |
+| Reconhecimento ao invés de recordação | 5 - Excelente | 5 | 5 | Há o reconhecimento da aplicação pelo seu nome e identidade visual | Nenhuma melhoria a ser implementada |
+| Flexibilidade e eficiência de uso | 5 - Excelente | 5 | 5 | A aplicação é eficiente e flexível, atendendo a demanda do usuário | Nenhuma melhoria a ser implementada |
+| Estética e design minimalista | 5 - Excelente | 5 | 5 | A aplicação tem cores que conversam entre si, além de uma estética lógica e de facil entendimento | Nenhuma melhoria a ser implementada |
+| Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros | 5 - Excelente | 5 | 5 | A aplicação dá suporte ao usuário para reparar possíveis falhas | Nenhuma melhoria a ser considerada |
+| Ajuda e documentação | 5 - Excelente | 5 | 5 | Contato para ajuda disponível na aplicação e a disposição do usuário. | Nenhuma melhoria a ser considerada. |
 
 **O que fazer para melhorar**
 | Heurísticas |	Melhoria |
