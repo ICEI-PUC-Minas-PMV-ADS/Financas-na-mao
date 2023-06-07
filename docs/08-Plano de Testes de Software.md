@@ -47,16 +47,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| - Acessar o sistema<br> - Efetuar cadastro (se necessário)<br> - Efetuar login - Acessar a página “Minhas Movimentações”<br> - Rolar a página para baixo |
 |Critérios de Êxito| Deve-se visualizar um gráfico de pizza. |
 
-| **Caso de Teste** 	| **CT-06 - Visualizar informações de ativos** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-06 - O site deve permitir ao usuário visualizar as informações de ativos pré-definidos pelo sistema de ações e fundos imobiliários, como preço atual, proventos recebidos e saldo. |
-| Objetivo do Teste 	| Verificar se o usuário consegue visualizar informações de ativos. |
-| Passos 	| - Acessar o sistema<br> - Efetuar cadastro (se necessário)<br> - Efetuar login - Acessar a página “Investimentos”<br> - Clicar em “Fazer investimento”<br> - Preencher os campos (Onde deseja aplicar, Valor aplicado, Data da aplicação, Deseja fazer esta aplicação com periodicidade, Periodicidade do Investimento)<br> - Clicar em Salvar |
-|Critérios de Êxito| - Comunicação correta com o banco de dados.<br> - Deve conseguir visualizar um resumo e um gráfico. |
 
-| **Caso de Teste** 	| **CT-07 - Exportar relatórios** 	|
+| **Caso de Teste** 	| **CT-06 - Exportar relatórios** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-07 - O site deve permitir ao usuário exportar relatórios para planilhas. |
+|	Requisito Associado 	| RF-05 - O site deve permitir ao usuário exportar relatórios para planilhas. |
 | Objetivo do Teste 	| Verificar se o usuário consegue exportar relatórios para planilhas. |
 | Passos 	| - Acessar o sistema<br> - Efetuar cadastro (se necessário)<br> - Efetuar login<br> - Acessar a página “Minhas Movimentações”<br> - Clicar em “Gerar relatório de movimentações |
 |Critérios de Êxito| - Deve-se visualizar o relatório em planilha. |
