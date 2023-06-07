@@ -22,59 +22,59 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | ID | Característica | [Sim] / [Não] | Comentários |
 |:---------------|:------------------------------------|------------------------------------|:------------------------------------|
 | 1 - Visibilidade do status do sistema |
-| 1.1 | As telas do sistema iniciam com um título que descreve seu conteúdo? | [Sim] [x] [Não] [ ] | Sim, as telas do sistema iniciam com um título que descreve seu conteúdo.|
-| 1.2 | O ícone selecionado é destacado dos demais não selecionados? | [Sim] [x] [Não] [ ] | Sim, os icones selecionados geralmente são destacados dos demais não selecionados.|
-| 1.3 | Há feedback visual do menu ou escolhas selecionadas? | [Sim] [ ] [Não] [x] |Não, o sistema não oferece feedback visual para indicar qual menu ou escolha foi selecionada pelo usuário.|
-| 1.4 | O sistema provê visibilidade do estado atual e alternativas para ação? | [Sim] [x] [Não] [ ] |Sim, o sistema fornece visibilidade do estado atual e alternativas para ação.|
+| 1.1 | As telas do sistema iniciam com um título que descreve seu conteúdo? | [Sim] [x] | Sim, as telas do sistema iniciam com um título que descreve seu conteúdo.|
+| 1.2 | O ícone selecionado é destacado dos demais não selecionados? | [Sim] [x] | Sim, os icones selecionados geralmente são destacados dos demais não selecionados.|
+| 1.3 | Há feedback visual do menu ou escolhas selecionadas? | [Não] [x] |Não, o sistema não oferece feedback visual para indicar qual menu ou escolha foi selecionada pelo usuário.|
+| 1.4 | O sistema provê visibilidade do estado atual e alternativas para ação? | [Sim] [x] |Sim, o sistema fornece visibilidade do estado atual e alternativas para ação.|
 | 2 - Correspondência entre sistema e mundo real |
-| 2.1 | Os ícones e ilustrações são concretos e familiares? | [Sim] [x] [Não] [ ] | Sim, os ícones e ilustrações são concretos e familiares. |
-| 2.2 | As cores, quando utilizadas, correspondem aos códigos de cores comuns? | [Sim] [x] [Não] [ ] | Sim, as cores correspondem aos códigos de cores comuns. |
-| 2.3 | A linguagem utilizada evita jargões técnicos? | [Sim] [x] [Não] [ ] | Sim, a linguagem utilizada evita jargões. |
-| 2.4 | Os números são devidamente separados nos milhares e nos decimais? | [Sim] [ ] [Não] [x] | Não, os números não são devidamente separados nos milhares e nos decimais. |
+| 2.1 | Os ícones e ilustrações são concretos e familiares? | [Sim] [x] | Sim, os ícones e ilustrações são concretos e familiares. |
+| 2.2 | As cores, quando utilizadas, correspondem aos códigos de cores comuns? | [Sim] [x] | Sim, as cores correspondem aos códigos de cores comuns. |
+| 2.3 | A linguagem utilizada evita jargões técnicos? | [Sim] [x] | Sim, a linguagem utilizada evita jargões. |
+| 2.4 | Os números são devidamente separados nos milhares e nos decimais? | [Não] [x] | Não, os números não são devidamente separados nos milhares e nos decimais. |
 | 3 - Controle de usuário e liberdade |
-| 3.1 | Se o sistema utiliza janelas que se sobrepõem, ele permite a organização e troca simples? | [Sim] [ ] [Não] [x] | O sistema não possui janelas que se sobrepõem. |
-| 3.2 | Quando o usuário conclui uma tarefa, o sistema aguarda uma ação antes de processar? | [Sim] [ ] [Não] [x] | Não, quando o usuário conclui uma tarefa, o sistema aguarda uma ação antes de processar. |
-| 3.3 | O usuário é solicitado a confirmar tarefas que possuem consequências drásticas? | [Sim] [ ] [Não] [x] | Não, o usuário não é solicitado a confirmar tarefas que possuem consequências drásticas. |
-| 3.4 | Existe uma funcionalidade para desfazer ações realizadas pelo usuário? | [Sim] [ ] [Não] [x] | Não, não existe uma funcionalidade para desfazer as ações ralizadas pelo usuário. |
-| 3.5 | O usuário pode editar, copiar e colar durante a entrada de dados? | [Sim] [x] [Não] [ ] | Sim, o usuário pode editar, copiar e colar durante a entrada de dados. |
-| 3.6 | O usuário pode se mover entre campos e janelas livremente? | [Sim] [x] [Não] [ ] | Sim, o usuário pode se mover entre campos e janelas livremente. |
-| 3.7 | O usuário pode configurar o sistema, a sessão, a tela conforme sua preferência? | [Sim] [x] [Não] [ ] | Sim, o usuário pode fazer a configuração conforme sua preferência. |
+| 3.1 | Se o sistema utiliza janelas que se sobrepõem, ele permite a organização e troca simples? | [Não] [x] | O sistema não possui janelas que se sobrepõem. |
+| 3.2 | Quando o usuário conclui uma tarefa, o sistema aguarda uma ação antes de processar? | [Não] [x] | Não, quando o usuário conclui uma tarefa, o sistema não aguarda uma ação antes de processar. |
+| 3.3 | O usuário é solicitado a confirmar tarefas que possuem consequências drásticas? | [Não] [x] | Não, o usuário não é solicitado a confirmar tarefas que possuem consequências drásticas. |
+| 3.4 | Existe uma funcionalidade para desfazer ações realizadas pelo usuário? | [Não] [x] | Não, não existe uma funcionalidade para desfazer as ações ralizadas pelo usuário. |
+| 3.5 | O usuário pode editar, copiar e colar durante a entrada de dados? | [Sim] [x] | Sim, o usuário pode editar, copiar e colar durante a entrada de dados. |
+| 3.6 | O usuário pode se mover entre campos e janelas livremente? | [Sim] [x] | Sim, o usuário pode se mover entre campos e janelas livremente. |
+| 3.7 | O usuário pode configurar o sistema, a sessão, a tela conforme sua preferência? | [Sim] [x] | Sim, o usuário pode fazer a configuração conforme sua preferência. |
 | 4 - Consistência e padrões |
-| 4.1 | O sistema evita uso constante de letras maiúsculas? | [Sim] [x] [Não] [ ] | Sim, o sistema evita uso constante de letras maiúsculas. |
-| 4.2 | Os números são justificados à direita e alinhados quanto aos decimais? | [Sim] [x] [Não] [ ] | Sim, os números são justificados à direita e alinhados quanto aos decimais.  |
-| 4.3 | Os ícones e ilustrações são rotulados? | [Sim] [x] [Não] [ ] | Sim, os icones e ilustrações são rotulados. |
-| 4.4 | As instruções aparecem de forma consistente sempre no mesmo local? | [Sim] [x] [Não] [ ] | Sim, as instruções aparecem de forma consistente sempre no mesmo local. |
-| 4.5 | Os objetos do sistema são nomeados de maneira consistente em todo o sistema? | [Sim] [x] [Não] [ ] | Sim, os objetos do sistema são nomeados de maneira consistente em todo o sistema. |
-| 4.6 | Os campos obrigatórios e opcionais são corretamente sinalizados? | [Sim] [x] [Não] [ ] | Sim, os campos obrigatórios e opcionais são corretamente sinalizados. |
+| 4.1 | O sistema evita uso constante de letras maiúsculas? | [Sim] [x] | Sim, o sistema evita uso constante de letras maiúsculas. |
+| 4.2 | Os números são justificados à direita e alinhados quanto aos decimais? | [Sim] [x] | Sim, os números são justificados à direita e alinhados quanto aos decimais.  |
+| 4.3 | Os ícones e ilustrações são rotulados? | [Sim] [x] | Sim, os icones e ilustrações são rotulados. |
+| 4.4 | As instruções aparecem de forma consistente sempre no mesmo local? | [Sim] [x] | Sim, as instruções aparecem de forma consistente sempre no mesmo local. |
+| 4.5 | Os objetos do sistema são nomeados de maneira consistente em todo o sistema? | [Sim] [x] | Sim, os objetos do sistema são nomeados de maneira consistente em todo o sistema. |
+| 4.6 | Os campos obrigatórios e opcionais são corretamente sinalizados? | [Sim] [x] | Sim, os campos obrigatórios e opcionais são corretamente sinalizados. |
 | 5 - Prevenção de erros |
-| 5.1 | As opções de menu são lógicas, distintas e mutualmente exclusivas? | [Sim] [x] [Não] [ ] | Sim, as opções de menu são lógicas, distintas e mutualmente exclusivas. |
-| 5.2 | Se o sistema exibe múltiplas janelas, a navegação entre janelas é simples e visível? | [Sim] [x] [Não] [ ] | Sim, a navegação entre janelas é simples e visível. |
-| 5.3 | O sistema alerta o usuário se ele está prestes a fazer erros críticos? | [Sim] [ ] [Não] [x] | Não, o sistema não alerta o usuário se ele está prestes a fazer erros críticos. |
+| 5.1 | As opções de menu são lógicas, distintas e mutualmente exclusivas? | [Sim] [x] | Sim, as opções de menu são lógicas, distintas e mutualmente exclusivas. |
+| 5.2 | Se o sistema exibe múltiplas janelas, a navegação entre janelas é simples e visível? | [Sim] [x] | Sim, a navegação entre janelas é simples e visível. |
+| 5.3 | O sistema alerta o usuário se ele está prestes a fazer erros críticos? | [Não] [x] | Não, o sistema não alerta o usuário se ele está prestes a fazer erros críticos. |
 | 6 - Reconhecimento ao invés de recordação |
-| 6.1 | Há distinção clara quando é possível selecionar um item ou vários? | [Sim] [x] [Não] [ ] | Sim, há distinção clara quando é possível selecionar um item ou vários. |
-| 6.2 | Os rótulos de campo estão próximos dos campos e separados pelo menos um espaço? | [Sim] [x] [Não] [ ] | Sim, Os rótulos de campo estão próximos dos campos e separados por um  espaço. |
-| 6.3 | São utilizadas bordas para identificar possiveis grupos de elementos? | [Sim] [x] [Não] [ ] | Sim, são utilizadas bordas para identificar possiveis grupos de elementos. |
-| 6.4 | Existem opções default para o que o usuário precisa selecionar? | [Sim] [x] [Não] [ ] | Sim, existem opções default para o que o usuário precisa selecionar. |
-| 6.5 | Há alguma diferença visível para identificar a janela ativa? | [Sim] [ ] [Não] [x] | Não, não há nenhuma diferença visível para identificar a janela ativa. |
+| 6.1 | Há distinção clara quando é possível selecionar um item ou vários? | [Sim] [x] | Sim, há distinção clara quando é possível selecionar um item ou vários. |
+| 6.2 | Os rótulos de campo estão próximos dos campos e separados pelo menos um espaço? | [Sim] [x] | Sim, Os rótulos de campo estão próximos dos campos e separados por um  espaço. |
+| 6.3 | São utilizadas bordas para identificar possiveis grupos de elementos? | [Sim] [x] | Sim, são utilizadas bordas para identificar possiveis grupos de elementos. |
+| 6.4 | Existem opções default para o que o usuário precisa selecionar? | [Sim] [x] | Sim, existem opções default para o que o usuário precisa selecionar. |
+| 6.5 | Há alguma diferença visível para identificar a janela ativa? | [Não] [x] | Não, não há nenhuma diferença visível para identificar a janela ativa. |
 | 7 - Flexibilidade e eficiência de uso |
-| 7.1 | Existem atalhos para as funções disponíveis no sistema? | [Sim] [x] [Não] [ ] | Sim, existem atalhos para as funções disponíveis no sistema. |
-| 7.2 | O usuário pode realizar a tarefa de maneiras mais simplificadas?| [Sim] [ ] [Não] [x] | Não, o usuário não pode realizar a tarefa de maneiras mais simplificadas. |
-| 7.3 | O sistema permite integração com outras fontes das informações tratadas? | [Sim] [x] [Não] [ ] | Sim, o sistema permite integração com outras fontes das informações tratadas. |
+| 7.1 | Existem atalhos para as funções disponíveis no sistema? | [Sim] [x] | Sim, existem atalhos para as funções disponíveis no sistema. |
+| 7.2 | O usuário pode realizar a tarefa de maneiras mais simplificadas?| [Não] [x] | Não, o usuário não pode realizar a tarefa de maneiras mais simplificadas. |
+| 7.3 | O sistema permite integração com outras fontes das informações tratadas? | [Sim] [x] | Sim, o sistema permite integração com outras fontes das informações tratadas. |
 | 8 - Estética e design minimalista |
-| 8.1 | Apenas a informação necessária para ação está visível na tela? | [Sim] [x] [Não] [ ] | Sim, apenas a informação necessária para ação está visível na tela |
-| 8.2 | Os ícones e ilustrações estão distintos do seu fundo? | [Sim] [x] [Não] [ ] | Sim, os ícones e ilustrações estão distintos do seu fundo |
-| 8.3 | Os agrupamentos são separados por espaço em branco? | [Sim] [ ] [Não] [x] | Não, os agrupamentos não são separados por espaço em branco. Porém, são separados de acordo com a paleta de cores da aplicação. |
-| 8.4 | Os rótulos e menus são breves, familiares e descritivos das opções que representam? | [Sim] [x] [Não] [ ] | Sim, Os rótulos são familiares e descritivos das opções que representam  |
+| 8.1 | Apenas a informação necessária para ação está visível na tela? | [Sim] [x] | Sim, apenas a informação necessária para ação está visível na tela |
+| 8.2 | Os ícones e ilustrações estão distintos do seu fundo? | [Sim] [x] | Sim, os ícones e ilustrações estão distintos do seu fundo |
+| 8.3 | Os agrupamentos são separados por espaço em branco? | [Não] [x] | Não, os agrupamentos não são separados por espaço em branco. Porém, são separados de acordo com a paleta de cores da aplicação. |
+| 8.4 | Os rótulos e menus são breves, familiares e descritivos das opções que representam? | [Sim] [x] | Sim, Os rótulos são familiares e descritivos das opções que representam.  |
 | 9 - Ajudar os usuários e reconhecer, diagnosticar se recuperar de erros |
-| 9.1 | É utilizado um sinal sonoro para alertar de erros? | [Sim] [ ] [Não] [x] | Não, não é utilizado um sinal sonoro para alertar de erros |
-| 9.2 | Os questionamentos são breves e sem ambiguidade? | [Sim] [x] [Não] [ ] | Sim, os questionamentos são breves e sem ambiguidade |
-| 9.3 | Se um erro é detectado, o usuário tem visibilidade sobre qual o local gerador do erro? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não identificam a severidade e a causa do erro |
-| 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não sugerem uma ação para correção |
+| 9.1 | É utilizado um sinal sonoro para alertar de erros? | [Não] [x] | Não, não é utilizado um sinal sonoro para alertar de erros |
+| 9.2 | Os questionamentos são breves e sem ambiguidade? | [Sim] [x] | Sim, os questionamentos são breves e sem ambiguidade |
+| 9.3 | Se um erro é detectado, o usuário tem visibilidade sobre qual o local gerador do erro? | [Sim] [x] | Sim, o usuário tem visibilidade sobre qual o local gerador do erro. |
+| 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não identificam a severidade, apenas a causa do erro. |
+| 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não sugerem uma ação para correção. |
 | 10 - Ajuda e documentação |
-| 10.1 | As instruções online estão visualmente distintas? | [Sim] [x] [Não] [x] | Sim/Não, o sistema... |
-| 10.2 | Existe ajuda online sensível ao contexto? | [Sim] [ ] [Não] [x] | Não, não existe ajuda online sensível ao contexto |
-| 10.3 | É simples o acesso a ajuda do sistema e retorno ao sistema?| [Sim] [x] [Não] [ ] | Sim/Não, é simples o acesso a ajuda do sistema e retorno ao sistema |
+| 10.1 | As instruções online estão visualmente distintas? | [Não] [x] | Não, as instruções online estão visualmente distintas |
+| 10.2 | Existe ajuda online sensível ao contexto? | [Não] [x] | Não, não existe ajuda online sensível ao contexto |
+| 10.3 | É simples o acesso a ajuda do sistema e retorno ao sistema?| [Sim] [x] | Sim/Não, é simples o acesso a ajuda do sistema e retorno ao sistema |
 
 
 **Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém interno)**
