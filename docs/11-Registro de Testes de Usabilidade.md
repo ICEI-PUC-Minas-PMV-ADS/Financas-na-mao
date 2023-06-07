@@ -32,8 +32,8 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | 2.3 | A linguagem utilizada evita jargões técnicos? | [Sim] [x] | Sim, a linguagem utilizada evita jargões. |
 | 2.4 | Os números são devidamente separados nos milhares e nos decimais? | [Não] [x] | Não, os números não são devidamente separados nos milhares e nos decimais. |
 | 3 - Controle de usuário e liberdade |
-| 3.1 | Se o sistema utiliza janelas que se sobrepõem, ele permite a organização e troca simples? | [Não] [x] | O sistema não possui janelas que se sobrepõem. |
-| 3.2 | Quando o usuário conclui uma tarefa, o sistema aguarda uma ação antes de processar? | [Não] [x] | Não, quando o usuário conclui uma tarefa, o sistema não aguarda uma ação antes de processar. |
+| 3.1 | Se o sistema utiliza janelas que se sobrepõem, ele permite a organização e troca simples? | [Não] [x] | Não, o sistema não possui janelas que se sobrepõem. |
+| 3.2 | Quando o usuário conclui uma tarefa, o sistema aguarda uma ação antes de processar? | [Sim] [x] | Sim, quando o usuário conclui uma tarefa, o sistema não aguarda uma ação antes de processar. |
 | 3.3 | O usuário é solicitado a confirmar tarefas que possuem consequências drásticas? | [Não] [x] | Não, o usuário não é solicitado a confirmar tarefas que possuem consequências drásticas. |
 | 3.4 | Existe uma funcionalidade para desfazer ações realizadas pelo usuário? | [Não] [x] | Não, não existe uma funcionalidade para desfazer as ações ralizadas pelo usuário. |
 | 3.5 | O usuário pode editar, copiar e colar durante a entrada de dados? | [Sim] [x] | Sim, o usuário pode editar, copiar e colar durante a entrada de dados. |
@@ -69,20 +69,20 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | 9.1 | É utilizado um sinal sonoro para alertar de erros? | [Não] [x] | Não, não é utilizado um sinal sonoro para alertar de erros |
 | 9.2 | Os questionamentos são breves e sem ambiguidade? | [Sim] [x] | Sim, os questionamentos são breves e sem ambiguidade |
 | 9.3 | Se um erro é detectado, o usuário tem visibilidade sobre qual o local gerador do erro? | [Sim] [x] | Sim, o usuário tem visibilidade sobre qual o local gerador do erro. |
-| 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não identificam a severidade, apenas a causa do erro. |
-| 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [ ] [Não] [x] | Não, as mensagens de erro não sugerem uma ação para correção. |
+| 9.4 | As mensagens de erro identificam a severidade e a causa do erro? | [Não] [x] | Não, as mensagens de erro não identificam a severidade, apenas a causa do erro. |
+| 9.5 | As mensagens de erro sugerem uma ação para correção? | [Sim] [x] | Sim, as mensagens de erro sugerem uma ação para correção. |
 | 10 - Ajuda e documentação |
-| 10.1 | As instruções online estão visualmente distintas? | [Não] [x] | Não, as instruções online estão visualmente distintas |
+| 10.1 | As instruções online estão visualmente distintas? | [Sim] [x] | Sim, as instruções online estão visualmente distintas |
 | 10.2 | Existe ajuda online sensível ao contexto? | [Não] [x] | Não, não existe ajuda online sensível ao contexto |
-| 10.3 | É simples o acesso a ajuda do sistema e retorno ao sistema?| [Sim] [x] | Sim/Não, é simples o acesso a ajuda do sistema e retorno ao sistema |
+| 10.3 | É simples o acesso a ajuda do sistema e retorno ao sistema?| [Sim] [x] | Sim, é simples o acesso a ajuda do sistema e retorno ao sistema |
 
 
 **Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém interno)**
 | Heurísticas |	Notas dos avaliadores |	Média	| Consenso |	Considerações |	Melhorias |
 |---------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| Visibilidade do status do sistema | Avaliador1: 5 - Excelente | 5 | 5 | O usuário consegue identificar seu status (logado ou não) na aplicação. | Nenhuma melhoria a ser implementada. |
+| Visibilidade do status do sistema | Avaliador1: 4 - Ótimo | 4 | 4 | O usuário consegue identificar seu status (logado ou não) na aplicação. | Nenhuma melhoria a ser implementada. |
 | Correspondência entre sistema e mundo real | Avaliador1: 5 - Excelente | 5 | 5 | Há correspondencia do sistema com o mundo real  | Nenhuma melhoria a ser implementada. |
-| Controle de usuário e liberdade | Avaliador1: 5 - Excelente  | 5 | 5 | O usuário tem total controle da aplicação | Nenhuma melhoria a ser implementada |
+| Controle de usuário e liberdade | Avaliador1: 4 - Ótimo  | 4 | 4 | O usuário tem total controle da aplicação | Nenhuma melhoria a ser implementada |
 | Consistência e padrões | Avaliador1: 5 - Excelente | 5 | 5 | Há um padrão em toda aplicação | Nenhuma melhoria a ser implementada |
 | Prevenção de erros | Avaliador1: 5 - Excelente | 5 | 5 | Os erros são prevenidos, e caso aconteçam, o reparo é eficiente | Nenhuma melhoria a ser implementada |
 | Reconhecimento ao invés de recordação | Avaliador1: 5 - Excelente | 5 | 5 | Há o reconhecimento da aplicação pelo seu nome e identidade visual | Nenhuma melhoria a ser implementada |
