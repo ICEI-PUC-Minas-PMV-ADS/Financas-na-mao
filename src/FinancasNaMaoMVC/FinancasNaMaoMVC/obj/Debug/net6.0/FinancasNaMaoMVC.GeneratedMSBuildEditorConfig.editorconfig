@@ -9,177 +9,177 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FinancasNaMaoMVC
 build_property.RootNamespace = FinancasNaMaoMVC
-build_property.ProjectDir = C:\Users\Victoria\Desktop\puc1\src\FinancasNaMaoMVC\FinancasNaMaoMVC\
+build_property.ProjectDir = C:\Users\Victoria\Desktop\puc\src\FinancasNaMaoMVC\FinancasNaMaoMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Victoria\Desktop\puc1\src\FinancasNaMaoMVC\FinancasNaMaoMVC
+build_property.MSBuildProjectDirectory = C:\Users\Victoria\Desktop\puc\src\FinancasNaMaoMVC\FinancasNaMaoMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Create.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Delete.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Details.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Edit.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Index.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/About.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Contact.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Index.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Privacy.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Terms.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Home/Terms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Investimento/index.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Investimento/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Investimento/new_inv.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Investimento/new_inv.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXG5ld19pbnYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Investimento/overview.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Investimento/overview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXG92ZXJ2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Create.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/CreateProvento.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/CreateProvento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcQ3JlYXRlUHJvdmVudG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Delete.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Details.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Edit.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Index.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/IndexProvento.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/IndexProvento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b3NcSW5kZXhQcm92ZW50by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/NovaDespesa/index.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/NovaDespesa/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm92YURlc3Blc2FcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/NovaDespesa/novadespesa.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/NovaDespesa/novadespesa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm92YURlc3Blc2Fcbm92YWRlc3Blc2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/addp.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/addp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXGFkZHAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/index.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/visaogeral.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/visaogeral.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXHZpc2FvZ2VyYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/Error.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/_ViewImports.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/_ViewStart.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Victoria/Desktop/puc1/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/Victoria/Desktop/puc/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ivc2inp87y
