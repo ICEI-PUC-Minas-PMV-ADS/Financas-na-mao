@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-ProventosController",
+      "appliesTo": "src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/ProventosController.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-Provento",
+      "appliesTo": "src/FinancasNaMaoMVC/FinancasNaMaoMVC/Models/Provento.cs",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinancasNaMaoMVC.Views.Lancamentos
+namespace FinancasNaMaoMVC.Views.Proventos
 {
     public class IndexProventoModel : PageModel
     {

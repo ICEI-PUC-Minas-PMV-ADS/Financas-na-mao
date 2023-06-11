@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victoria\\Desktop\\puc\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {}
+    "C:\\Users\\Victoria\\Desktop\\puc db local\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victoria\\Desktop\\puc\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {
+    "C:\\Users\\Victoria\\Desktop\\puc db local\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\puc\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\puc db local\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
         "projectName": "FinancasNaMaoMVC",
-        "projectPath": "C:\\Users\\Victoria\\Desktop\\puc\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+        "projectPath": "C:\\Users\\Victoria\\Desktop\\puc db local\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
         "packagesPath": "C:\\Users\\Victoria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victoria\\Desktop\\puc\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
+        "outputPath": "C:\\Users\\Victoria\\Desktop\\puc db local\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victoria\\AppData\\Roaming\\NuGet\\NuGet.Config",

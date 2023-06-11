@@ -9,9 +9,10 @@ namespace FinancasNaMaoMVC.Areas.Identity.Data;
 
 public class ApplicationDbContext : IdentityDbContext<Usuario>
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options){}
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options){ }
     public DbSet<Lancamento> Lancamentos { get; set; }
     public DbSet<Categoria> Categorias { get; set; }
+    public DbSet<Provento> Proventos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
