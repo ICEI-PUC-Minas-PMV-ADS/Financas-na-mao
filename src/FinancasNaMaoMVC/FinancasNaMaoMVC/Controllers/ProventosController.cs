@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using FinancasNaMaoMVC.Areas.Identity.Data;
 using FinancasNaMaoMVC.Models;
 using Microsoft.AspNetCore.Identity;
-using System.Security.Claims;
-using System.Globalization;
-using System.Net.NetworkInformation;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinancasNaMaoMVC.Controllers
 {
@@ -190,12 +182,12 @@ namespace FinancasNaMaoMVC.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+             return RedirectToAction(nameof(IndexProvento));
         }
 
-        private bool LancamentoExists(int id)
+         private bool ProventoExists(int id)
         {
-            return (_context.Lancamentos?.Any(e => e.ID == id)).GetValueOrDefault();
+             return (_context.Proventos?.Any(e => e.ID == id)).GetValueOrDefault();
         }
 
         */
