@@ -1,0 +1,72 @@
+﻿@model FinancasNaMaoMVC.Models.Provento
+
+@{
+    ViewData["Title"] = "DetailsProvento";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <dl class="row" style="background-color: white; border-radius: 10px; padding:20px 0px;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; width: 450px; height: 500px; margin: 0 auto; overflow:scroll;">
+        <h4 style="color: white; width:100%; text-align:center; font-size: 28px; margin-bottom: 10px; color: #5F5F62;"> Detalhes do lançamento</h4>
+        <hr />
+        <dt class="col-sm-2" style="color: #5F5F62; ">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            z
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt class="col-sm-2" style="color:#5F5F62; ">
+            @Html.DisplayNameFor(model => model.ValorReservado)
+        </dt>
+        <dd class="col-sm-10" style="color:#5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.ValorReservado)
+        </dd>
+        <dt class="col-sm-2" style="color: #5F5F62; ">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt class="col-sm-2" style="color: #5F5F62; ">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10" style="color:#5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2" style="color: #5F5F62;">
+            @Html.DisplayNameFor(model => model.isFixo)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.isFixo)
+        </dd>
+        <dt class="col-sm-2" style="color: #5F5F62;">
+            @Html.DisplayNameFor(model => model.Obs)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.Obs)
+        </dd>
+        <dt class="col-sm-2" style="color: #5F5F62;">
+            @Html.DisplayNameFor(model => model.Natureza)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.Natureza)
+        </dd>
+        <dt class="col-sm-2" style="color: #5F5F62;">
+            @Html.DisplayNameFor(model => model.Usuario)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.Usuario.Id)
+        </dd>
+        <dt class="col-sm-2" style="color:#5F5F62; ">
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+        <dd class="col-sm-10" style="color: #5F5F62; margin-left: 20px; margin-bottom: 20px;">
+            @Html.DisplayFor(model => model.Categoria.ID)
+        </dd>
+        <div style="display: flex;">
+            <a asp-action="EditProvento" asp-route-id="@Model?.ID">Editar</a> |
+            <a asp-action="IndexProvento">Voltar para a lista</a>
+        </div>
+    </dl>
+</div>

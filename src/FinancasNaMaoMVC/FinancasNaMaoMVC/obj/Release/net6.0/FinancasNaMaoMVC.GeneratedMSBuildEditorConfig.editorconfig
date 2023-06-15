@@ -136,6 +136,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXENyZWF0ZVByb3ZlbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Victoria/Desktop/puc db local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/DeleteProvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXERlbGV0ZVByb3ZlbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Victoria/Desktop/puc db local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/DetailsProvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXERldGFpbHNQcm92ZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Victoria/Desktop/puc db local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/EditProvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXEVkaXRQcm92ZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Victoria/Desktop/puc db local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/IndexProvento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVudG9zXEluZGV4UHJvdmVudG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

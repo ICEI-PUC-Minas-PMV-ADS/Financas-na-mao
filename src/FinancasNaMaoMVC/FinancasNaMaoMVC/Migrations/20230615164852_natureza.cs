@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FinancasNaMaoMVC.Migrations
 {
-    public partial class Usuario : Migration
+    public partial class natureza : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -28,8 +28,13 @@ namespace FinancasNaMaoMVC.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Sobrenome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    Sobrenome = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
+                    Contato = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    isUsuarioAtivo = table.Column<bool>(type: "bit", nullable: false),
+                    Saldo = table.Column<int>(type: "int", nullable: true),
+                    Corrente = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Poupanca = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -156,6 +161,87 @@ namespace FinancasNaMaoMVC.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Categorias",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categorias", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Categorias_AspNetUsers_UsuarioId",
+                        column: x => x.UsuarioId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Lancamentos",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Valor = table.Column<double>(type: "float", nullable: false),
+                    ValorReservado = table.Column<double>(type: "float", nullable: false),
+                    Data = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    isFixo = table.Column<bool>(type: "bit", nullable: false),
+                    Obs = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Natureza = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    CategoriaID = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Lancamentos", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Lancamentos_AspNetUsers_UsuarioId",
+                        column: x => x.UsuarioId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Lancamentos_Categorias_CategoriaID",
+                        column: x => x.CategoriaID,
+                        principalTable: "Categorias",
+                        principalColumn: "ID");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Proventos",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Valor = table.Column<double>(type: "float", nullable: false),
+                    ValorReservado = table.Column<double>(type: "float", nullable: false),
+                    Data = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    isFixo = table.Column<bool>(type: "bit", nullable: false),
+                    Obs = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Natureza = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    CategoriaID = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Proventos", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Proventos_AspNetUsers_UsuarioId",
+                        column: x => x.UsuarioId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Proventos_Categorias_CategoriaID",
+                        column: x => x.CategoriaID,
+                        principalTable: "Categorias",
+                        principalColumn: "ID");
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -194,6 +280,31 @@ namespace FinancasNaMaoMVC.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Categorias_UsuarioId",
+                table: "Categorias",
+                column: "UsuarioId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Lancamentos_CategoriaID",
+                table: "Lancamentos",
+                column: "CategoriaID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Lancamentos_UsuarioId",
+                table: "Lancamentos",
+                column: "UsuarioId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Proventos_CategoriaID",
+                table: "Proventos",
+                column: "CategoriaID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Proventos_UsuarioId",
+                table: "Proventos",
+                column: "UsuarioId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -214,7 +325,16 @@ namespace FinancasNaMaoMVC.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Lancamentos");
+
+            migrationBuilder.DropTable(
+                name: "Proventos");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
+
+            migrationBuilder.DropTable(
+                name: "Categorias");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

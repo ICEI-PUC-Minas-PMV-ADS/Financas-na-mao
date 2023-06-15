@@ -1,8 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using FinancasNaMaoMVC.Areas.Identity.Data;
 using FinancasNaMaoMVC.Models;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using System.Globalization;
+using System.Net.NetworkInformation;
 
 namespace FinancasNaMaoMVC.Controllers
 {
@@ -17,7 +25,7 @@ namespace FinancasNaMaoMVC.Controllers
             _userManager = userManager;
         }
 
-        // GET: Lancamentos/Index
+        // GET: Proventos/IndexProvento
         public async Task<IActionResult> IndexProvento()
         {
             var userId = _userManager.GetUserId(this.User);
@@ -25,30 +33,28 @@ namespace FinancasNaMaoMVC.Controllers
             return View(await applicationDbContext.Where(l => l.UsuarioId == userId).ToListAsync());
         }
 
-        /*
-        
-        // GET: Lancamentos/Details/5
-        public async Task<IActionResult> Details(int? id)
+         // GET: Proventos/DetailsProvento/5
+        public async Task<IActionResult> DetailsProvento(int? id)
         {
-            if (id == null || _context.Lancamentos == null)
+            if (id == null || _context.Proventos == null)
             {
                 return NotFound();
             }
 
-            var lancamento = await _context.Lancamentos
+            var provento = await _context.Proventos
                 .Include(l => l.Categoria)
                 .Include(l => l.Usuario)
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (lancamento == null)
+            if (provento == null)
             {
                 return NotFound();
             }
 
-            return View(lancamento);
-        }
+            return View(provento);
+        } 
 
-        // GET: Lancamentos/Create
-        public IActionResult Create()
+        // GET: Proventos/CreateProvento
+        public IActionResult CreateProvento()
         {
             CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-br");
             var userId = _userManager.GetUserId(this.User);
@@ -63,135 +69,177 @@ namespace FinancasNaMaoMVC.Controllers
             ViewData["CategoriaID"] = new SelectList(categorias, "ID", "Nome");
             return View();
         }
-
-
-
-        // POST: Lancamentos/Create
+        // POST: Proventos/CreateProventos
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Valor,ValorReservado,Data,Nome,isFixo,Obs,Natureza,UsuarioId,CategoriaID")] Lancamento lancamento)
+        public async Task<IActionResult> CreateProvento([Bind("ID,Valor,ValorReservado,Data,Nome,isFixo,Obs,Natureza,UsuarioId,CategoriaID")] Provento provento)
         {
-            lancamento.UsuarioId = _userManager.GetUserId(this.User);
+            provento.UsuarioId = _userManager.GetUserId(this.User);
 
             if (ModelState.IsValid)
             {
-                _context.Add(lancamento);
+                 double? saldoProvento = provento.Valor;
+                string? naturezaProvento = provento.Natureza;
+                decimal? valor = saldoProvento.HasValue ? Convert.ToDecimal(saldoProvento.Value) : (decimal?)null;
+                decimal saldoProventoInt = valor ?? 0m;
+
+                var usuario = await _context.Usuario.FindAsync(provento.UsuarioId);
+
+                 if (naturezaProvento == "Conta Corrente") {
+                    var saldoUsuario = usuario.Corrente;
+                    decimal novoSaldoUsuario = saldoUsuario + saldoProventoInt;
+                    usuario.Corrente = novoSaldoUsuario;
+                }
+                else{
+                    var saldoUsuario = usuario.Poupanca;
+                    decimal novoSaldoUsuario = saldoUsuario + saldoProventoInt;
+                    usuario.Poupanca = novoSaldoUsuario;
+
+                } 
+                _context.Add(provento);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(IndexProvento));
             }
-            ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", lancamento.CategoriaID);
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", lancamento.UsuarioId);
-            return View(lancamento);
+
+
+
+            ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", provento.CategoriaID);
+            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", provento.UsuarioId);
+            return View(provento);
         }
 
-        // POST: Lancamentos/CreateProvento
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
 
+        // GET: Proventos/EditProvento/5
+        public async Task<IActionResult> EditProvento(int? id)
+         {
+             if (id == null || _context.Proventos == null)
+             {
+                 return NotFound();
+             }
 
-        // GET: Lancamentos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.Lancamentos == null)
-            {
-                return NotFound();
-            }
+             var provento = await _context.Proventos.FindAsync(id);
+             if (provento == null)
+             {
+                 return NotFound();
+             }
+             ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", provento.CategoriaID);
+             ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", provento.UsuarioId);
+             return View(provento);
+         }
 
-            var lancamento = await _context.Lancamentos.FindAsync(id);
-            if (lancamento == null)
-            {
-                return NotFound();
-            }
-            ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", lancamento.CategoriaID);
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", lancamento.UsuarioId);
-            return View(lancamento);
-        }
-
-        // POST: Lancamentos/Edit/5
+        // POST: Proventos/EditProvento/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Valor,ValorReservado,Data,Nome,isFixo,Obs,Natureza,UsuarioId,CategoriaID")] Lancamento lancamento)
-        {
-            if (id != lancamento.ID)
-            {
-                return NotFound();
-            }
+         [ValidateAntiForgeryToken]
+         public async Task<IActionResult> EditProvento(int id, [Bind("ID,Valor,ValorReservado,Data,Nome,isFixo,Obs,Natureza,UsuarioId,CategoriaID")] Provento provento)
+         {
+             if (id != provento.ID)
+             {
+                 return NotFound();
+             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(lancamento);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!LancamentoExists(lancamento.ID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", lancamento.CategoriaID);
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", lancamento.UsuarioId);
-            return View(lancamento);
-        }
+             if (ModelState.IsValid)
+             {
+                 try
+                 {
+                    provento.UsuarioId = _userManager.GetUserId(this.User);
+                    _context.Update(provento);
+                     await _context.SaveChangesAsync();
+                 }
+                 catch (DbUpdateConcurrencyException)
+                 {
+                     if (!ProventoExists(provento.ID))
+                     {
+                         return NotFound();
+                     }
+                     else
+                     {
+                         throw;
+                     }
+                 }
+                 return RedirectToAction(nameof(IndexProvento));
+             }
+             ViewData["CategoriaID"] = new SelectList(_context.Categorias, "ID", "ID", provento.CategoriaID);
+             ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", provento.UsuarioId);
+             return View(provento);
+         }
 
-        // GET: Lancamentos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.Lancamentos == null)
-            {
-                return NotFound();
-            }
+        
+    
+         // GET: Proventos/Delete/5
+         public async Task<IActionResult> DeleteProvento(int? id)
+         {
+             if (id == null || _context.Proventos == null)
+             {
+                 return NotFound();
+             }
 
-            var lancamento = await _context.Lancamentos
-                .Include(l => l.Categoria)
-                .Include(l => l.Usuario)
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (lancamento == null)
-            {
-                return NotFound();
-            }
+             var provento = await _context.Proventos
+                 .Include(l => l.Categoria)
+                 .Include(l => l.Usuario)
+                 .FirstOrDefaultAsync(m => m.ID == id);
+             if (provento == null)
+             {
+                 return NotFound();
+             }
 
-            return View(lancamento);
-        }
+             return View(provento);
+         }
 
-        // POST: Lancamentos/Delete/5
-        [HttpPost, ActionName("Delete")]
+
+        // POST: Proventos/Delete/5
+        [HttpPost, ActionName("DeleteProvento")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Lancamentos == null)
+            if (_context.Proventos == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Lancamentos'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.Proventos'  is null.");
             }
-            var lancamento = await _context.Lancamentos.FindAsync(id);
-            if (lancamento != null)
+            var provento = await _context.Proventos.FindAsync(id);
+            double? saldoProvento = provento.Valor;
+            string? naturezaProvento = provento.Natureza;
+            decimal? valor = saldoProvento.HasValue ? Convert.ToDecimal(saldoProvento.Value) : (decimal?)null;
+            decimal saldoProventoInt = valor ?? 0m;
+
+            var usuario = await _context.Usuario.FindAsync(provento.UsuarioId);
+
+            if (naturezaProvento == "Conta Corrente")
             {
-                _context.Lancamentos.Remove(lancamento);
+                var saldoUsuario = usuario.Corrente;
+                decimal novoSaldoUsuario = saldoUsuario - saldoProventoInt;
+                usuario.Corrente = novoSaldoUsuario;
             }
+            else
+            {
+                var saldoUsuario = usuario.Poupanca;
+                decimal novoSaldoUsuario = saldoUsuario - saldoProventoInt;
+                usuario.Poupanca = novoSaldoUsuario;
+
+            }
+            if (provento != null)
+            {
+                _context.Proventos.Remove(provento);
+            }
+
+
 
             await _context.SaveChangesAsync();
-             return RedirectToAction(nameof(IndexProvento));
+            return RedirectToAction(nameof(IndexProvento));
         }
 
-         private bool ProventoExists(int id)
+        private bool ProventoExists(int id)
         {
-             return (_context.Proventos?.Any(e => e.ID == id)).GetValueOrDefault();
+            return (_context.Proventos?.Any(e => e.ID == id)).GetValueOrDefault();
         }
 
-        */
+
 
 
     }
 }
+

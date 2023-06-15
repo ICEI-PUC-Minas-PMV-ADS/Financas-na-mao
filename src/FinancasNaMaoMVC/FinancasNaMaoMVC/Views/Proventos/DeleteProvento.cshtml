@@ -1,0 +1,66 @@
+﻿@model FinancasNaMaoMVC.Models.Provento
+
+@{
+    ViewData["Title"] = "DeleteProvento";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="d-flex flex-column justify-content-center align-items-center m-2" style="background-color: white; border-radius: 10px; padding:20px 0px;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+        <h3 style="padding: 1rem;">Tem certeza que deseja deletar? </h3>
+        <div class="d-flex flex-column justify-content-center align-items-center" style="padding: 0.8rem;">
+            <hr />
+            <dl class="row" style="margin: 0 auto;display: flex; justify-content: center; width: 500px;">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Nome)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Nome)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Valor)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Valor)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Data)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Data)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.isFixo)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.isFixo)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Obs)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Obs)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Natureza)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Natureza)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Categoria)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Categoria.ID)
+                </dd>
+            </dl>
+
+            <form asp-action="DeleteProvento" style="padding: 1rem;">
+                <input type="hidden" asp-for="ID" />
+                <input type="submit" value="Excluir" class="btn btn-danger" />
+                <a class="btn btn-light" asp-action="IndexProvento">Voltar</a>
+            </form>
+        </div>
+    </div>
+</div>
+

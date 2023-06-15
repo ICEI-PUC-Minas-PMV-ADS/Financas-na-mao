@@ -1,9 +1,11 @@
 ﻿using FinancasNaMaoMVC.Areas.Identity.Data;
+using System.Diagnostics;
 
 namespace FinancasNaMaoMVC.Models
 {
     public class Provento
-    { 
+    {
+
         public int ID { get; set; }
         public double Valor { get; set; }
         public double ValorReservado { get; set; }
@@ -18,5 +20,7 @@ namespace FinancasNaMaoMVC.Models
 
         public Categoria? Categoria { get; set; }
         public int? CategoriaID { get; set; }
+        
     }
 }
+

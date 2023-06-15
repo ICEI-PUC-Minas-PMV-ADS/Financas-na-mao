@@ -83,6 +83,34 @@ namespace FinancasNaMaoMVC.Controllers
 
             if (ModelState.IsValid)
             {
+                double? saldoLancamento = lancamento.Valor;
+                string? naturezaLancamento = lancamento.Natureza;
+                decimal? valor = saldoLancamento.HasValue ? Convert.ToDecimal(saldoLancamento.Value) : (decimal?)null;
+                decimal saldoLancamentoInt = valor ?? 0m;
+
+                var usuario = await _context.Usuario.FindAsync(lancamento.UsuarioId);
+
+                if (naturezaLancamento == "Conta Corrente")
+                {
+                    var saldoUsuario = usuario.Corrente;
+                    decimal novoSaldoUsuario = saldoUsuario - saldoLancamentoInt;
+                    usuario.Corrente = novoSaldoUsuario;
+                }
+                else
+                {
+                    var saldoUsuario = usuario.Poupanca;
+                    decimal novoSaldoUsuario = saldoUsuario - saldoLancamentoInt;
+                    usuario.Poupanca = novoSaldoUsuario;
+
+                }
+                /*double? saldoMov = lancamento.Valor;
+                int? saldoMovInt = saldoMov.HasValue ? Convert.ToInt32(saldoMov.Value) : (int?)null;
+
+                var usuario = await _context.Usuario.FindAsync(lancamento.UsuarioId);
+                var saldoUsuario = usuario.Saldo;
+
+                int? novoSaldoUsuario = saldoUsuario - saldoMovInt;
+                usuario.Saldo = novoSaldoUsuario; */
                 _context.Add(lancamento);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -131,6 +159,7 @@ namespace FinancasNaMaoMVC.Controllers
             {
                 try
                 {
+                    lancamento.UsuarioId = _userManager.GetUserId(this.User);
                     _context.Update(lancamento);
                     await _context.SaveChangesAsync();
                 }
@@ -186,7 +215,26 @@ namespace FinancasNaMaoMVC.Controllers
             {
                 _context.Lancamentos.Remove(lancamento);
             }
+            double? saldoLancamento = lancamento.Valor;
+            string? naturezaLancamento = lancamento.Natureza;
+            decimal? valor = saldoLancamento.HasValue ? Convert.ToDecimal(saldoLancamento.Value) : (decimal?)null;
+            decimal saldoLancamentoInt = valor ?? 0m;
 
+            var usuario = await _context.Usuario.FindAsync(lancamento.UsuarioId);
+
+            if (naturezaLancamento == "Conta Corrente")
+            {
+                var saldoUsuario = usuario.Corrente;
+                decimal novoSaldoUsuario = saldoUsuario + saldoLancamentoInt;
+                usuario.Corrente = novoSaldoUsuario;
+            }
+            else
+            {
+                var saldoUsuario = usuario.Poupanca;
+                decimal novoSaldoUsuario = saldoUsuario + saldoLancamentoInt;
+                usuario.Poupanca = novoSaldoUsuario;
+
+            }
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

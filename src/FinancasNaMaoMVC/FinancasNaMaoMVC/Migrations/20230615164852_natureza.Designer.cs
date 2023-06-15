@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinancasNaMaoMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230417020254_AtributoNatureza")]
-    partial class AtributoNatureza
+    [Migration("20230615164852_natureza")]
+    partial class natureza
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,6 +40,9 @@ namespace FinancasNaMaoMVC.Migrations
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
+
+                    b.Property<decimal>("Corrente")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -75,6 +78,12 @@ namespace FinancasNaMaoMVC.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<decimal>("Poupanca")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int?>("Saldo")
+                        .HasColumnType("int");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -120,7 +129,6 @@ namespace FinancasNaMaoMVC.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UsuarioId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("ID");
@@ -175,6 +183,53 @@ namespace FinancasNaMaoMVC.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Lancamentos");
+                });
+
+            modelBuilder.Entity("FinancasNaMaoMVC.Models.Provento", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+
+                    b.Property<int?>("CategoriaID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("Data")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Natureza")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Obs")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UsuarioId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double>("Valor")
+                        .HasColumnType("float");
+
+                    b.Property<double>("ValorReservado")
+                        .HasColumnType("float");
+
+                    b.Property<bool>("isFixo")
+                        .HasColumnType("bit");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CategoriaID");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Proventos");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -318,14 +373,27 @@ namespace FinancasNaMaoMVC.Migrations
                 {
                     b.HasOne("FinancasNaMaoMVC.Areas.Identity.Data.Usuario", "Usuario")
                         .WithMany()
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UsuarioId");
 
                     b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("FinancasNaMaoMVC.Models.Lancamento", b =>
+                {
+                    b.HasOne("FinancasNaMaoMVC.Models.Categoria", "Categoria")
+                        .WithMany()
+                        .HasForeignKey("CategoriaID");
+
+                    b.HasOne("FinancasNaMaoMVC.Areas.Identity.Data.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId");
+
+                    b.Navigation("Categoria");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("FinancasNaMaoMVC.Models.Provento", b =>
                 {
                     b.HasOne("FinancasNaMaoMVC.Models.Categoria", "Categoria")
                         .WithMany()

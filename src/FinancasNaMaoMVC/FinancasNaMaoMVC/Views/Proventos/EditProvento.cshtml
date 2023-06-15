@@ -1,16 +1,15 @@
-﻿@model FinancasNaMaoMVC.Models.Lancamento;
+﻿@model FinancasNaMaoMVC.Models.Provento
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "EditProvento";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link rel="stylesheet" href="~/css/style.css">
-
 <div class="d-flex flex-column justify-content-center align-items-center" style="width: 80%; background-color: white;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 10px; padding: 1.5rem; text-align: center; margin: 0 auto;">
-    <form asp-action="Create" style="width: 100%; height: 100%">
+    <form asp-action="EditProvento" style="width: 100%; height: 100%">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <h2 style="padding: 1rem; color: #a6a6a6; text-align: center">Nova Movimentação</h2>
+        <input type="hidden" asp-for="ID" />
+        <h2 style="padding: 1rem; color:#a6a6a6; text-align: center">Editar Movimentação</h2>
 
         <div class="d-flex justify-content-around align-items-center " style="padding: 1rem; height: 200px">
 
@@ -46,13 +45,11 @@
                     <span asp-validation-for="Data" class="text-danger"></span>
                 </div>
                 <div class="form-group" style="margin: 1rem;">
-                    <select asp-for="Natureza" class="form-control-custom" placeholder="Natureza">
-                        <option value="Conta Corrente">Conta Corrente</option>
-                        <option value="Conta Poupanca">Conta Poupança</option>
-                    </select>          
-                    <span asp-validation-for="Natureza"></span>
+                    <input asp-for="Natureza" class="form-control-custom" placeholder="Natureza" />
+                    <span asp-validation-for="Natureza" class="text-danger"></span>
                 </div>
             </div>
+
         </div>
 
 
@@ -62,19 +59,13 @@
                 <span asp-validation-for="Obs" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Adicionar despesa" class="nav-link btn-layout-verde" style="margin: 0.8rem;" />
-                <a class="nav-link btn-layout-verde" asp-action="Index" style="margin: 0.8rem;">Voltar</a>
+                <input type="submit" value="Adicionar provento" class="nav-link btn-layout-verde" style="margin: 0.8rem;" />
+                <a class="nav-link btn-layout-verde" asp-action="IndexProvento" style="margin: 0.8rem;">Voltar</a>
             </div>
         </div>
     </form>
-
 </div>
 
-<script src="js/scripts.js"></script>
-
-
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}   
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

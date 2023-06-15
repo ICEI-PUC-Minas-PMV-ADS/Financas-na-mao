@@ -13,6 +13,7 @@ public class ApplicationDbContext : IdentityDbContext<Usuario>
     public DbSet<Lancamento> Lancamentos { get; set; }
     public DbSet<Categoria> Categorias { get; set; }
     public DbSet<Provento> Proventos { get; set; }
+    public DbSet<Usuario> Usuario { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

@@ -1,51 +1,75 @@
-﻿@model FinancasNaMaoMVC.Models.Lancamento;
+﻿@model FinancasNaMaoMVC.Models.Provento;
 
 @{
     ViewData["Title"] = "CreateProvento";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <link rel="stylesheet" href="~/css/style.css">
-<div class="formDespesa">
-    <form asp-action="CreateProvento" class="cont">
-        <h1>Meus Proventos</h1>
 
-        <div class="caixa1">
+<style>
+    .pb-3{
+        margin-top: 70px;
+    }
+</style>
 
-            <div class="nomeDespesa">
-                <input asp-for="Nome" placeholder="Nome da Despesa" />
-                <div class="despesaFixa">
+<div class="d-flex flex-column justify-content-center align-items-center" style="width: 80%; background-color: white;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 10px; padding: 1.5rem; text-align: center; margin: 0 auto;">
+    <form asp-action="CreateProvento" style="width: 100%; height: 100%">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <h2 style="padding: 1rem; color: #a6a6a6; text-align: center">Novo Provento</h2>
+
+        <div class="d-flex justify-content-around align-items-center " style="padding: 1rem; height: 200px">
+
+            <div class="d-flex flex-column justify-content-around align-items-center">
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Nome" class="form-control-custom" placeholder="Nome do provento" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check" style="margin: 1rem;">
                     <label class="form-check-label">
-                        <h2>Despesa Fixa</h2>
-                        <input class="form-check-input" asp-for="isFixo" />
+                       
                     </label>
                 </div>
             </div>
 
-            <div class="valorDespesa">
-                <input asp-for="Valor" type="number" placeholder="Valor" />
-                <span asp-validation-for="Valor" class="text-danger"></span>
-
-                <div id="categoriaSelecionada">
-                    <select asp-for="CategoriaID" asp-items="ViewBag.CategoriaID"></select>
+            <div class="d-flex flex-column  justify-content-around align-items-center">
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Valor" class="form-control-custom" placeholder="Valor" />
+                    <span asp-validation-for="Valor" class="text-danger"></span>
                 </div>
-
-                <button id="btnCategoria">+ Incluir nova categoria</button>
+                <div style="text-align: center" style="margin: 1rem;">
+                    <div class="form-group ">
+                        <select asp-for="Natureza" class="form-control-custom">
+                            <option value="Conta Corrente">Conta Corrente</option>
+                            <option value="Conta Poupanca">Conta Poupança</option>
+                        </select>
+                        
+                    </div>
+                   
+                </div>
             </div>
 
-            <div class="dataDespesa">
-                <input asp-for="Data" placeholder="Data" />
-                <input asp-for="Natureza" placeholder="Natureza" style="margin-top: 25px" />
+            <div class="d-flex flex-column  justify-content-around align-items-center ">
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Data" class="form-control-custom" placeholder="Data" />
+                    <span asp-validation-for="Data" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin: 1rem;">
+                    <input asp-for="Natureza" class="form-control-custom" placeholder="Natureza" />
+                    <span asp-validation-for="Natureza" class="text-danger"></span>
+                </div>
             </div>
         </div>
 
 
-        <div class="caixa2">
-            <div class="obs">
-                <h2>Observações:</h2>
-                <textarea asp-for="Obs" cols="30" rows="5"></textarea>
+        <div class="d-flex justify-content-around align-items-center p-2 m-2">
+            <div class="form-group">
+                <textarea class="form-text-area" placeholder="Observações" asp-for="Obs" cols="60" rows="5"></textarea>
+                <span asp-validation-for="Obs" class="text-danger"></span>
             </div>
-            <div class="buttonDespesa">
-                <button>Adicionar provento</button>
+            <div class="form-group">
+                <input type="submit" value="Adicionar provento" class="nav-link btn-layout-verde" style="margin: 0.8rem;" />
+                <a class="nav-link btn-layout-verde" asp-action="IndexProvento" style="margin: 0.8rem;">Voltar</a>
             </div>
         </div>
     </form>
