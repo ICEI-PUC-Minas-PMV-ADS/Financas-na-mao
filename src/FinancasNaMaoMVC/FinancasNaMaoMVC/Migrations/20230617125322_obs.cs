@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FinancasNaMaoMVC.Migrations
 {
-    public partial class natureza : Migration
+    public partial class obs : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -222,7 +222,7 @@ namespace FinancasNaMaoMVC.Migrations
                     Data = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     isFixo = table.Column<bool>(type: "bit", nullable: false),
-                    Obs = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Obs = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Natureza = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     CategoriaID = table.Column<int>(type: "int", nullable: true)

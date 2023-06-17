@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinancasNaMaoMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230615164852_natureza")]
-    partial class natureza
+    [Migration("20230617125322_obs")]
+    partial class obs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -208,7 +208,6 @@ namespace FinancasNaMaoMVC.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Obs")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UsuarioId")

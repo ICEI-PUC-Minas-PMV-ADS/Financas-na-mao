@@ -206,7 +206,6 @@ namespace FinancasNaMaoMVC.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Obs")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UsuarioId")

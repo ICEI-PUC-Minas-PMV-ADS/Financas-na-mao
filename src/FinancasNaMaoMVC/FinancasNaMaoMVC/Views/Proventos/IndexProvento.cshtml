@@ -3,12 +3,17 @@
 @using Microsoft.AspNetCore.Identity
 @using FinancasNaMaoMVC.Areas.Identity.Data
 @inject UserManager<Usuario> UserManager
-        @{
+@{
     ClaimsPrincipal currentUser = this.User;
     string userId = UserManager.GetUserId(this.User);
     Usuario user = await UserManager.FindByIdAsync(userId);
-    decimal? saldoCorrente = user.Corrente;
-    decimal? saldoPoupanca = user.Poupanca;
+    decimal? saldoCorrente = 0;
+    decimal? saldoPoupanca = 0;
+
+    if (user != null) {
+         saldoCorrente = user.Corrente;
+         saldoPoupanca = user.Poupanca;
+    }
 
     ViewData["Title"] = "IndexProvento";
     Layout = "~/Views/Shared/_Layout.cshtml";

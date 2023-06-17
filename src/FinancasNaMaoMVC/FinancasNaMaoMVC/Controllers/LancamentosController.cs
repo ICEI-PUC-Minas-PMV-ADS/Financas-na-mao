@@ -86,20 +86,20 @@ namespace FinancasNaMaoMVC.Controllers
                 double? saldoLancamento = lancamento.Valor;
                 string? naturezaLancamento = lancamento.Natureza;
                 decimal? valor = saldoLancamento.HasValue ? Convert.ToDecimal(saldoLancamento.Value) : (decimal?)null;
-                decimal saldoLancamentoInt = valor ?? 0m;
+                decimal? saldoLancamentoInt = valor ?? 0m;
 
                 var usuario = await _context.Usuario.FindAsync(lancamento.UsuarioId);
 
                 if (naturezaLancamento == "Conta Corrente")
                 {
                     var saldoUsuario = usuario.Corrente;
-                    decimal novoSaldoUsuario = saldoUsuario - saldoLancamentoInt;
+                    decimal? novoSaldoUsuario = saldoUsuario - saldoLancamentoInt;
                     usuario.Corrente = novoSaldoUsuario;
                 }
                 else
                 {
                     var saldoUsuario = usuario.Poupanca;
-                    decimal novoSaldoUsuario = saldoUsuario - saldoLancamentoInt;
+                    decimal? novoSaldoUsuario = saldoUsuario - saldoLancamentoInt;
                     usuario.Poupanca = novoSaldoUsuario;
 
                 }
@@ -225,13 +225,13 @@ namespace FinancasNaMaoMVC.Controllers
             if (naturezaLancamento == "Conta Corrente")
             {
                 var saldoUsuario = usuario.Corrente;
-                decimal novoSaldoUsuario = saldoUsuario + saldoLancamentoInt;
+                decimal? novoSaldoUsuario = saldoUsuario + saldoLancamentoInt;
                 usuario.Corrente = novoSaldoUsuario;
             }
             else
             {
                 var saldoUsuario = usuario.Poupanca;
-                decimal novoSaldoUsuario = saldoUsuario + saldoLancamentoInt;
+                decimal? novoSaldoUsuario = saldoUsuario + saldoLancamentoInt;
                 usuario.Poupanca = novoSaldoUsuario;
 
             }

@@ -15,7 +15,7 @@ public class Usuario : IdentityUser
     public string Contato { get; set; }
     public bool isUsuarioAtivo { get; set; } = true;
     public int? Saldo { get; set; } = 0;
-    public decimal Corrente { get; set; } = 0;
-    public decimal Poupanca { get; set; } = 0;
+    public decimal? Corrente { get; set; } = 0;
+    public decimal? Poupanca { get; set; } = 0;
 }
 

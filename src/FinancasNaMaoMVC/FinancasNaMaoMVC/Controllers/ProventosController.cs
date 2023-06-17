@@ -90,12 +90,12 @@ namespace FinancasNaMaoMVC.Controllers
 
                  if (naturezaProvento == "Conta Corrente") {
                     var saldoUsuario = usuario.Corrente;
-                    decimal novoSaldoUsuario = saldoUsuario + saldoProventoInt;
+                    decimal? novoSaldoUsuario = saldoUsuario + saldoProventoInt;
                     usuario.Corrente = novoSaldoUsuario;
                 }
                 else{
                     var saldoUsuario = usuario.Poupanca;
-                    decimal novoSaldoUsuario = saldoUsuario + saldoProventoInt;
+                    decimal? novoSaldoUsuario = saldoUsuario + saldoProventoInt;
                     usuario.Poupanca = novoSaldoUsuario;
 
                 } 
@@ -211,13 +211,13 @@ namespace FinancasNaMaoMVC.Controllers
             if (naturezaProvento == "Conta Corrente")
             {
                 var saldoUsuario = usuario.Corrente;
-                decimal novoSaldoUsuario = saldoUsuario - saldoProventoInt;
+                decimal? novoSaldoUsuario = saldoUsuario - saldoProventoInt;
                 usuario.Corrente = novoSaldoUsuario;
             }
             else
             {
                 var saldoUsuario = usuario.Poupanca;
-                decimal novoSaldoUsuario = saldoUsuario - saldoProventoInt;
+                decimal? novoSaldoUsuario = saldoUsuario - saldoProventoInt;
                 usuario.Poupanca = novoSaldoUsuario;
 
             }
