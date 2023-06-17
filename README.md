@@ -1,12 +1,14 @@
 # Finanças na Mão
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGtmcmVzZjY4anMzMTR5bXR6aWdmeTN4Ymo2dmdwaXc4aXJpMHNvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KB2J33Oj7iTkeze1oi/giphy.gif" width="200">
+
 `Análise e Desenvolvimento de Sistemas`
 
 `Projeto: Desenvolvimento de uma Aplicação Interativa`
 
 `Eixo 2`
 
-Uma solução para o controle das finanças pessoais.
+Uma solução para o controle das finanças pessoais. Monitore de perto seus gastos e revise suas despesas regularmente. Registre todos os seus proventos e despesas, categorizando-as adequadamente. Identifique áreas onde você pode reduzir gastos desnecessários e faça ajustes no seu estilo de vida, se necessário. Acompanhe seu orçamento de forma eficiente.
 
 ## Integrantes
 
@@ -15,7 +17,6 @@ Uma solução para o controle das finanças pessoais.
 * Marcos Henrique Aguiar França
 * Milleny Ellen Jodas Ferreira
 * Paula Elizabeth Bessa Lucio Martins
-* Renê Matias de Misquita
 
 ## Orientador
 
@@ -24,10 +25,8 @@ Uma solução para o controle das finanças pessoais.
 ## Instruções de utilização
 
 * `Acesse` http://financasnamao.azurewebsites.net
-* `Crie uma conta.`
-* Ou faça `Login` no `Finanças na Mão` com:
-* Email: usuario.teste@gmail.com
-* Senha: Puc1020@
+* `Crie uma conta` com um `Email` válido.
+* Ou faça `Login` com um `Email` válido.
 
 * 🚨ATENÇÃO: atende-se as validações de cadastro e login!
 
