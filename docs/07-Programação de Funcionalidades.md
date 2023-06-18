@@ -12,7 +12,7 @@ A funcionalidade de Fazer Login (RF-001) permite que um usuário cadastrado aces
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Login.cshtml / HomeController.cs / login.js / Login.cshtml.cs
 
 
-![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e9586857-2254-4e21-8c21-a35dd5da2a6b)
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/1be4aea9-132a-4651-9913-25b48a92abdc)
 
 
 ### Funcionalidade 02: Validar Dados de Login (RF-001)
@@ -23,7 +23,7 @@ A funcionalidade de Validar Dados de Login (RF-001) permite a verificação de a
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Login.cshtml / HomeController.cs / login.js / Login.cshtml.cs
 
 
-![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/fb7b3147-cb76-4198-a51f-593ccbfbdfb0)
+![loginvalidacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/0c831e08-c74a-4113-b778-4489f05bb587)
 
 
 ##### Instruções de acesso
@@ -47,7 +47,7 @@ A funcionalidade de Efetuar Cadastro (RF-001) permite que um usuário crie uma c
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
 
-![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e69b9746-5f8e-43fa-94b2-b5fd86218eeb)
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/b70d194c-0976-4122-ad12-9b8eb3538824)
 
 
 ### Funcionalidade 04: Validar Dados de Cadastro (RF-001)
@@ -57,7 +57,7 @@ A funcionalidade de Validar Dados de Cadastro (RF-001) permite verificar se as i
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir ao usuário a possível realização de login ou cadastro e validar a entrada de dados. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
 
-![Publicação de interação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/04309348-bbfe-47cb-b11f-9cf186ac7e91)
+![cadastrovalidacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/7be7df4b-27de-476c-a646-82b240132d40)
 
 
 ##### Instruções de acesso
@@ -142,13 +142,13 @@ A funcionalidade Transparencia (RNF-006),tem o objetivo de fornecer informaçõe
 |------|-----------------------------------------|----|
 |RNF-006| O sistema deve ser transparênte em relação às Políticas de Privacidade, Termos de Serviços e Quem Somos. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
 
-![Política de Privacidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/7bc3c590-9813-4895-a651-d8d6a1b32b3b)
+![privacidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/be73c3c8-6b86-4cc4-8e07-8b3b089e74a1)
 
-![Termos de Uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/4b4cdb6c-6391-431f-b615-45dc6f8b73e8)
+![termosdeuso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/9f058dc6-8137-47ea-bdc0-cddb80365e05)
 
+![quemsomos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/fb401030-2044-4dee-aaf5-b01ee5be3142)
 
-![Quem Somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/9a43fbf3-16f0-4fdd-8e9e-4d9407d410a8)
-
+![faleconosco](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8f24e35a-67cf-4f1f-b83a-df3551f63b59)
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
