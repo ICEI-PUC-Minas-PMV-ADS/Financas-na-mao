@@ -1,12 +1,142 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+
 }
 
-<div class="d-flex justify-content-around h-100 align-items-center flex-wrap">
-    <div class="d-inline-flex">
-        <img style="width: 300px; height:300px; border-radius: 35px 10em 10%;" src="~/img-tela-inicial.jpeg" />
-    </div>
-    <div class="d-inline-flex p-4">
-        <p class="p-2" style="font: 2rem; font-weight: bold; color: #5A5A5A;">Uma solução para o controle das suas finanças pessoais</p>
+<style>
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .container {
+        margin: 0;
+    }
+</style>
+<div style="width: 100%; background-color: #ffffff; margin-bottom: 50px; margin-top: -18px; margin-left: -15px">
+
+    <div id="carouselExampleAutoplaying" style="width: 90%; margin: 0 auto;" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/slide1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/slide2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/slide3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 </div>
+
+<h2 style="margin: 40px 0 40px 0; color: #347571; margin: 0 auto; width: 100%; font-weight: 600; text-align: center;">Nossos serviços</h2>
+
+<div style=" width: 100%; height: 400px; margin-top: 50px;; margin-left: -15px; display: flex; justify-content: space-between; margin-bottom: 50px;">
+    <div class="flip-card" style="display: inline-block; width: 33.333%; height: 100%; ">
+        <div class="flip-card-front" style=" background-color: #319c58;">
+            <div class="inner">
+                <img src="~/home1.png" style="width: 50%;">
+                <h3 style="font-size: 21px;">Análises de Orçamento</h3>
+                <br>
+                <p><span class="icon_calendar"></span> Oferecemos uma visão abrangente das suas finanças com gráficos e relatórios.</p>
+            </div>
+        </div>
+        <div class="flip-card-back" style="background-color: #55BD76;">
+            <div class="inner">
+                <p>
+                    Compreendemos a importância de ter informações claras e precisas sobre seus gastos e receitas, e é por isso que nos dedicamos a fornecer uma experiência financeira informativa.
+                </p>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div  class="flip-card" style="display: inline-block; width: 33.333%; height: 100%; ">
+        <div class="flip-card-front" style=" background-color: #227841;">
+            <div class="inner">
+                <img src="~/home2.png" style="width: 50%;">
+                <h3 style="font-size: 21px;">Acompanhamento de Carteira</h3>
+                <br>
+                <p><span class="icon_calendar" ></span> Nosso sistema permite que você acompanhe seus proventos, fornecendo uma visão clara do impacto financeiro que eles têm em sua carteira.</p>
+            </div>
+        </div>
+        <div class="flip-card-back" style="background-color: #55BD76;">
+            <div class="inner">
+                <p>
+                    Você poderá visualizar os proventos recebidos ao longo do tempo e observar como eles contribuem para o seu patrimônio líquido, bem como para o seu fluxo de caixa.
+                </p>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div  class="flip-card" style="display: inline-block; width: 33.333%; height: 100%; ">
+        <div class="flip-card-front" style=" background-color: #319c58;">
+            <div class="inner">
+                <img src="~/home3.png" style="width: 50%;">
+                <h3 style="font-size: 21px;">Categorias Personalizadas</h3>
+                <br>
+                <p><span class="icon_calendar"></span> Oferecemos flexibilidade para adaptar o sistema às suas necessidades específicas.</p>
+            </div>
+        </div>
+        <div class="flip-card-back" style="background-color: #55BD76;">
+            <div class="inner">
+                <p>
+                    Valorizamos a importância da adaptabilidade e reconhecemos que cada indivíduo possui necessidades e preferências financeiras específicas. É por isso que nossa plataforma foi desenvolvida para oferecer flexibilidade e personalização, permitindo que você adapte o sistema de acordo com suas necessidades específicas.
+                </p>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<h2 style="margin: 40px 0 40px 0; color: #347571; margin: 0 auto; width: 100%; font-weight:600; text-align: center;">Equipe de desenvolvimento</h2>
+
+
+         <div style=" width: 100%; height: 400px; margin-top: 50px; margin-right: -15px; display: flex; justify-content: space-between; margin-bottom: 50px;">
+             <div class="membro1" style="display: flex; flex-direction: column; align-items: center; margin-left: 140px; ">
+                 <img src="~/gabriel.jpg" style="width: 20%;  animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both; border-radius: 100px">
+                 <div style="padding: 5px 20px; text-align: center; font-weight: 600; color: #ffffff; background: linear-gradient(90deg, rgba(80,182,118,1) 0%, rgba(51,148,87,1) 51%); border-radius: 20px;">Gabriel Goncalves</div>
+                 <p style="font-weight: 500;">Product owner</p>
+             </div>
+
+             <div class="membro2" style="display: flex; flex-direction: column; align-items: center; margin-right: 170px ">
+                 <img src="~/ianevictoria.jpg" style="width: 18%; animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both; border-radius: 100px;">
+                 <div style="padding: 5px 20px; text-align: center; font-weight: 600; color: #ffffff; background: linear-gradient(90deg, rgba(80,182,118,1) 0%, rgba(51,148,87,1) 51%); border-radius: 20px;">Iane Victória</div>
+                 <p style="font-weight: 500;">Scrum master</p>
+             </div>
+         </div>
+
+         <div style=" width: 100%; height: 400px; margin-top: 50px; margin-left: -15px; display: flex; justify-content: space-between; margin-bottom: 50px;">
+             <div class="membro3" style="display: flex; flex-direction: column; align-items: center;">
+                 <img src="~/milleny.jpeg" style="width: 21%; animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both; border-radius: 100px">
+                 <div style="padding: 5px 20px; text-align: center; font-weight: 600; color: #ffffff; background: linear-gradient(90deg, rgba(80,182,118,1) 0%, rgba(51,148,87,1) 51%); border-radius: 20px;">Milleny Ellen</div>
+                 <p style="font-weight: 500;">Desenvolvedora</p>
+             </div>
+             <div class="membro4" style="display: flex; flex-direction: column; align-items: center;">
+                 <img src="~/paulinha.jpg" style="width: 20%; animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both; border-radius: 100px">
+                 <div style="padding: 5px 20px; text-align: center; font-weight: 600; color: #ffffff; background: linear-gradient(90deg, rgba(80,182,118,1) 0%, rgba(51,148,87,1) 51%); border-radius: 20px;">Paula Elizabeth</div>
+                 <p style="font-weight: 500;">Desenvolvedora</p>
+             </div>
+             <div class="membro5" style="display: flex; flex-direction: column; align-items: center;">
+                 <img src="~/marcos.jpg" style="width: 20%; animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both; border-radius: 100px">
+                 <div style="padding: 5px 20px; text-align: center; font-weight: 600; color: #ffffff; background: linear-gradient(90deg, rgba(80,182,118,1) 0%, rgba(51,148,87,1) 51%); border-radius: 20px;">Marcos Henrique</div>
+                 <p style="font-weight: 500;">Desenvolvedor</p>
+             </div>
+         </div>
