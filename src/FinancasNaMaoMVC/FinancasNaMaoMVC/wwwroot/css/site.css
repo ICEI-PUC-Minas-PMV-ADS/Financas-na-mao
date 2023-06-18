@@ -542,7 +542,7 @@ body > .loginContainer {
     }
 .form-control-custom {
     color: #212529;
-    background-color: #EBE7D4;
+    background-color: #f4f1e1;
     height: 40px;
     width: 200px;
     border: none;
@@ -554,7 +554,7 @@ body > .loginContainer {
 
 .form-text-area {
     color: #212529;
-    background-color: #EBE7D4;
+    background-color: #f4f1e1;
     border: none;
     text-align: center;
     border-radius: 0.25rem;
@@ -564,21 +564,22 @@ body > .loginContainer {
 
 .btn-layout-verde {
     padding: 0.5rem 2rem;
-    background: linear-gradient(90deg, #698c75, #63816e, #496c56);
+    background: linear-gradient(90deg, #5EC57E, #319C58);
     color: #F7F7F7;
     border: none;
     border-radius: 5px;
     text-align: center;
+    font-weight: 600;
 }
 
-.btn-layout-verde:hover {
-    padding: 0.5rem 2rem;
-    background: linear-gradient(90deg, #698c75, #63816e, #496c56);
-    color: #F7F7F7;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-}
+    .btn-layout-verde:hover {
+        padding: 0.5rem 2rem;
+        background: linear-gradient(90deg, #5EC57E, #319C58);
+        color: #F7F7F7;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+    }
 
 .link {
     color: #212529;
