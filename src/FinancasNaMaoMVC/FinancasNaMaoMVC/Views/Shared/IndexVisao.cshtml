@@ -1,0 +1,368 @@
+@model IEnumerable<FinancasNaMaoMVC.Models.Lancamento>
+
+
+    @using System.Text.Encodings.Web
+    @using Microsoft.AspNetCore.Mvc.Rendering
+    @using System.Net
+    @using System.Security.Claims;
+    @using Microsoft.AspNetCore.Identity
+    @using FinancasNaMaoMVC.Areas.Identity.Data
+    @using FinancasNaMaoMVC.Models;
+    @using System.Linq;
+    @inject ApplicationDbContext _context
+    @using Newtonsoft.Json
+    @using Microsoft.EntityFrameworkCore
+
+
+
+
+    @inject UserManager<Usuario> UserManager
+    @{
+
+    ClaimsPrincipal currentUser = this.User;
+    string userId = UserManager.GetUserId(this.User);
+    Usuario user = await UserManager.FindByIdAsync(userId);
+    List<List<object>> data = new List<List<object>>();
+    string json = Newtonsoft.Json.JsonConvert.SerializeObject(data);
+
+
+    var proventos = await _context.Lancamentos
+        .Include(p => p.Categoria)
+        .Include(p => p.Usuario)
+        .Where(p => p.UsuarioId == userId)
+        .ToListAsync();
+
+    var categoriasPorProvento = proventos
+        .Where(p => p.Categoria != null && p.Categoria.Nome != null)
+        .GroupBy(p => p.Categoria.Nome)
+        .Select(grupo => new { Categoria = grupo.Key, Quantidade = grupo.Count() })
+        .ToList();
+
+    int lancamentoCount = categoriasPorProvento.Count;
+
+
+    var categoriasPorUsuario = proventos
+        .Where(p => p.Categoria != null && p.Categoria.Nome != null)
+        .GroupBy(p => p.Categoria.Nome)
+        .Select(grupo => new { Categoria = grupo.Key, Quantidade = grupo.Count() })
+        .ToList();
+
+    var result = new List<List<object>>()
+    {
+        new List<object>() { "Task", "Hours per Day" }
+    };
+
+    foreach (var categoriaPorProvento in categoriasPorProvento)
+    {
+        result.Add(new List<object>() { categoriaPorProvento.Categoria, categoriaPorProvento.Quantidade });
+    }
+
+    foreach (var categoriaPorUsuario in categoriasPorUsuario)
+    {
+        result.Add(new List<object>() { categoriaPorUsuario.Categoria, categoriaPorUsuario.Quantidade });
+    }
+
+
+    string jsonCategoriasPorProvento = Newtonsoft.Json.JsonConvert.SerializeObject(categoriasPorProvento);
+    Console.WriteLine(jsonCategoriasPorProvento);
+    var categoriasPorProventoList = JsonConvert.DeserializeObject<List<dynamic>>(jsonCategoriasPorProvento);
+    var dataArray = new List<string>();
+    dataArray.Add("[");
+    dataArray.Add("  ['Task', 'Hours per Day'],");
+
+    foreach (var item in categoriasPorProventoList)
+    {
+        var categoria = item.Categoria;
+        var quantidade = item.Quantidade;
+
+        var dataRow = $"  ['{categoria}', {quantidade}],";
+        dataArray.Add(dataRow);
+    }
+
+    dataArray.Add("]");
+
+    string dataString = string.Join("\n", dataArray);
+    var dataObject = new { DataString = dataString };
+
+    string jsonDataString = JsonConvert.SerializeObject(dataObject);
+
+    Console.WriteLine(dataString);
+
+
+
+
+
+
+
+
+
+     var proventos2 = await _context.Proventos
+        .Include(p => p.Categoria)
+        .Include(p => p.Usuario)
+        .Where(p => p.UsuarioId == userId)
+        .ToListAsync();
+
+    var categoriasPorProvento2 = proventos2
+        .Where(p => p.Categoria != null && p.Categoria.Nome != null)
+        .GroupBy(p => p.Categoria.Nome)
+        .Select(grupo => new { Categoria = grupo.Key, Quantidade = grupo.Count() })
+        .ToList();
+    int proventoCount = categoriasPorProvento2.Count;
+
+    var categoriasPorUsuario2 = proventos2
+        .Where(p => p.Categoria != null && p.Categoria.Nome != null)
+        .GroupBy(p => p.Categoria.Nome)
+        .Select(grupo => new { Categoria = grupo.Key, Quantidade = grupo.Count() })
+        .ToList();
+
+    var result2 = new List<List<object>>()
+    {
+        new List<object>() { "Task", "Hours per Day" }
+    };
+
+    foreach (var categoriaPorProvento in categoriasPorProvento2)
+    {
+        result.Add(new List<object>() { categoriaPorProvento.Categoria, categoriaPorProvento.Quantidade });
+    }
+
+    foreach (var categoriaPorUsuario in categoriasPorUsuario2)
+    {
+        result.Add(new List<object>() { categoriaPorUsuario.Categoria, categoriaPorUsuario.Quantidade });
+    }
+
+
+    string jsonCategoriasPorProvento2 = Newtonsoft.Json.JsonConvert.SerializeObject(categoriasPorProvento2);
+    var categoriasPorProventoList2 = JsonConvert.DeserializeObject<List<dynamic>>(jsonCategoriasPorProvento2);
+    var dataArray2 = new List<string>();
+    dataArray2.Add("[");
+    dataArray2.Add("  ['Task', 'Hours per Day'],");
+
+    foreach (var item in categoriasPorProventoList2)
+    {
+        var categoria2 = item.Categoria;
+        var quantidade2 = item.Quantidade;
+
+        var dataRow2 = $"  ['{categoria2}', {quantidade2}],";
+        dataArray2.Add(dataRow2);
+    }
+
+    dataArray2.Add("]");
+
+    string dataString2 = string.Join("\n", dataArray2);
+    var dataObject2 = new { DataString2 = dataString2 };
+
+    string jsonDataString2 = JsonConvert.SerializeObject(dataObject2);
+        Console.WriteLine(dataString2);
+
+
+
+
+
+
+
+
+
+
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    }
+
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <h1 style="width: 100%; text-align: center; margin: 0 auto; margin-top: 10px; margin-bottom: 4px; color: #a6a6a6;">Visão Geral</h1>
+
+
+    @if (@lancamentoCount > 0 && @proventoCount > 0){
+
+    <div style="display: flex; justify-content: space-between;">
+
+
+        <div style=" width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: -30px;">
+            <div id="piechart_3d" style="width: 600px; height: 500px;"></div>
+
+            <script type="text/javascript">
+            google.charts.load("current", { packages: ["corechart"] });
+            google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                    function HTMLDecode(input) {
+                        var doc = new DOMParser().parseFromString(input, "text/html");
+                        return doc.documentElement.textContent;
+                    }
+                    function removeEscapeCharacters(input) {
+                        return input.replace(/\\(.)/g, '$1');
+                    }
+                   // var dataString = removeEscapeCharacters(`${@dataString}`)
+                    // let decode = HTMLDecode(dataString)
+                var dataString = @Html.Raw(jsonDataString);
+
+                    var data = google.visualization.arrayToDataTable(eval(dataString.DataString));
+
+                    var options = {
+                        'title': 'Lançamentos',
+                    'legend': 'top',
+                    pieHole: 0.4,
+                    width: 600,
+                    height: 500
+
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+                chart.draw(data, options);
+            }
+            </script>
+        </div>
+
+        <div style=" width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: -30px;">
+            <div id="piechart_3d2" style="width: 600px; height: 500px;"></div>
+
+            <script type="text/javascript">
+            google.charts.load("current", { packages: ["corechart"] });
+            google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                    function HTMLDecode(input) {
+                        var doc = new DOMParser().parseFromString(input, "text/html");
+                        return doc.documentElement.textContent;
+                    }
+                    function removeEscapeCharacters(input) {
+                        return input.replace(/\\(.)/g, '$1');
+                    }
+                   // var dataString = removeEscapeCharacters(`${@dataString}`)
+                    // let decode = HTMLDecode(dataString)
+                    var dataString2 = @Html.Raw(jsonDataString2);
+
+
+                    var data = google.visualization.arrayToDataTable(eval(dataString2.DataString2));
+
+                    var options = {
+                     'title': 'Proventos',
+                    'legend': 'top',
+                    pieHole: 0.4,
+                    width: 600,
+                    height: 500
+
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_3d2'));
+                chart.draw(data, options);
+            }
+            </script>
+        </div>
+    </div>
+
+    }
+
+
+    @if (@lancamentoCount > 0 && @proventoCount == 0){
+
+    <div style="display: flex; justify-content: space-between;">
+
+
+        <div style=" width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: -30px;">
+            <div id="piechart_3d" style="width: 600px; height: 500px;"></div>
+
+            <script type="text/javascript">
+            google.charts.load("current", { packages: ["corechart"] });
+            google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                    function HTMLDecode(input) {
+                        var doc = new DOMParser().parseFromString(input, "text/html");
+                        return doc.documentElement.textContent;
+                    }
+                    function removeEscapeCharacters(input) {
+                        return input.replace(/\\(.)/g, '$1');
+                    }
+                   // var dataString = removeEscapeCharacters(`${@dataString}`)
+                    // let decode = HTMLDecode(dataString)
+                var dataString = @Html.Raw(jsonDataString);
+
+                    var data = google.visualization.arrayToDataTable(eval(dataString.DataString));
+
+                    var options = {
+                        'title': 'Lançamentos',
+                    'legend': 'top',
+                    pieHole: 0.4,
+                    width: 600,
+                    height: 500
+
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+                chart.draw(data, options);
+            }
+            </script>
+        </div>
+
+        <div style=" width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: -30px;">
+            <h3  style="color: #a6a6a6;">Adicione proventos para visualizar os dados aqui.</h3>
+        
+        </div>
+    </div>
+
+    }
+
+    @if (@lancamentoCount == 0 && @proventoCount > 0){
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style=" width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: -30px;">
+            <h3 style="color: #a6a6a6;">Adicione lançamentos para visualizar os dados aqui.</h3>
+
+        </div>
+    
+
+
+        <div style=" width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: -30px;">
+            <div id="piechart_3d" style="width: 600px; height: 500px;"></div>
+
+            <script type="text/javascript">
+            google.charts.load("current", { packages: ["corechart"] });
+            google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                    function HTMLDecode(input) {
+                        var doc = new DOMParser().parseFromString(input, "text/html");
+                        return doc.documentElement.textContent;
+                    }
+                    function removeEscapeCharacters(input) {
+                        return input.replace(/\\(.)/g, '$1');
+                    }
+                   // var dataString = removeEscapeCharacters(`${@dataString}`)
+                    // let decode = HTMLDecode(dataString)
+                var dataString = @Html.Raw(jsonDataString2);
+
+                    var data = google.visualization.arrayToDataTable(eval(dataString.DataString2));
+
+                    var options = {
+                        'title': 'Proventos',
+                    'legend': 'top',
+                    pieHole: 0.4,
+                    width: 600,
+                    height: 500
+
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+                chart.draw(data, options);
+            }
+            </script>
+        </div>
+        </div>
+
+
+    
+
+    }
+
+    @if (@lancamentoCount == 0 && @proventoCount == 0){
+
+        <h3 style="width: 100%; text-align: center; margin-top: 40px; color: #a6a6a6;">Adicione Proventos ou Despesa para ter uma visão geral aqui.</h3>
+
+    }
+
+
+
+
+

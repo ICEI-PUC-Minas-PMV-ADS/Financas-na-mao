@@ -37,15 +37,15 @@
                     <input asp-for="Valor" class="form-control-custom" placeholder="Valor" />
                     <span asp-validation-for="Valor" class="text-danger"></span>
                 </div>
+
                 <div style="text-align: center" style="margin: 1rem;">
-                    <div class="form-group ">
-                        <select asp-for="Natureza" class="form-control-custom">
-                            <option value="Conta Corrente">Conta Corrente</option>
-                            <option value="Conta Poupanca">Conta Poupança</option>
-                        </select>
-                        
+                    <div style="text-align: center" style="margin: 1rem;">
+                        <div class="form-group ">
+                            <select asp-for="CategoriaID" class="form-control-custom" asp-items="ViewBag.CategoriaID"></select>
+                        </div>
+                        <a class="link" asp-area="" asp-controller="Categorias" asp-action="Create">+ Incluir nova categoria</a>
                     </div>
-                   
+                    
                 </div>
             </div>
 
@@ -54,10 +54,13 @@
                     <input asp-for="Data" class="form-control-custom" placeholder="Data" />
                     <span asp-validation-for="Data" class="text-danger"></span>
                 </div>
-                <div class="form-group" style="margin: 1rem;">
-                    <input asp-for="Natureza" class="form-control-custom" placeholder="Natureza" />
-                    <span asp-validation-for="Natureza" class="text-danger"></span>
-                </div>
+        
+                    <div class="form-group " style="margin: 1rem;">
+                        <select asp-for="Natureza" class="form-control-custom">
+                            <option value="Conta Corrente">Conta Corrente</option>
+                            <option value="Conta Poupanca">Conta Poupança</option>
+                        </select>
+                    </div>
             </div>
         </div>
 

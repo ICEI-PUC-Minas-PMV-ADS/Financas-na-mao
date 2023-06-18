@@ -70,7 +70,7 @@ namespace FinancasNaMaoMVC.Controllers
             return View();
         }
 
-        
+
 
         // POST: Lancamentos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -123,7 +123,7 @@ namespace FinancasNaMaoMVC.Controllers
         // POST: Lancamentos/CreateProvento
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        
+
 
         // GET: Lancamentos/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -244,6 +244,13 @@ namespace FinancasNaMaoMVC.Controllers
             return (_context.Lancamentos?.Any(e => e.ID == id)).GetValueOrDefault();
         }
 
+        // GET: VisaoGeral/IndexVisao
+        public async Task<IActionResult> IndexVisao()
+        {
+            var userId = _userManager.GetUserId(this.User);
+            var applicationDbContext = _context.Lancamentos.Include(l => l.Categoria).Include(l => l.Usuario);
+            return View(await applicationDbContext.Where(l => l.UsuarioId == userId).ToListAsync());
+        }
 
 
     }
