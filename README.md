@@ -29,7 +29,7 @@ Uma solução para o controle das finanças pessoais. Monitore de perto seus gas
 * Ou faça `Login` com um `Email` válido.
 
 
-* 🚨ATENÇÃO: atende-se as validações de cadastro e login!
+* 🚨ATENÇÃO: atende-se as validações de cadastro e login!!
 
 # Documentação
 
