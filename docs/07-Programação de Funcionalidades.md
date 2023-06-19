@@ -91,10 +91,9 @@ A funcionalidade Cadastro de categoria (RF-003),tem o objetivo possibilitar a cl
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
-2. Adicione uma Despesa em `Minhas Movimentações`.
-3. Preencha os campos obrigatórios.
-4. Localize `Incluir categoria`. 
-5. Clique em `Incluir categoria` para criar uma categoria.
+2. Adicione uma `Despesa` ou um `Provento`.
+3. Localize `Incluir categoria`. 
+5. Clique para criar uma nova categoria.
 
 ##### Artefatos produzidos
 * [Register.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
@@ -121,6 +120,57 @@ A funcionalidade Editar categoria (RF-004), permita aos usuários editar os iten
 
 ##### Artefatos produzidos
 * [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+
+### Funcionalidade 08: Análise de Receitas (RF-005)
+
+A funcionalidade Análise de Receitas (RF-005), deve fornecer funcionalidades que permitam aos usuários realizar análises detalhadas do orçamento. Essas análises devem ser apresentadas de forma visual, por meio de gráficos, fornecendo uma visão clara e compreensível das informações financeiras.
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RNF-003| O sistema deve permitir ao usuário realizar análises de orçamento através de gráficos.| LancamentoController.cs / Index.cshtml.cs / site.css
+
+![semmovimentacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/7707b7d4-c3f9-4bde-8cf7-d2fa50e51b03)
+
+![commovimentacoes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/250b0729-050c-4275-bf09-909371ef5f4b)
+
+![visaogeral](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/7e01321a-7d3c-475f-beff-4aa370bd5da3)
+
+##### Instruções de acesso
+1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
+2. No menu, clique em `Despesas`.
+3. Clique em `Incluir despesa`. 
+5. Preencha os campos obrigatórios.
+6. Em seguida, clique em `Adicionar despesa` para salvar.
+7. Após, no menu, localize `Visão geral`.  
+
+##### Artefatos produzidos
+* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+
+### Funcionalidade 09: Análise de Proventos (RF-006)
+
+A funcionalidade Análise de Receitas (RF-006), deve fornecer funcionalidades que permitam aos usuários analisar os proventos recebidos e o saldo financeiro de forma visual, utilizando gráficos. Isso possibilitará uma compreensão clara e visualmente representativa das informações relacionadas aos proventos e ao saldo.
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RNF-003| O sistema deve permitir ao usuário realizar análises de proventos recebidos e saldo através de gráficos.| LancamentoController.cs / Index.cshtml.cs / site.css
+
+![semprovento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/daed7a31-847d-441e-af4c-b1a0ea427b77)
+
+![indexprovento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/0eae58b6-3b4a-4351-a0a1-45fe4c4d59e1)
+
+![visaogeral](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/7e01321a-7d3c-475f-beff-4aa370bd5da3)
+
+##### Instruções de acesso
+1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
+2. No menu, clique em `Despesas`.
+3. Clique em `Incluir despesa`. 
+5. Preencha os campos obrigatórios.
+6. Em seguida, clique em `Adicionar despesa` para salvar.
+7. Após, no menu, localize `Visão geral`.  
+
+##### Artefatos produzidos
+* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+
 
 ### Funcionalidade 08: Responsividade (RNF-002)
 
