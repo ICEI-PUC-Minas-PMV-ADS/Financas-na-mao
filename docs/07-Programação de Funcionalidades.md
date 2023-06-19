@@ -172,7 +172,7 @@ A funcionalidade Análise de Receitas (RF-006), deve fornecer funcionalidades qu
 * [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
 
 
-### Funcionalidade 08: Responsividade (RNF-002)
+### Funcionalidade 10: Responsividade (RNF-002)
 
 A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações claras, abrangentes e acessíveis aos usuários da plataforma `Finanças na mão`. Estamos comprometidos em informar aos usuários como seus dados serão coletados, usados e protegidos, bem como as regras e condições de uso do serviço. Essa transparência proporciona aos usuários uma maior confiança na utilização do serviço, permite que eles tomem decisões informadas sobre o compartilhamento de dados pessoais e ajuda a fortalecer a relação de confiança entre a organização e os usuários.
 
@@ -180,17 +180,29 @@ A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações
 |------|-----------------------------------------|----|
 |RNF-002| O sistema deve ser responsivo permitindo a visualização em um celular de forma adequada. | Register.cshtml / HomeController.cs / cadastro.js / Register.cshtml.cs
 
-![ Responsivo - Página inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/71b43df1-a6d1-4119-9c59-e02e898e45e0)
+![responsvidade5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/cb4beacb-88eb-4871-be59-30a3434f0321)
 
+![responsividade6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/0c64c9a8-94ac-48fa-96f1-15c0ce97acad)
 
-![Responsivo - Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e017b14c-2733-46fd-a0ab-dab750ad44ca)
+![responsividade7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8ba6ae09-3a81-4926-bf0f-18106bd182a7)
 
+![responsvidade4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/11e69e96-82ac-415c-a2ff-40e05498d4ce)
 
-![Responsivo - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8bd9c5e0-6c91-4aee-9c53-693f87333c78)
+![responvisidade1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/0d59064e-259a-472a-a531-2a1978af52d8)
 
+![responsvidade3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/fb4ef720-5b8c-45b7-8bb9-848d703d7724)
 
-![NavBar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/1a64a1fd-5e97-4e5f-9bfc-b7029e5d4422)
+![responsividade13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8b191afd-c4a5-4b59-8fe9-6ee19d78a590)
 
+![responsividade12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/f2d01285-9f81-4a22-9fc7-b704f5151344)
+
+![responsividade11](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/161fcc20-87a6-4041-b60c-060244104945)
+
+![responsividade10](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/60d33cf4-076f-46ea-a882-e9593a42a086)
+
+![responsividade9](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/6c91d2e2-a88f-4621-afa3-3b9d92d7bb81)
+
+![responsividade8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/7c0d0635-362a-4015-bcb9-4cf374ad9da8)
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
@@ -205,7 +217,7 @@ A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações
 * [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
 * [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
 
-### Funcionalidade 09: Transparência (RNF-006)
+### Funcionalidade 11: Transparência (RNF-006)
 
 A funcionalidade Transparencia (RNF-006),tem o objetivo de fornecer informações claras, abrangentes e acessíveis aos usuários da plataforma `Finanças na mão`. Estamos comprometidos em informar aos usuários como seus dados serão coletados, usados e protegidos, bem como as regras e condições de uso do serviço. Essa transparência proporciona aos usuários uma maior confiança na utilização do serviço, permite que eles tomem decisões informadas sobre o compartilhamento de dados pessoais e ajuda a fortalecer a relação de confiança entre a organização e os usuários.
 
