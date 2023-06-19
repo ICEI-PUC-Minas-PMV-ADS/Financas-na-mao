@@ -83,10 +83,11 @@ A funcionalidade Cadastro de categoria (RF-003),tem o objetivo possibilitar a cl
 |------|-----------------------------------------|----|
 |RNF-003| O sistema deve permitir ao usuário cadastrar livremente categorias de suas movimentações, como alimentação, transporte e etc.| Create.cshtml / CategoriasController.cs / Create.cshtml.cs / site.css
 
-![Criar categoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/6a3fc875-d92a-4e8a-bb89-52673abe06d9)
+![cadastrarcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/3e8f0563-a970-4d86-bb41-7a0480a27016)
 
-![Criar categoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/6775bbb2-9f70-4cea-8b74-232051856150)
+![criarcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/78529912-b48a-42f4-8934-a21e3354f98c)
 
+![indexcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/3e99e16c-843f-476e-b392-2c3c077d186e)
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
@@ -101,7 +102,27 @@ A funcionalidade Cadastro de categoria (RF-003),tem o objetivo possibilitar a cl
 * [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
 * [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
 
-### Funcionalidade 05: Responsividade (RNF-002)
+### Funcionalidade 07: Editar categoria (RF-004)
+
+A funcionalidade Editar categoria (RF-004), permita aos usuários editar os itens cadastrados no sistema. Os itens devem estar organizados por categoria, proporcionando uma estrutura clara e organizada para o gerenciamento dos dados.
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RNF-003| O sistema deve permitir que o usuário edite itens cadastrados, organizados por categoria.| Edit.cshtml / CategoriasController.cs / Create.cshtml.cs / site.css
+
+![editarcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/f5858fce-dd73-418c-bc2c-605008f64f1c)
+
+##### Instruções de acesso
+1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
+2. Adicione uma `Categoria`.
+3. Localize o simbolo de `Editar categória`. 
+5. Clique no simbolo e faça as alterações.
+6. Em seguida, clique em `Salvar`.  
+
+##### Artefatos produzidos
+* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+
+### Funcionalidade 08: Responsividade (RNF-002)
 
 A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações claras, abrangentes e acessíveis aos usuários da plataforma `Finanças na mão`. Estamos comprometidos em informar aos usuários como seus dados serão coletados, usados e protegidos, bem como as regras e condições de uso do serviço. Essa transparência proporciona aos usuários uma maior confiança na utilização do serviço, permite que eles tomem decisões informadas sobre o compartilhamento de dados pessoais e ajuda a fortalecer a relação de confiança entre a organização e os usuários.
 
@@ -134,7 +155,7 @@ A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações
 * [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
 * [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
 
-### Funcionalidade 07: Transparência (RNF-006)
+### Funcionalidade 09: Transparência (RNF-006)
 
 A funcionalidade Transparencia (RNF-006),tem o objetivo de fornecer informações claras, abrangentes e acessíveis aos usuários da plataforma `Finanças na mão`. Estamos comprometidos em informar aos usuários como seus dados serão coletados, usados e protegidos, bem como as regras e condições de uso do serviço. Essa transparência proporciona aos usuários uma maior confiança na utilização do serviço, permite que eles tomem decisões informadas sobre o compartilhamento de dados pessoais e ajuda a fortalecer a relação de confiança entre a organização e os usuários.
 
