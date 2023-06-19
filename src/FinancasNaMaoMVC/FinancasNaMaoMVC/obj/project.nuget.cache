@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1zeq+m0niOcLPo/FyzU6+dwb3E7Dm6zq+Jm8R7Hmxdv+Avn13E+/JoVae9gVskZzgsor0uiVDq9sxH/8T8Tqng==",
+  "dgSpecHash": "qeVvKIqaarosRrSwveyAWs5HHqbrnz0v/u6eHLGmDw5x2Bi1R49LRckleLCVcjzEel9mz+yOT/oqvMqWp04J5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victoria\\Desktop\\pucproj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+  "projectFilePath": "C:\\Users\\Victoria\\Desktop\\pucProjeto\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victoria\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
-    "C:\\Users\\Victoria\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\Victoria\\.nuget\\packages\\messagepackanalyzer\\2.5.108\\messagepackanalyzer.2.5.108.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.15\\microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.15\\microsoft.aspnetcore.cryptography.keyderivation.6.0.15.nupkg.sha512",
     "C:\\Users\\Victoria\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.15\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.15.nupkg.sha512",

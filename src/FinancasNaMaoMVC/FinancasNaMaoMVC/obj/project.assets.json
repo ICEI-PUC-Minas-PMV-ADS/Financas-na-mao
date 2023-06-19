@@ -50,7 +50,7 @@
           }
         }
       },
-      "MessagePackAnalyzer/2.1.152": {
+      "MessagePackAnalyzer/2.5.108": {
         "type": "package"
       },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.15": {
@@ -3729,17 +3729,16 @@
         "messagepack.annotations.nuspec"
       ]
     },
-    "MessagePackAnalyzer/2.1.152": {
-      "sha512": "uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
+    "MessagePackAnalyzer/2.5.108": {
+      "sha512": "zUE9WMbZvULc+JnWbcu8b0PhznMF4vnAtKH3JKckwIuYq6Ebfg2hyDQr67pJDapEzOC7yVC3tFO85w5NfpOpCw==",
       "type": "package",
-      "path": "messagepackanalyzer/2.1.152",
+      "path": "messagepackanalyzer/2.5.108",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE",
         "analyzers/dotnet/MessagePackAnalyzer.dll",
-        "messagepackanalyzer.2.1.152.nupkg.sha512",
+        "messagepackanalyzer.2.5.108.nupkg.sha512",
         "messagepackanalyzer.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
@@ -10416,6 +10415,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MessagePackAnalyzer >= 2.5.108",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.15",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.15",
@@ -10429,11 +10429,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\pucproj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Victoria\\Desktop\\pucProjeto\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
       "projectName": "FinancasNaMaoMVC",
-      "projectPath": "C:\\Users\\Victoria\\Desktop\\pucproj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
+      "projectPath": "C:\\Users\\Victoria\\Desktop\\pucProjeto\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\FinancasNaMaoMVC.csproj",
       "packagesPath": "C:\\Users\\Victoria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victoria\\Desktop\\pucproj\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
+      "outputPath": "C:\\Users\\Victoria\\Desktop\\pucProjeto\\src\\FinancasNaMaoMVC\\FinancasNaMaoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10463,6 +10463,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MessagePackAnalyzer": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.5.108, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.15, )"
