@@ -109,7 +109,7 @@ A funcionalidade Editar categoria (RF-004), permita aos usuários editar os iten
 |------|-----------------------------------------|----|
 |RNF-003| O sistema deve permitir que o usuário edite itens cadastrados, organizados por categoria.| Edit.cshtml / CategoriasController.cs / Edit.cshtml.cs / site.css
 
-![editarcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/db_local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Edit.cshtml)
+![editarcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/e62fd132-61eb-42c2-88ca-5f00f2957994)
 
 ##### Instruções de acesso
 1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
@@ -119,7 +119,7 @@ A funcionalidade Editar categoria (RF-004), permita aos usuários editar os iten
 6. Em seguida, clique em `Salvar`.  
 
 ##### Artefatos produzidos
-* [Edit.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Edit.cshtml)
+* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/db_local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Edit.cshtml)
 
 ### Funcionalidade 08: Análise de Receitas (RF-005)
 
