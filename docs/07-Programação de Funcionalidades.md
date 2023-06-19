@@ -96,10 +96,10 @@ A funcionalidade Cadastro de categoria (RF-003),tem o objetivo possibilitar a cl
 5. Clique para criar uma nova categoria.
 
 ##### Artefatos produzidos
-* [Register.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
-* [Register.cshtml.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml.cs)
-* [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
-* [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
+* [Categoria/Create.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Create.cshtml)
+* [Categoria/Index.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Index.cshtml)
+* [Lancamentos/Index.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Create.cshtml)
+* [Proventos/Index.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/Create.cshtml)
 
 ### Funcionalidade 07: Editar categoria (RF-004)
 
@@ -107,7 +107,7 @@ A funcionalidade Editar categoria (RF-004), permita aos usuários editar os iten
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RNF-003| O sistema deve permitir que o usuário edite itens cadastrados, organizados por categoria.| Edit.cshtml / CategoriasController.cs / Create.cshtml.cs / site.css
+|RNF-003| O sistema deve permitir que o usuário edite itens cadastrados, organizados por categoria.| Edit.cshtml / CategoriasController.cs / Edit.cshtml.cs / site.css
 
 ![editarcategoria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/f5858fce-dd73-418c-bc2c-605008f64f1c)
 
@@ -119,7 +119,7 @@ A funcionalidade Editar categoria (RF-004), permita aos usuários editar os iten
 6. Em seguida, clique em `Salvar`.  
 
 ##### Artefatos produzidos
-* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+* [Edit.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Categorias/Edit.cshtml)
 
 ### Funcionalidade 08: Análise de Receitas (RF-005)
 
@@ -144,7 +144,8 @@ A funcionalidade Análise de Receitas (RF-005), deve fornecer funcionalidades qu
 7. Após, no menu, localize `Visão geral`.  
 
 ##### Artefatos produzidos
-* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+* [Index.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Index.cshtml)
+* [Create.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Lancamentos/Create.cshtml)
 
 ### Funcionalidade 09: Análise de Proventos (RF-006)
 
@@ -169,8 +170,8 @@ A funcionalidade Análise de Receitas (RF-006), deve fornecer funcionalidades qu
 7. Após, no menu, localize `Visão geral`.  
 
 ##### Artefatos produzidos
-* [Edit.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
-
+* [Index.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/Index.cshtml)
+* [Create.cshtml](src/FinancasNaMaoMVC/FinancasNaMaoMVC/Views/Proventos/Create.cshtml)
 
 ### Funcionalidade 10: Responsividade (RNF-002)
 
@@ -212,10 +213,10 @@ A funcionalidade Transparencia (RF-006),tem o objetivo de fornecer informações
 5. Clique em `Quem Somos` para visualizar.
 
 ##### Artefatos produzidos
-* [Register.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
-* [Register.cshtml.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml.cs)
-* [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
-* [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
+* [Register.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/db_local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
+* [Register.cshtml.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/db_local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml.cs)
+* [HomeController.cs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/db_local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Controllers/HomeController.cs)
+* [cadastro.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/db_local/src/FinancasNaMaoMVC/FinancasNaMaoMVC/wwwroot/js/cadastro.js)
 
 ### Funcionalidade 11: Transparência (RNF-006)
 
@@ -234,11 +235,7 @@ A funcionalidade Transparencia (RNF-006),tem o objetivo de fornecer informaçõe
 ![faleconosco](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/8f24e35a-67cf-4f1f-b83a-df3551f63b59)
 
 ##### Instruções de acesso
-1. Acesse o site pelo [Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/tree/copia_de_seguran%C3%A7a)
-2. Localize o rodapé da plataforma `Finanças na Mão`. 
-3. Clique em `Política de Privacidade` para visualizar.
-4. Clique em `Termos de Uso` para visualizar.
-5. Clique em `Quem Somos` para visualizar.
+1. Acesse o site `Finanças na Mão` por um celular. 
 
 ##### Artefatos produzidos
 * [Register.cshtml](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/blob/main/src/FinancasNaMaoMVC/FinancasNaMaoMVC/Areas/Identity/Pages/Account/Register.cshtml)
