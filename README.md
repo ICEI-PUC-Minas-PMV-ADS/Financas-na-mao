@@ -24,12 +24,11 @@ Uma solução para o controle das finanças pessoais. Monitore de perto seus gas
 
 ## Instruções de utilização
 
-* `Acesse` http://financasnamao.azurewebsites.net
-* `Crie uma conta` com um `Email` válido.
-* Ou faça `Login` com um `Email` válido.
+* `Acesse` http://financasnamao-001-site1.ftempurl.com/
+* `Crie uma conta` com um `Email` ou `Senha` válidos.
+* Ou use o Email: teste@gmail.com senha: Teste123!.
 
-
-* 🚨ATENÇÃO: atende-se as validações de cadastro e login!!
+* 🚨ATENÇÃO: atende-se as validações de cadastro e login!
 
 # Documentação
 
