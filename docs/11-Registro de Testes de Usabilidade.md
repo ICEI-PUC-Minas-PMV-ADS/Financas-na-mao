@@ -8,14 +8,12 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Campos 'Quem somos', 'Política de Privacidade', 'Termos de Uso' e 'Fale Conosco' na Tela Inicial| Regular | No campo 'Fale conosco', ao enviar uma mensagem para os administradores da aplicação, não há retorno do sistema confirmando o envio. | Desenvolver um alerta informando que a mensagem foi enviada com sucesso ou que houve erro no envio |
 | Cadastro de usuário - Campos obrigatórios: Nome, Sobrenome, Contato, E-mail, Senha, Telefone, Confirmação da senha | Excelente| O formulário garante que todos os campos necessários sejam preenchidos adequadamente.| O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.| 
 | Realizar login na aplicação - Campos obrigatórios: E-mail e senha | Excelente | O formulário garante que todos os campos necessários sejam preenchidos adequadamente. | O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.|
-| Campo 'Esqueci minha Senha' - Campo obrigatório: E-mail  | Excelente | É feito o envio do link por e-mail para resetar a senha.  | O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.|
+| Campo 'Esqueci minha Senha' - Campo obrigatório: E-mail  | Excelente | É feito o envio do link por e-mail para resetar a senha. | O formulário está em conformidade com as diretrizes e não requer nenhuma modificação adicional.|
 | Menu Lateral | Bom | O menu fica 'escondido' na página, ficando visível apenas se o usuário clicar no seu nome de usuário no canto superior direito | Colocar o menu em local mais visível e de fácil acesso |
 | Tela Minhas Movimentações | Ótimo | Todos os campos devem sem preenchidos, mesmo se o usuário não desejar informar nenhuma observação ou a natureza da despesa. Mesmo que o usuário coloque a data da despesa, ao adiciona-la, a mesma não é informada na tela das movimentações| Permitir que o campo 'Observações' seja opcional para preenchimento. O campo 'Natureza' tem a mesma função do campo 'Categoria', podendo ser removido. Visualizar a data da despesa na página inicial da tela 'Minhas movimentações' |
 | Cadastrar categorias | Ótimo | O usuário consegue criar categorias de despesas com facilidade | Fazer com que haja o retorno automático para a página de despesas após adicionar uma categoria |
-| Tela 'Meus proventos' | Ótimo | ****** | ****** |
-| Cadastrar novo provento | Ótimo | ****** | ****** |
-| Tela 'Investimento' | Ótimo | ****** | ****** |
-| Fazer novo investimento | Ótimo | ****** |  ****** |
+| Tela 'Meus proventos' | Ótimo | A tela é de fácil entendimento e possibilita a interação do usuário de maneira intuitiva | A Tela "Meus proventos" está em conformidade com as diretrizes e não requer nenhuma modificação adicional. |
+| Cadastrar novo provento | Ótimo | O usuário consegue cadastrar novos proventos com facilidade | A Tela "Cadastrar novo provento" está em conformidade com as diretrizes e não requer nenhuma modificação adicional. |
 
 
 **Detalhamento Análise Heurística**
