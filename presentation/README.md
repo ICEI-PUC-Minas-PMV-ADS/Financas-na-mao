@@ -10,3 +10,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/a
 # Prova de Conceito - ETAPA 4 (em desenvolvimento)
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t5-grupo4/assets/83494301/a0057221-d07e-4d98-8791-d5b8f0981c8c
+
+# Apresentação Slide
+
+https://www.canva.com/design/DAFlv3ZWshE/TINUe2XcWwI0_paT3pO9OA/edit?utm_content=DAFlv3ZWshE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
