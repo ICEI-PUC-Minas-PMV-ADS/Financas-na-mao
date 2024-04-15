@@ -52,6 +52,10 @@ Uma solução para o controle das finanças pessoais. Monitore de perto seus gas
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
-# Apresentação
-https://user-images.githubusercontent.com/82393577/226198101-6269997a-ee95-4107-b2be-e89c41ad0b19.mp4
+# Apresentação Destaque Acadêmico - "Finanças na Mão"
+[Amostra de Projetos 01-2023 - Parte 1](https://www.youtube.com/watch?v=YbDP4y11n4c)
+
+# Certificado Destaque Acadêmico - "Finanças na Mão"
+[Finanças Na Mão-1.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/Financas-na-mao/files/14985139/Financas.Na.Mao-1.pdf)
+
 
